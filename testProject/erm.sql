@@ -1,0 +1,108 @@
+SET SESSION FOREIGN_KEY_CHECKS=0;
+
+/* Drop Tables */
+
+DROP TABLE AUTHORITY;
+DROP TABLE ACCOUNT;
+DROP TABLE SQL_INFO;
+DROP TABLE DBINFO;
+
+
+
+
+/* Create Tables */
+
+CREATE TABLE ACCOUNT
+(
+	-- ユーザーID
+	UID INT NOT NULL COMMENT 'ユーザーID',
+	-- ユーザー名
+	UNAME VARCHAR(30) NOT NULL COMMENT 'ユーザー名',
+	-- アカウント作成時刻
+	CREATED_AT DATETIME COMMENT 'アカウント作成時刻',
+	-- 最終変更時刻
+	MODIFIED_AT DATETIME COMMENT '最終変更時刻',
+	-- アカウントの無効フラグ
+	DISABLE BOOLEAN COMMENT 'アカウントの無効フラグ',
+	PRIMARY KEY (UID)
+);
+
+
+CREATE TABLE AUTHORITY
+(
+	-- ユーザーID
+	UID INT NOT NULL COMMENT 'ユーザーID',
+	-- 登録されたSQLを識別するID
+	SQL_ID INT NOT NULL COMMENT '登録されたSQLを識別するID',
+	-- 0 　権限なし
+	-- 1    実行権限権限のみ
+	-- 2    実行権限と編集権限
+	AUTH_LEVEL INT COMMENT '0 　権限なし
+1    実行権限権限のみ
+2    実行権限と編集権限',
+	PRIMARY KEY (UID, SQL_ID),
+	UNIQUE (UID, SQL_ID)
+);
+
+
+CREATE TABLE DBINFO
+(
+	-- データベースID。DB情報を一位に決定するもの
+	DB_ID INT NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
+	-- DB製品名（mysql/mssql)
+	DBMS VARCHAR(30) COMMENT 'DB製品名（mysql/mssql)',
+	-- データベースのホスト名 or IP
+	DB_HOST VARCHAR(30) COMMENT 'データベースのホスト名 or IP',
+	DB_NAME VARCHAR(30),
+	-- DB接続用ユーザー
+	DB_USER VARCHAR(30) COMMENT 'DB接続用ユーザー',
+	-- DB接続用のパスワード
+	DB_PASSWD VARCHAR(30) COMMENT 'DB接続用のパスワード',
+	PRIMARY KEY (DB_ID)
+);
+
+
+CREATE TABLE SQL_INFO
+(
+	SQL_ID INT NOT NULL,
+	-- データベースID。DB情報を一位に決定するもの
+	DB_ID INT NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
+	-- 分類（KH/KD/KC/AT/EK/WPDなど）
+	CATEGORY VARCHAR(30) COMMENT '分類（KH/KD/KC/AT/EK/WPDなど）',
+	-- SQLの名前
+	SQL_NAME VARCHAR(200) COMMENT 'SQLの名前',
+	-- SQLの説明
+	DESCRIPTION TEXT COMMENT 'SQLの説明',
+	SQL_TEXT TEXT,
+	PRIMARY KEY (SQL_ID)
+);
+
+
+
+/* Create Foreign Keys */
+
+ALTER TABLE AUTHORITY
+	ADD FOREIGN KEY (UID)
+	REFERENCES ACCOUNT (UID)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE SQL_INFO
+	ADD FOREIGN KEY (DB_ID)
+	REFERENCES DBINFO (DB_ID)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE AUTHORITY
+	ADD FOREIGN KEY (SQL_ID)
+	REFERENCES SQL_INFO (SQL_ID)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+

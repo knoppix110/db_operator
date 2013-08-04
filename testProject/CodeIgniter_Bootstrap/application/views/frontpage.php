@@ -1,23 +1,3 @@
-
-<!DOCTYPE html>
-  <head>
-    <title>Bootstrap 101 Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-  <!--    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- JavaScript plugins (requires jQuery) -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Optionally enable responsive features in IE8 -->
-    <script src="js/respond.js"></script>
-  </body>
-
 <div class="container">
    <div class="hero-unit">
       <h2>CodeIgniter Bootstrap</h2>
@@ -25,3 +5,13 @@
       <a class="btn btn-primary btn-large" href="https://github.com/sjlu/CodeIgniter-Bootstrap">View on Github</a>
    </div>
 </div>
+
+<table class="table table-bordered table-striped
+table-hover 
+table-bordered
+table-condensed">
+  <tr class="success"><th>aaa</th><th>bbb</th></tr>
+  <tr><td>dd</td><td>gg</td></tr>
+  <tr><td>ff</td><td>gg</td></tr>
+  <tr><td>gg</td><td>gg</td></tr>
+</table>
