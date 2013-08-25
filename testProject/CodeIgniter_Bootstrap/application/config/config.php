@@ -382,6 +382,7 @@ $config['proxy_ips'] = '';
 | for base controllers and some third-party libraries.
 |
 */
+
 function __autoload($class)
 {
 	log_message("DEBUG","########".$class);

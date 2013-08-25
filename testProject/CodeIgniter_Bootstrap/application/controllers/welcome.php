@@ -4,17 +4,14 @@ class Welcome extends Main_Controller
 {
 	function __construct()
 	{
-		log_message('DEBUG','######################test1');
 		parent::__construct();
 
 		$this->load->helper('url');
 		$this->load->library('tank_auth');
-		log_message('DEBUG','##test2');
 	}
 
 	function index()
 	{
-		log_message('DEBUG','##test3');
 		if (!$this->tank_auth->is_logged_in()) {
 			redirect('/auth/login/');
 		} else {

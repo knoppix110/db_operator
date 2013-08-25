@@ -193,6 +193,7 @@ class CI_Loader {
 	 */
 	public function library($library = '', $params = NULL, $object_name = NULL)
 	{
+		log_message('debug','#### library:'.$library);
 		if (is_array($library))
 		{
 			foreach ($library as $class)
@@ -878,6 +879,7 @@ class CI_Loader {
 	 */
 	protected function _ci_load_class($class, $params = NULL, $object_name = NULL)
 	{
+		log_message('DEBUG','####ci_load_class:'.$class);
 		// Get the class name, and while we're at it trim any slashes.
 		// The directory path can be included as part of the class name,
 		// but we don't want a leading slash
@@ -903,6 +905,7 @@ class CI_Loader {
 			// Is this a class extension request?
 			if (file_exists($subclass))
 			{
+			log_message('DEBUG','####subclass:'.$subclass);
 				$baseclass = BASEPATH.'libraries/'.ucfirst($class).'.php';
 
 				if ( ! file_exists($baseclass))
@@ -961,6 +964,7 @@ class CI_Loader {
 						$CI =& get_instance();
 						if ( ! isset($CI->$object_name))
 						{
+							log_message('DEBUG', '####debug2');
 							return $this->_ci_init_class($class, '', $params, $object_name);
 						}
 					}
@@ -972,10 +976,12 @@ class CI_Loader {
 
 				include_once($filepath);
 				$this->_ci_loaded_files[] = $filepath;
+				log_message('DEBUG','####ci_loaded_files:'.$filepath);
 				return $this->_ci_init_class($class, '', $params, $object_name);
 			}
 
 		} // END FOREACH
+		log_message('DEBUG','####debug');
 
 		// One last attempt.  Maybe the library is in a subdirectory, but it wasn't specified?
 		if ($subdir == '')
@@ -1044,9 +1050,11 @@ class CI_Loader {
 				}
 			}
 		}
+		log_message('debug','####debug3:'.$prefix);
 
 		if ($prefix == '')
 		{
+		log_message('debug','####debug3.5:'.$prefix);
 			if (class_exists('CI_'.$class))
 			{
 				$name = 'CI_'.$class;
@@ -1064,6 +1072,7 @@ class CI_Loader {
 		{
 			$name = $prefix.$class;
 		}
+		log_message('debug','####debug4:');
 
 		// Is the class name valid?
 		if ( ! class_exists($name))
@@ -1087,6 +1096,8 @@ class CI_Loader {
 
 		// Save the class name and object name
 		$this->_ci_classes[$class] = $classvar;
+		
+		log_message('debug','####class_name:'.$name);
 
 		// Instantiate the class
 		$CI =& get_instance();
