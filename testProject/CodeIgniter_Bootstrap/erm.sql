@@ -3,141 +3,171 @@ SET SESSION FOREIGN_KEY_CHECKS=0;
 
 /* Create Tables */
 
-CREATE TABLE AUTHORITY
+CREATE TABLE authority_for_db
 (
-	-- 登録されたSQLを識別するID
-	SQL_ID INT NOT NULL COMMENT '登録されたSQLを識別するID',
-	USER_ID INT NOT NULL,
+	user_id int NOT NULL,
+	-- データベースID。DB情報を一位に決定するもの
+	db_id int NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
 	-- 0 　権限なし
 	-- 1    実行権限権限のみ
 	-- 2    実行権限と編集権限
-	AUTH_LEVEL INT COMMENT '0 　権限なし
+	auth_level int COMMENT '0 　権限なし
 1    実行権限権限のみ
 2    実行権限と編集権限',
-	PRIMARY KEY (SQL_ID, USER_ID),
-	UNIQUE (SQL_ID)
+	PRIMARY KEY (user_id, db_id)
 );
 
 
-CREATE TABLE CI_SESSIONS
+CREATE TABLE authority_for_sql
 (
-	SESSION_ID VARCHAR(40) DEFAULT '0' NOT NULL,
-	IP_ADDRESS VARCHAR(16) DEFAULT '0' NOT NULL,
-	USER_AGENT VARCHAR(150) NOT NULL,
-	LAST_ACTIVITY DATETIME DEFAULT '0' NOT NULL,
-	USER_DATA TEXT NOT NULL,
-	PRIMARY KEY (SESSION_ID)
+	user_id int NOT NULL,
+	sql_id int NOT NULL,
+	-- 0 　権限なし
+	-- 1    実行権限権限のみ
+	-- 2    実行権限と編集権限
+	auth_level int DEFAULT 0 COMMENT '0 　権限なし
+1    実行権限権限のみ
+2    実行権限と編集権限',
+	PRIMARY KEY (user_id, sql_id)
 );
 
 
-CREATE TABLE DBINFO
+CREATE TABLE ci_sessions
+(
+	session_id varchar(40) DEFAULT '0' NOT NULL,
+	ip_address varchar(16) DEFAULT '0' NOT NULL,
+	user_agent varchar(150) NOT NULL,
+	last_activity int DEFAULT 0 NOT NULL,
+	user_data text NOT NULL,
+	PRIMARY KEY (session_id)
+);
+
+
+CREATE TABLE db_info
 (
 	-- データベースID。DB情報を一位に決定するもの
-	DB_ID INT NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
-	DISPLAY_NAME VARCHAR(30),
+	db_id int NOT NULL AUTO_INCREMENT COMMENT 'データベースID。DB情報を一位に決定するもの',
+	display_name varchar(30),
 	-- DB製品名（mysql/mssql)
-	DBMS VARCHAR(30) COMMENT 'DB製品名（mysql/mssql)',
+	dbms varchar(30) COMMENT 'DB製品名（mysql/mssql)',
 	-- データベースのホスト名 or IP
-	DB_HOST VARCHAR(30) COMMENT 'データベースのホスト名 or IP',
+	db_host varchar(30) COMMENT 'データベースのホスト名 or IP',
 	-- DB接続用ユーザー
-	DB_USER VARCHAR(30) COMMENT 'DB接続用ユーザー',
+	db_user varchar(30) COMMENT 'DB接続用ユーザー',
 	-- DB接続用のパスワード
-	DB_PASSWD VARCHAR(30) COMMENT 'DB接続用のパスワード',
-	DB_NAME VARCHAR(30),
-	PRIMARY KEY (DB_ID)
+	db_passwd varchar(30) COMMENT 'DB接続用のパスワード',
+	db_name varchar(30),
+	PRIMARY KEY (db_id)
 );
 
 
-CREATE TABLE LOGIN_ATTEMPTS
+CREATE TABLE login_attempts
 (
-	ID INT NOT NULL AUTO_INCREMENT,
-	IP_ADDRESS VARCHAR(40) NOT NULL,
-	LOGIN VARCHAR(50) NOT NULL,
-	TIME TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
-	PRIMARY KEY (ID)
+	id int NOT NULL AUTO_INCREMENT,
+	ip_address varchar(40) NOT NULL,
+	login varchar(50) NOT NULL,
+	time timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
+	PRIMARY KEY (id)
 );
 
 
-CREATE TABLE SQL_INFO
+CREATE TABLE sql_info
 (
-	SQL_ID INT NOT NULL,
+	sql_id int NOT NULL,
 	-- データベースID。DB情報を一位に決定するもの
-	DB_ID INT NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
+	db_id int NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
 	-- 分類（KH/KD/KC/AT/EK/WPDなど）
-	CATEGORY VARCHAR(30) COMMENT '分類（KH/KD/KC/AT/EK/WPDなど）',
+	category varchar(30) COMMENT '分類（KH/KD/KC/AT/EK/WPDなど）',
 	-- SQLの名前
-	SQL_NAME VARCHAR(200) COMMENT 'SQLの名前',
+	sql_name varchar(200) COMMENT 'SQLの名前',
 	-- SQLの説明
-	DESCRIPTION TEXT COMMENT 'SQLの説明',
-	SQL_TEXT TEXT,
-	PRIMARY KEY (SQL_ID)
+	description text COMMENT 'SQLの説明',
+	sql_text text,
+	PRIMARY KEY (sql_id)
 );
 
 
-CREATE TABLE USERS
+CREATE TABLE users
 (
-	ID INT NOT NULL AUTO_INCREMENT,
-	USERNAME VARCHAR(50) NOT NULL,
-	PASSWORD VARCHAR(255) NOT NULL,
-	EMAIL VARCHAR(100) NOT NULL,
-	ACTIVATED BOOLEAN DEFAULT '49' NOT NULL,
-	BANNED BOOLEAN DEFAULT '48' NOT NULL,
-	BAN_REASON VARCHAR(255),
-	NEW_PASSWORD_KEY VARCHAR(50),
-	NEW_PASSWORD_REQUESTED DATETIME,
-	NEW_EMAIL VARCHAR(100),
-	NEW_EMAIL_KEY VARCHAR(50),
-	LAST_IP VARCHAR(40) NOT NULL,
-	LAST_LOGIN DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,
-	CREATED DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,
-	MODIFIED TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
-	PRIMARY KEY (ID)
+	id int NOT NULL AUTO_INCREMENT,
+	username varchar(50) NOT NULL,
+	password varchar(255) NOT NULL,
+	email varchar(100) NOT NULL,
+	activated boolean DEFAULT '49' NOT NULL,
+	banned boolean DEFAULT '48' NOT NULL,
+	ban_reason varchar(255),
+	new_password_key varchar(50),
+	new_password_requested datetime,
+	new_email varchar(100),
+	new_email_key varchar(50),
+	last_ip varchar(40) NOT NULL,
+	last_login datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
+	created datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
+	modified timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
+	admin binary DEFAULT '0' NOT NULL,
+	PRIMARY KEY (id)
 );
 
 
-CREATE TABLE USER_AUTOLOGIN
+CREATE TABLE user_autologin
 (
-	KEY_ID CHAR(32) NOT NULL,
-	USER_ID INT DEFAULT 0 NOT NULL,
-	USER_AGENT VARCHAR(150) NOT NULL,
-	LAST_IP VARCHAR(40) NOT NULL,
-	LAST_LOGIN TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
-	PRIMARY KEY (KEY_ID, USER_ID)
+	key_id char(32) NOT NULL,
+	user_id int DEFAULT 0 NOT NULL,
+	user_agent varchar(150) NOT NULL,
+	last_ip varchar(40) NOT NULL,
+	last_login timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
+	PRIMARY KEY (key_id, user_id)
 );
 
 
-CREATE TABLE USER_PROFILES
+CREATE TABLE user_profiles
 (
-	ID INT NOT NULL AUTO_INCREMENT,
-	USER_ID INT NOT NULL,
-	COUNTRY VARCHAR(20),
-	WEBSITE VARCHAR(255),
-	PRIMARY KEY (ID)
+	id int NOT NULL AUTO_INCREMENT,
+	user_id int NOT NULL,
+	country varchar(20),
+	website varchar(255),
+	PRIMARY KEY (id)
 );
 
 
 
 /* Create Foreign Keys */
 
-ALTER TABLE SQL_INFO
-	ADD FOREIGN KEY (DB_ID)
-	REFERENCES DBINFO (DB_ID)
+ALTER TABLE authority_for_db
+	ADD FOREIGN KEY (db_id)
+	REFERENCES db_info (db_id)
 	ON UPDATE RESTRICT
 	ON DELETE RESTRICT
 ;
 
 
-ALTER TABLE AUTHORITY
-	ADD FOREIGN KEY (SQL_ID)
-	REFERENCES SQL_INFO (SQL_ID)
+ALTER TABLE sql_info
+	ADD FOREIGN KEY (db_id)
+	REFERENCES db_info (db_id)
 	ON UPDATE RESTRICT
 	ON DELETE RESTRICT
 ;
 
 
-ALTER TABLE AUTHORITY
-	ADD FOREIGN KEY (USER_ID)
-	REFERENCES USERS (ID)
+ALTER TABLE authority_for_sql
+	ADD FOREIGN KEY (sql_id)
+	REFERENCES sql_info (sql_id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE authority_for_db
+	ADD FOREIGN KEY (user_id)
+	REFERENCES users (id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE authority_for_sql
+	ADD FOREIGN KEY (user_id)
+	REFERENCES users (id)
 	ON UPDATE RESTRICT
 	ON DELETE RESTRICT
 ;

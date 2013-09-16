@@ -26,27 +26,27 @@
           <div class="control-group">  
             <label class="control-label" for="input03">DB接続ユーザー名</label>  
             <div class="controls">  
-              <input type="text" class="input-xlarge" id="input03">  
+              <input type="text" class="input-xlarge" id="input03" name="user_name">  
             </div>  
           </div>  
           <div class="control-group">  
             <label class="control-label" for="input04">DB接続パスワード</label>  
             <div class="controls">  
-              <input type="text" class="input-xlarge" id="input04">  
+              <input type="text" class="input-xlarge" id="input04" name="password">  
             </div>  
           </div>  
           <div class="control-group">  
             <label class="control-label" for="input05">DB Name</label>  
             <div class="controls">  
-              <input type="text" class="input-xlarge" id="input05">  
+              <input type="text" class="input-xlarge" id="input05" name="db_name">  
             </div>  
           </div>  
           <div class="control-group">  
             <label class="control-label" for="select01">DBMS</label>  
             <div class="controls">  
-              <select id="select01">  
-                <option>MySQL</option>  
-                <option>MSSQL</option>  
+              <select id="select01" name="dbms">  
+                <option>mysql</option>  
+                <option>mssql</option>  
               </select>  
             </div>  
           </div>  
