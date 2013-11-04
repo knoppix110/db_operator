@@ -6,6 +6,11 @@
    </div>
 </div>
 
+<a href="/CodeIgniter/index.php/db_registration">DB登録</a>
+<a href="/CodeIgniter/index.php/sql_registration">SQL登録</a>
+<a href="/CodeIgniter/index.php/auth_modifing">権限編集</a>
+<a href="/CodeIgniter/index.php/auth_registration">権限登録</a>
+
 <table class="table table-bordered table-striped
 table-hover 
 table-bordered

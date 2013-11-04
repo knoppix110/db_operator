@@ -3,32 +3,17 @@ SET SESSION FOREIGN_KEY_CHECKS=0;
 
 /* Create Tables */
 
-CREATE TABLE authority_for_db
+CREATE TABLE authority
 (
 	user_id int NOT NULL,
-	-- データベースID。DB情報を一位に決定するもの
-	db_id int NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
+	object_id int NOT NULL,
 	-- 0 　権限なし
 	-- 1    実行権限権限のみ
 	-- 2    実行権限と編集権限
 	auth_level int COMMENT '0 　権限なし
 1    実行権限権限のみ
 2    実行権限と編集権限',
-	PRIMARY KEY (user_id, db_id)
-);
-
-
-CREATE TABLE authority_for_sql
-(
-	user_id int NOT NULL,
-	sql_id int NOT NULL,
-	-- 0 　権限なし
-	-- 1    実行権限権限のみ
-	-- 2    実行権限と編集権限
-	auth_level int DEFAULT 0 COMMENT '0 　権限なし
-1    実行権限権限のみ
-2    実行権限と編集権限',
-	PRIMARY KEY (user_id, sql_id)
+	PRIMARY KEY (user_id, object_id)
 );
 
 
@@ -47,6 +32,7 @@ CREATE TABLE db_info
 (
 	-- データベースID。DB情報を一位に決定するもの
 	db_id int NOT NULL AUTO_INCREMENT COMMENT 'データベースID。DB情報を一位に決定するもの',
+	object_id int NOT NULL,
 	display_name varchar(30),
 	-- DB製品名（mysql/mssql)
 	dbms varchar(30) COMMENT 'DB製品名（mysql/mssql)',
@@ -61,6 +47,14 @@ CREATE TABLE db_info
 );
 
 
+CREATE TABLE db_sql_list
+(
+	-- データベースID。DB情報を一位に決定するもの
+	db_id int NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
+	sql_id int NOT NULL
+);
+
+
 CREATE TABLE login_attempts
 (
 	id int NOT NULL AUTO_INCREMENT,
@@ -71,11 +65,19 @@ CREATE TABLE login_attempts
 );
 
 
+CREATE TABLE object
+(
+	object_id int NOT NULL AUTO_INCREMENT,
+	-- 対象の種類（SQL/DB）
+	object_type varchar(30) COMMENT '対象の種類（SQL/DB）',
+	PRIMARY KEY (object_id)
+);
+
+
 CREATE TABLE sql_info
 (
 	sql_id int NOT NULL,
-	-- データベースID。DB情報を一位に決定するもの
-	db_id int NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
+	object_id int NOT NULL,
 	-- 分類（KH/KD/KC/AT/EK/WPDなど）
 	category varchar(30) COMMENT '分類（KH/KD/KC/AT/EK/WPDなど）',
 	-- SQLの名前
@@ -133,23 +135,39 @@ CREATE TABLE user_profiles
 
 /* Create Foreign Keys */
 
-ALTER TABLE authority_for_db
+ALTER TABLE db_sql_list
 	ADD FOREIGN KEY (db_id)
 	REFERENCES db_info (db_id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE authority
+	ADD FOREIGN KEY (object_id)
+	REFERENCES object (object_id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE db_info
+	ADD FOREIGN KEY (object_id)
+	REFERENCES object (object_id)
 	ON UPDATE RESTRICT
 	ON DELETE RESTRICT
 ;
 
 
 ALTER TABLE sql_info
-	ADD FOREIGN KEY (db_id)
-	REFERENCES db_info (db_id)
+	ADD FOREIGN KEY (object_id)
+	REFERENCES object (object_id)
 	ON UPDATE RESTRICT
 	ON DELETE RESTRICT
 ;
 
 
-ALTER TABLE authority_for_sql
+ALTER TABLE db_sql_list
 	ADD FOREIGN KEY (sql_id)
 	REFERENCES sql_info (sql_id)
 	ON UPDATE RESTRICT
@@ -157,15 +175,7 @@ ALTER TABLE authority_for_sql
 ;
 
 
-ALTER TABLE authority_for_db
-	ADD FOREIGN KEY (user_id)
-	REFERENCES users (id)
-	ON UPDATE RESTRICT
-	ON DELETE RESTRICT
-;
-
-
-ALTER TABLE authority_for_sql
+ALTER TABLE authority
 	ADD FOREIGN KEY (user_id)
 	REFERENCES users (id)
 	ON UPDATE RESTRICT

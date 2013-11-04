@@ -7,7 +7,7 @@
 <link href="twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet">  
 </head>  
 <body>  
-<form class="form-horizontal" action="./db_registration/register" method="post">  
+<form class="form-horizontal" action="db_registration/register" method="post">  
         <fieldset>  
           <legend>DB登録画面</legend>  
           <div class="control-group">  

@@ -6,7 +6,7 @@
  *
  * @author sjlu
  */
-class authority_for_db_model extends CI_Model {
+class Db_info_model extends CI_Model {
 
    public function __construct()
    {
@@ -17,10 +17,28 @@ class authority_for_db_model extends CI_Model {
     * 説明：postのデータをDB_INFOテーブルに登録する
     * 戻り値：登録したレコードのID
     */
-   public function insert($_data)
+   public function insert($_ary)
    {
-	   	$this->db->insert( 'authority_for_db', $_data );
-   		return $this->db->result();
+	   $res=$this->db->insert(
+		   'db_info',
+		   	array(
+		   		'object_id' => $_ary['object_id'],
+			   	'display_name' => $_ary['display_name'],
+			   	'dbms' => $_ary['dbms'],
+			   	'db_host' => $_ary['db_host'],
+				'db_user' => $_ary['db_user'],
+			   	'db_passwd' => $_ary['db_passwd'],
+			   	'db_name' => $_ary['db_name']
+		   )
+   		);
+	   
+   		return $this->db->insert_id();
+   }
+   
+   public function get_all()
+   {
+   		$this->db->select('*');
+   		$this->db->from('db_info');
    }
 
    /*
