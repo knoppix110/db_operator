@@ -34,6 +34,7 @@ CREATE TABLE db_info
 	db_id int NOT NULL AUTO_INCREMENT COMMENT 'データベースID。DB情報を一位に決定するもの',
 	object_id int NOT NULL,
 	display_name varchar(30),
+	description text,
 	-- DB製品名（mysql/mssql)
 	dbms varchar(30) COMMENT 'DB製品名（mysql/mssql)',
 	-- データベースのホスト名 or IP
@@ -47,7 +48,7 @@ CREATE TABLE db_info
 );
 
 
-CREATE TABLE db_sql_list
+CREATE TABLE db_sql_relation
 (
 	-- データベースID。DB情報を一位に決定するもの
 	db_id int NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
@@ -76,12 +77,10 @@ CREATE TABLE object
 
 CREATE TABLE sql_info
 (
-	sql_id int NOT NULL,
+	sql_id int NOT NULL AUTO_INCREMENT,
 	object_id int NOT NULL,
-	-- 分類（KH/KD/KC/AT/EK/WPDなど）
-	category varchar(30) COMMENT '分類（KH/KD/KC/AT/EK/WPDなど）',
 	-- SQLの名前
-	sql_name varchar(200) COMMENT 'SQLの名前',
+	display_name varchar(200) COMMENT 'SQLの名前',
 	-- SQLの説明
 	description text COMMENT 'SQLの説明',
 	sql_text text,
@@ -135,7 +134,7 @@ CREATE TABLE user_profiles
 
 /* Create Foreign Keys */
 
-ALTER TABLE db_sql_list
+ALTER TABLE db_sql_relation
 	ADD FOREIGN KEY (db_id)
 	REFERENCES db_info (db_id)
 	ON UPDATE RESTRICT
@@ -167,7 +166,7 @@ ALTER TABLE sql_info
 ;
 
 
-ALTER TABLE db_sql_list
+ALTER TABLE db_sql_relation
 	ADD FOREIGN KEY (sql_id)
 	REFERENCES sql_info (sql_id)
 	ON UPDATE RESTRICT

@@ -10,8 +10,9 @@ class Sql_registration extends Main_Controller
 
 	function index()
 	{
+	  $data['dblist']=$this->sql_registration_model->index();
       $this->load->view('include/header');
-      $this->load->view('sql_registration');
+      $this->load->view('sql_registration', $data);
       $this->load->view('include/footer');
 	}
 	

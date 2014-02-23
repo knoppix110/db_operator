@@ -1,22 +1,52 @@
-<div class="container">
-   <div class="hero-unit">
-      <h2>CodeIgniter Bootstrap</h2>
-      <p>CodeIgniter Bootstrap kick starts the development process of the web development process by including Twitter Bootstrap into CodeIgniter. It also includes certain libraries such as AWS and Facebook in-case you are developing applications requiring those SDKs. So stop writing the same code over again and start working on your idea.</p>
-      <a class="btn btn-primary btn-large" href="https://github.com/sjlu/CodeIgniter-Bootstrap">View on Github</a>
-   </div>
+
+<div class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <ul class="nav">
+	  <li class="active"> <a href="./frontpage">Home</a></li>
+	  <li><a href="./db_registration">DB登録</a></li>
+	  <li><a href="./sql_registration">SQL登録</a></li>
+	  <li><a href="./auth_edit">権限編集</a></li>
+	  <li><a href="./auth_registration">権限登録</a></li>
+    </ul>
+  </div>
 </div>
 
-<a href="/CodeIgniter/index.php/db_registration">DB登録</a>
-<a href="/CodeIgniter/index.php/sql_registration">SQL登録</a>
-<a href="/CodeIgniter/index.php/auth_modifing">権限編集</a>
-<a href="/CodeIgniter/index.php/auth_registration">権限登録</a>
-
+<div class="btn-group">
+  <button class="btn">Action</button>
+  <button class="btn dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <!-- dropdown menu links -->
+  </ul>
+</div>
 <table class="table table-bordered table-striped
 table-hover 
 table-bordered
 table-condensed">
-  <tr class="success"><th>aaa</th><th>bbb</th></tr>
-  <tr><td>dd</td><td>gg</td></tr>
-  <tr><td>ff</td><td>gg</td></tr>
-  <tr><td>gg</td><td>gg</td></tr>
+<?php 
+$cnt=1;
+foreach($sql_list as $sql_info){
+	echo "<tr>";
+	if($cnt==1){
+		foreach($sql_info as $key => $value){
+			echo "<th>$key</th>";
+		}
+		echo "<th></th>";
+		echo "<th></th>";
+	}else{
+		foreach($sql_info as $key => $value){
+			echo "<td>$value </td>";
+		}
+		echo "<td>";
+       	echo "<a class='btn btn-primary btn-small' href='./execution'>実行画面へ</a>";
+		echo "</td>";
+		echo "<td>";
+       	echo "<a class='btn btn-secondary btn-small' href='https://github.com/sjlu/CodeIgniter-Bootstrap'>編集</a>";
+		echo "</td>";
+	}
+	echo "</tr>";
+    $cnt++;
+}
+?>
 </table>

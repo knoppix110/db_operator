@@ -24,6 +24,7 @@ class Db_info_model extends CI_Model {
 		   	array(
 		   		'object_id' => $_ary['object_id'],
 			   	'display_name' => $_ary['display_name'],
+			   	'description' => $_ary['description'],
 			   	'dbms' => $_ary['dbms'],
 			   	'db_host' => $_ary['db_host'],
 				'db_user' => $_ary['db_user'],
@@ -37,31 +38,16 @@ class Db_info_model extends CI_Model {
    
    public function get_all()
    {
-   		$this->db->select('*');
-   		$this->db->from('db_info');
+   		 $query=$this->db->get('db_info');
+   		 return $query->result_array();
    }
-
-   /*
-	* Write your tests here, it is done this way
-	* because you may need to dynamically generate
-	* your data from other models, etc.
-	*/
-   public function retrieve_tests()
+   
+   public function get_id_by_name($_display_name)
    {
-	  $tests = array();
-
-	  /*
-	   * You should build your tests like the one below.
-	   *
-	  $tests[] = array(
-		 'rv' => $this->sendit_model->validate_email('tacticalazn@gmail.com'),
-		 'ev' => true,
-		 't' => 'validate_email("tacticalazn@gmail.com")',
-		 'n' => 'Checking if email validation works.'
-	  );
-	  */
-
-	  return $tests;
+   		$this->db->select('db_id');
+		$this->db->where_in('display_name',$_display_name);	
+		$query=$this->db->get('db_info');
+		return $query->result_array();	
    }
 
 }

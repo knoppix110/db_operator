@@ -22,6 +22,7 @@ class Db_registration_model extends CI_Model{
 		   	array(
 		   		'object_id' => $object_id,
 			   	'display_name' => $this->input->post('display_name'),
+			   	'description' => $this->input->post('description'),
 			   	'dbms' => $this->input->post('dbms'),
 			   	'db_host' => $this->input->post('host_name'),
 				'db_user' => $this->input->post('user_name'),
