@@ -14,6 +14,15 @@ CREATE TABLE authority
 1    実行権限権限のみ
 2    実行権限と編集権限',
 	PRIMARY KEY (user_id, object_id)
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+
+CREATE TABLE category
+(
+	category_id int NOT NULL AUTO_INCREMENT,
+	object_id int NOT NULL,
+	category_name varchar(30) NOT NULL,
+	PRIMARY KEY (category_id)
 );
 
 
@@ -33,7 +42,8 @@ CREATE TABLE db_info
 	-- データベースID。DB情報を一位に決定するもの
 	db_id int NOT NULL AUTO_INCREMENT COMMENT 'データベースID。DB情報を一位に決定するもの',
 	object_id int NOT NULL,
-	display_name varchar(30),
+	category_id int,
+	display_name varchar(30) UNIQUE,
 	description text,
 	-- DB製品名（mysql/mssql)
 	dbms varchar(30) COMMENT 'DB製品名（mysql/mssql)',
@@ -45,7 +55,7 @@ CREATE TABLE db_info
 	db_passwd varchar(30) COMMENT 'DB接続用のパスワード',
 	db_name varchar(30),
 	PRIMARY KEY (db_id)
-);
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
 
 CREATE TABLE db_sql_relation
@@ -53,7 +63,7 @@ CREATE TABLE db_sql_relation
 	-- データベースID。DB情報を一位に決定するもの
 	db_id int NOT NULL COMMENT 'データベースID。DB情報を一位に決定するもの',
 	sql_id int NOT NULL
-);
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
 
 CREATE TABLE login_attempts
@@ -72,20 +82,21 @@ CREATE TABLE object
 	-- 対象の種類（SQL/DB）
 	object_type varchar(30) COMMENT '対象の種類（SQL/DB）',
 	PRIMARY KEY (object_id)
-);
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
 
 CREATE TABLE sql_info
 (
 	sql_id int NOT NULL AUTO_INCREMENT,
 	object_id int NOT NULL,
+	category_id int,
 	-- SQLの名前
 	display_name varchar(200) COMMENT 'SQLの名前',
 	-- SQLの説明
 	description text COMMENT 'SQLの説明',
 	sql_text text,
 	PRIMARY KEY (sql_id)
-);
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
 
 CREATE TABLE users
@@ -107,7 +118,7 @@ CREATE TABLE users
 	modified timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
 	admin binary DEFAULT '0' NOT NULL,
 	PRIMARY KEY (id)
-);
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
 
 CREATE TABLE user_autologin
@@ -134,6 +145,22 @@ CREATE TABLE user_profiles
 
 /* Create Foreign Keys */
 
+ALTER TABLE db_info
+	ADD FOREIGN KEY (category_id)
+	REFERENCES category (category_id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE sql_info
+	ADD FOREIGN KEY (category_id)
+	REFERENCES category (category_id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
 ALTER TABLE db_sql_relation
 	ADD FOREIGN KEY (db_id)
 	REFERENCES db_info (db_id)
@@ -143,6 +170,14 @@ ALTER TABLE db_sql_relation
 
 
 ALTER TABLE authority
+	ADD FOREIGN KEY (object_id)
+	REFERENCES object (object_id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
+ALTER TABLE category
 	ADD FOREIGN KEY (object_id)
 	REFERENCES object (object_id)
 	ON UPDATE RESTRICT

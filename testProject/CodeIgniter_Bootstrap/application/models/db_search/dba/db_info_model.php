@@ -50,4 +50,12 @@ class Db_info_model extends CI_Model {
 		return $query->result_array();	
    }
 
+   public function get_all_by_db_id($_db_id)
+   {
+   		$this->db->select('db_id');
+		$this->db->where_in('display_name',$_display_name);	
+		$query=$this->db->get('db_info');
+		return $query->result_array();	
+   }
+
 }

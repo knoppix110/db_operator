@@ -2,13 +2,23 @@
 <html lang="en">   
 <head>   
 <meta charset="utf-8">   
-<title>DB登録画面</title>   
+<title>SQL登録画面</title>   
 <meta name="description" content="Twitter Bootstrap Version2.0 horizontal form layout example from w3resource.com.">   
 </head>  
 <body>  
 <form class="well form-horizontal" style='width:800px;' action="sql_registration/register" method="post">  
         <fieldset>  
-          <legend>SQL</legend>  
+          <legend>SQL登録</legend>  
+          <div class="control-group">  
+            <label class="control-label" for="input00">カテゴリ</label>  
+            <div class="controls">  
+	          <select id="select_category" name="category_name">
+	          	<?php foreach($category_list as $category):?>
+	              <option value="<?php echo $category->category_id;?>"><?php echo $category->category_name;?></option>
+	            <?php endforeach;?>
+	          </select>
+            </div>  
+          </div>  
           <div class="control-group">  
             <label class="control-label" for="input01">表示名（任意）(#1)</label>  
             <div class="controls">  
@@ -50,7 +60,7 @@
           <div class="controls" style="line-height:200%;">#2 ... [SQL]と[DB]の紐付けを行います</div>  
           <div class="form-actions">  
           <button type="submit" class="btn btn-primary" >Submit data</button>  
-          <button class="btn">Cancel</button>  
+          <button formaction="./" class="btn">Cancel</button>  
           </div>  
       </fieldset>  
 </form>  

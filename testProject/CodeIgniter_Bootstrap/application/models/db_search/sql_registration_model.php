@@ -9,9 +9,14 @@ class Sql_registration_model extends CI_Model{
 		$this->load->model('db_search/dba/authority_model');
 		$this->load->model('db_search/dba/object_model');
 		$this->load->model('db_search/dba/db_sql_relation_model');
+		$this->load->model('db_search/dba/category_model');
 	}
 	
-	public function index(){
+	public function get_category_by_user_id($_user_id){
+		return $this->category_model->get_all_by_user_id($_user_id);
+	}
+	
+	public function get_available_db_list(){
 		$dblist=$this->db_info_model->get_all();
 		$related_dblist=$this->db_sql_relation_model->get_all();
 		foreach($dblist as $key=>$dbinfo){

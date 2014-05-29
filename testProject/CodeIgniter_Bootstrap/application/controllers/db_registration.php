@@ -10,8 +10,9 @@ class Db_registration extends Main_Controller
 
 	function index()
 	{
+	  $data['category_list']=$this->db_registration_model->get_categories();
       $this->load->view('include/header');
-      $this->load->view('db_registration');
+      $this->load->view('db_registration',$data);
       $this->load->view('include/footer');
 	}
 	

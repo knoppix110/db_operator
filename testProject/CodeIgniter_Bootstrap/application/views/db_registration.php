@@ -7,9 +7,19 @@
 <link href="twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet">  
 </head>  
 <body>  
-<form class="form-horizontal" action="db_registration/register" method="post">  
+<form class="well form-horizontal" style='width:800px;' action="db_registration/register" method="post">  
         <fieldset>  
           <legend>DB登録画面</legend>  
+           <div class="control-group">  
+            <label class="control-label" for="input00">カテゴリ</label>  
+            <div class="controls">  
+	          <select id="select_category" name="category_name">
+	          	<?php foreach($category_list as $category):?>
+	              <option value="<?php echo $category->category_id;?>"><?php echo $category->category_name;?></option>
+	            <?php endforeach;?>
+	          </select>
+            </div>  
+          </div>  
           <div class="control-group">  
             <label class="control-label" for="input01">表示名（任意）</label>  
             <div class="controls">  
@@ -51,8 +61,8 @@
             </div>  
           </div>  
           <div class="form-actions">  
-            <button type="submit" class="btn btn-primary" >Save changes</button>  
-            <button class="btn">Cancel</button>  
+            <button type="submit" class="btn btn-primary" >Save</button>  
+            <button formaction="./" class="btn">Cancel</button>  
           </div>  
         </fieldset>  
 </form>  

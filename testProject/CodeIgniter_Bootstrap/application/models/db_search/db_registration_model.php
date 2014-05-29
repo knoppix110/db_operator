@@ -7,6 +7,12 @@ class Db_registration_model extends CI_Model{
 		$this->load->model('db_search/dba/db_info_model');
 		$this->load->model('db_search/dba/authority_model');
 		$this->load->model('db_search/dba/object_model');
+		$this->load->model('db_search/dba/category_model');
+	}
+	
+	public function get_categories(){
+		$ary_obj_category=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id());
+		return $ary_obj_category;
 	}
 
 	public function register(){

@@ -37,5 +37,21 @@ class Sql_info_model extends CI_Model {
     	$query=$this->db->get('sql_info');
     	return $query->result_array();
    }
+   
+   /*
+    * 説明：sql_id を条件に、sql_infoテーブルのレコードを取得する
+    * 戻り値： sql_infoのrecord
+    */
+   public function get_sql_info($_sql_id){
+   	$sql='select *
+			from
+			 sql_info
+			where
+			 sql_id=? 
+		  ';
+   	$query=$this->db->query($sql,array($_sql_id));
+   
+   	return $query->first_row('array');
+   }
 
 }
