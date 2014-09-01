@@ -12,7 +12,7 @@ class Object_model extends CI_Model {
 		$res=$this->db->insert(
 			'object',
 			array(
-				'object_id' => $_ary['object_id'],
+				'category_id' => $_ary['category_id'],
 				'object_type' => $_ary['object_type'],
 			)
 		);

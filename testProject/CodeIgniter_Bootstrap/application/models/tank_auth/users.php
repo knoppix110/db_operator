@@ -138,6 +138,25 @@ class Users extends CI_Model
 		return NULL;
 	}
 
+    /**
+     * Check if table is empty
+     *
+     * @return bool
+     */
+    function is_table_empty(){
+        return $this->db->count_all($this->table_name);
+    }
+
+    /**
+     * Get All Users
+     *
+     * @return array
+     */
+    function get_all_users(){
+		$query = $this->db->get($this->table_name);
+        return $query->result_array();
+    }
+
 	/**
 	 * Activate user if activation key is valid.
 	 * Can be called for not activated users only.

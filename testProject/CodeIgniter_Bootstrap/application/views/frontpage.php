@@ -23,16 +23,12 @@ table-condensed">
 echo "<th>カテゴリ</th>";
 echo "<th>SQL_Name</th>";
 echo "<th></th>";
-echo "<th></th>";
 foreach($sql_list as $sql_info){
 	echo "<tr>";
 	echo "<td>" .$sql_info['category_name'] ."</td>";
 	echo "<td>" .$sql_info['sql_display_name'] ."</td>";
 	echo "<td>";
-    echo "<a class='btn btn-primary btn-small' href='./sql_execution?sql_id=".$sql_info['sql_id']."'>実行画面へ</a>";
-	echo "</td>";
-	echo "<td>";
-   	echo "<a class='btn btn-secondary btn-small' href='https://github.com/sjlu/CodeIgniter-Bootstrap'>編集</a>";
+    echo "<a class='btn btn-primary btn-small' href='".base_url('index.php')."/sql_execution?sql_id=".$sql_info['sql_id']."'>実行画面へ</a>";
 	echo "</td>";
 	echo "</tr>";
 }

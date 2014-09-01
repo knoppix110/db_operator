@@ -1999,11 +1999,13 @@ table {
   background-color: transparent;
   border-collapse: collapse;
   border-spacing: 0;
+  empty-cells: show;
 }
 
 .table {
   width: 100%;
   margin-bottom: 20px;
+  empty-cells: show;
 }
 
 .table th,

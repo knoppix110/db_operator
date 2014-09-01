@@ -72,6 +72,8 @@ class Tank_auth
 								'user_id'	=> $user->id,
 								'username'	=> $user->username,
 								'status'	=> ($user->activated == 1) ? STATUS_ACTIVATED : STATUS_NOT_ACTIVATED,
+								'role'	=> $user->role,
+                                
 						));
 
 						if ($user->activated == 0) {							// fail - not activated
@@ -139,6 +141,11 @@ class Tank_auth
 		return $this->ci->session->userdata('user_id');
 	}
 
+	function get_role()
+	{
+		return $this->ci->session->userdata('role');
+	}
+
 	/**
 	 * Get username
 	 *
@@ -180,6 +187,12 @@ class Tank_auth
 				'email'		=> $email,
 				'last_ip'	=> $this->ci->input->ip_address(),
 			);
+
+            if($this->ci->users->is_table_empty()){
+                $data['role']='admin';
+            }else{
+                $data['role']='user';
+            }
 
 			if ($email_activation) {
 				$data['new_email_key'] = md5(rand().microtime());

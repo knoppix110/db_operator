@@ -9,7 +9,7 @@
 
    <title>CodeIgniter Bootstrap</title>
 
-   <link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+   <link href="<?php echo base_url('assets/css/bootstrap.css') ?>" rel="stylesheet">
    <link href="<?php echo base_url('assets/css/bootstrap-responsive.min.css') ?>" rel="stylesheet">
    <link href="<?php echo base_url('assets/css/font-awesome.css') ?>" rel="stylesheet">
    <link href="<?php echo base_url('assets/css/custom.css') ?>" rel="stylesheet">
@@ -35,12 +35,104 @@
 <div class="navbar navbar-inverse">
   <div class="navbar-inner">
     <ul class="nav">
-	  <li class="active"> <a href="./frontpage">Home</a></li>
-	  <li><a href="./category_registration">カテゴリ登録</a></li>
-	  <li><a href="./db_registration">DB登録</a></li>
-	  <li><a href="./sql_registration">SQL登録</a></li>
-	  <li><a href="./auth_edit">権限編集</a></li>
-	  <li><a href="./auth_registration">権限登録</a></li>
+	  <li><a href="<?php echo base_url('index.php/frontpage')?>">Home</a></li>
+
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">カテゴリ管理<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+	  		<li><a href="<?php echo base_url('index.php/category_registration') ?>">カテゴリ登録</a></li>
+	  		<li><a href="<?php echo base_url('index.php/category_registration/category_list') ?>">カテゴリ一覧/削除/編集</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">権限管理<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+	  		<li><a href="<?php echo base_url('index.php/auth_registration') ?>">権限登録</a></li>
+	  		<li><a href="<?php echo base_url('index.php/auth_registration/auth_list') ?>">権限一覧/削除/編集</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">DB管理<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+	  		<li><a href="<?php echo base_url('index.php/db_registration') ?>">DB登録</a></li>
+	  		<li><a href="<?php echo base_url('index.php/db_registration/dblist') ?>">DB一覧/削除/編集</a></li>
+      </ul>
+    </li>
+
+
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">SQL管理 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+		    <li><a href="<?php echo base_url('index.php/sql_registration') ?>">SQL登録</a>
+		    <li><a href="<?php echo base_url('index.php/sql_registration/sqllist') ?>">SQL一覧/削除/編集</a>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+        </ul>
+    </li>
+    <li class="divider-vertical"></li>
     </ul>
+
+    <ul class='nav pull-right'>
+    <li><a href=#>Hi, <?php echo $username; ?>! You are logged in now. </a></li>
+    <li><a href=<?php echo base_url('index.php/auth/logout/')?>>Logout</a></li> 
+    </ul>
+
   </div>
 </div>
+
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

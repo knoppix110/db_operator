@@ -6,22 +6,22 @@ SET SESSION FOREIGN_KEY_CHECKS=0;
 CREATE TABLE authority
 (
 	user_id int NOT NULL,
-	object_id int NOT NULL,
+	category_id int NOT NULL,
 	-- 0 　権限なし
 	-- 1    実行権限権限のみ
 	-- 2    実行権限と編集権限
-	auth_level int COMMENT '0 　権限なし
+	auth_level int NOT NULL COMMENT '0 　権限なし
 1    実行権限権限のみ
 2    実行権限と編集権限',
-	PRIMARY KEY (user_id, object_id)
+	auth_type varchar(30) NOT NULL,
+	PRIMARY KEY (user_id, category_id)
 ) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
 
 CREATE TABLE category
 (
 	category_id int NOT NULL AUTO_INCREMENT,
-	object_id int NOT NULL,
-	category_name varchar(30) NOT NULL,
+	category_name varchar(30) NOT NULL UNIQUE,
 	PRIMARY KEY (category_id)
 );
 
@@ -41,19 +41,18 @@ CREATE TABLE db_info
 (
 	-- データベースID。DB情報を一位に決定するもの
 	db_id int NOT NULL AUTO_INCREMENT COMMENT 'データベースID。DB情報を一位に決定するもの',
-	object_id int NOT NULL,
-	category_id int,
-	display_name varchar(30) UNIQUE,
-	description text,
+	category_id int NOT NULL,
+	display_name varchar(30) NOT NULL UNIQUE,
+	description text NOT NULL,
 	-- DB製品名（mysql/mssql)
-	dbms varchar(30) COMMENT 'DB製品名（mysql/mssql)',
+	dbms varchar(30) NOT NULL COMMENT 'DB製品名（mysql/mssql)',
 	-- データベースのホスト名 or IP
-	db_host varchar(30) COMMENT 'データベースのホスト名 or IP',
+	db_host varchar(30) NOT NULL COMMENT 'データベースのホスト名 or IP',
 	-- DB接続用ユーザー
-	db_user varchar(30) COMMENT 'DB接続用ユーザー',
+	db_user varchar(30) NOT NULL COMMENT 'DB接続用ユーザー',
 	-- DB接続用のパスワード
-	db_passwd varchar(30) COMMENT 'DB接続用のパスワード',
-	db_name varchar(30),
+	db_passwd varchar(30) NOT NULL COMMENT 'DB接続用のパスワード',
+	db_name varchar(30) NOT NULL,
 	PRIMARY KEY (db_id)
 ) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
@@ -76,25 +75,16 @@ CREATE TABLE login_attempts
 );
 
 
-CREATE TABLE object
-(
-	object_id int NOT NULL AUTO_INCREMENT,
-	-- 対象の種類（SQL/DB）
-	object_type varchar(30) COMMENT '対象の種類（SQL/DB）',
-	PRIMARY KEY (object_id)
-) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-
-
 CREATE TABLE sql_info
 (
 	sql_id int NOT NULL AUTO_INCREMENT,
-	object_id int NOT NULL,
-	category_id int,
+	category_id int NOT NULL,
 	-- SQLの名前
-	display_name varchar(200) COMMENT 'SQLの名前',
+	display_name varchar(200) NOT NULL COMMENT 'SQLの名前',
 	-- SQLの説明
-	description text COMMENT 'SQLの説明',
-	sql_text text,
+	description text NOT NULL COMMENT 'SQLの説明',
+	sql_text text NOT NULL,
+	conditions varchar(200),
 	PRIMARY KEY (sql_id)
 ) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
@@ -145,6 +135,14 @@ CREATE TABLE user_profiles
 
 /* Create Foreign Keys */
 
+ALTER TABLE authority
+	ADD FOREIGN KEY (category_id)
+	REFERENCES category (category_id)
+	ON UPDATE RESTRICT
+	ON DELETE RESTRICT
+;
+
+
 ALTER TABLE db_info
 	ADD FOREIGN KEY (category_id)
 	REFERENCES category (category_id)
@@ -164,38 +162,6 @@ ALTER TABLE sql_info
 ALTER TABLE db_sql_relation
 	ADD FOREIGN KEY (db_id)
 	REFERENCES db_info (db_id)
-	ON UPDATE RESTRICT
-	ON DELETE RESTRICT
-;
-
-
-ALTER TABLE authority
-	ADD FOREIGN KEY (object_id)
-	REFERENCES object (object_id)
-	ON UPDATE RESTRICT
-	ON DELETE RESTRICT
-;
-
-
-ALTER TABLE category
-	ADD FOREIGN KEY (object_id)
-	REFERENCES object (object_id)
-	ON UPDATE RESTRICT
-	ON DELETE RESTRICT
-;
-
-
-ALTER TABLE db_info
-	ADD FOREIGN KEY (object_id)
-	REFERENCES object (object_id)
-	ON UPDATE RESTRICT
-	ON DELETE RESTRICT
-;
-
-
-ALTER TABLE sql_info
-	ADD FOREIGN KEY (object_id)
-	REFERENCES object (object_id)
 	ON UPDATE RESTRICT
 	ON DELETE RESTRICT
 ;
