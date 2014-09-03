@@ -107,6 +107,7 @@ CREATE TABLE users
 	created datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
 	modified timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
 	admin binary DEFAULT '0' NOT NULL,
+	role varchar(20) DEFAULT 'user' NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
