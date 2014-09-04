@@ -307,6 +307,7 @@
 
 	$CI = new $class();
 
+
 /*
  * ------------------------------------------------------
  *  Is there a "post_controller_constructor" hook?
