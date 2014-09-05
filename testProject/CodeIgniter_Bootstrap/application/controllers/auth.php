@@ -32,9 +32,6 @@ class Auth extends Main_Controller
         if ($this->tank_auth->is_logged_in()) {									// logged in
             redirect('');
 
-        } elseif ($this->tank_auth->is_logged_in(FALSE)) {						// logged in, not activated
-            redirect('/auth/send_again/');
-
         } else {
             $data['login_by_username'] = ($this->config->item('login_by_username', 'tank_auth') AND
                     $this->config->item('use_username', 'tank_auth'));
@@ -115,15 +112,15 @@ class Auth extends Main_Controller
      */
     function register()
     {
-        if ($this->tank_auth->is_logged_in()) {									// logged in
+        if ($this->tank_auth->get_role()!='admin') {									// logged in
             redirect('');
-
+/*
         } elseif ($this->tank_auth->is_logged_in(FALSE)) {						// logged in, not activated
             redirect('/auth/send_again/');
 
         } elseif (!$this->config->item('allow_registration', 'tank_auth')) {	// registration is off
             $this->_show_message($this->lang->line('auth_message_registration_disabled'));
-
+*/
         } else {
             $use_username = $this->config->item('use_username', 'tank_auth');
             if ($use_username) {
@@ -188,7 +185,12 @@ class Auth extends Main_Controller
             $data['use_username'] = $use_username;
             $data['captcha_registration'] = $captcha_registration;
             $data['use_recaptcha'] = $use_recaptcha;
+
+            $this->data['user_id']  = $this->tank_auth->get_user_id();
+            $this->data['username'] = $this->tank_auth->get_username();
+            $this->load->view('include/header',$this->data);
             $this->load->view('auth/register_form', $data);
+            $this->load->view('include/footer');
         }
     }
 

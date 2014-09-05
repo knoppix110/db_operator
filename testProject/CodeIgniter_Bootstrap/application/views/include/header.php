@@ -46,6 +46,13 @@
     </li>
 
     <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">アカウント管理<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+	  		<li><a href="<?php echo base_url('index.php/auth/register') ?>">アカウント登録</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">権限管理<b class="caret"></b></a>
       <ul class="dropdown-menu">
 	  		<li><a href="<?php echo base_url('index.php/auth_registration') ?>">権限登録</a></li>
