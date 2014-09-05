@@ -5,7 +5,7 @@
 table-hover 
 table-bordered
 table-condensed">
-<?php var_dump($auth_list); ?>
+<?php //var_dump($auth_list); ?>
 <th>User</th>
 <th>カテゴリ</th>
 <th>認証レベル</th>

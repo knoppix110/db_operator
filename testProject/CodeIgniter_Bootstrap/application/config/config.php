@@ -385,10 +385,8 @@ $config['proxy_ips'] = '';
 
 function __autoload($class)
 {
-	log_message("DEBUG","########".$class);
 	if(strpos($class, 'CI_') !== 0)
  	{
-	log_message("DEBUG","====".$class);
   		@include_once( APPPATH . 'core/'. $class . EXT );
  	}
 }

@@ -34,7 +34,7 @@ class Sql_execution extends Main_Controller
         // 妥当性のチェック（所属カテゴリに対して権限を持ってるか）
         /// 対象のSQL情報を取得
         $sql_info=$this->sql_info_model->get_sql_info_by_sql_id($this->input->post('sql_id')); 
-        print_r($sql_info);
+        log_message('debug',print_r($sql_info,true));
         /// 対象SQLに対してどの権限を持っているかを取得
         $auth_level=$this->authority_model->get_auth_level($this->tank_auth->get_user_id(),$sql_info['category_id']);
         

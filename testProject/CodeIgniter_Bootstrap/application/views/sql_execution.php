@@ -6,7 +6,6 @@
 <meta name="description" content="Twitter Bootstrap Version2.0 horizontal form layout example from w3resource.com.">   
 </head>  
 <body>  
-<?php var_dump($sql_info);?>
 <div class="container">
         <fieldset>  
             <legend>SQL実行画面</legend>  

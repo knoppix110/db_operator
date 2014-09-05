@@ -27,6 +27,7 @@ class Db_registration_model extends CI_Model{
                     'description' => $this->input->post('description'),
                     'dbms' => $this->input->post('dbms'),
                     'db_host' => $this->input->post('host_name'),
+                    'db_port' => $this->input->post('port'),
                     'db_user' => $this->input->post('user_name'),
                     'db_passwd' => $this->input->post('password'),
                     'db_name' => $this->input->post('db_name')
@@ -43,6 +44,7 @@ class Db_registration_model extends CI_Model{
         return true;
 
     }
+
     public function update(){
         // CSRF対策
         // トランザクション開始
@@ -56,6 +58,7 @@ class Db_registration_model extends CI_Model{
                         'description' => $this->input->post('description'),
                         'dbms' => $this->input->post('dbms'),
                         'db_host' => $this->input->post('host_name'),
+                        'db_port' => $this->input->post('port'),
                         'db_user' => $this->input->post('user_name'),
                         'db_passwd' => $this->input->post('password'),
                         'db_name' => $this->input->post('db_name')

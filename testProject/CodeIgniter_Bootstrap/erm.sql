@@ -176,12 +176,4 @@ ALTER TABLE db_sql_relation
 ;
 
 
-ALTER TABLE authority
-	ADD FOREIGN KEY (user_id)
-	REFERENCES users (id)
-	ON UPDATE RESTRICT
-	ON DELETE RESTRICT
-;
-
-
 

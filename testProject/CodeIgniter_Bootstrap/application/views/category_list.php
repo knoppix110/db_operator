@@ -5,7 +5,7 @@
 table-hover 
 table-bordered
 table-condensed">
-<?php var_dump($category_list); ?>
+<?php //var_dump($category_list); ?>
 <th>カテゴリ</th>
 <?php foreach($category_list as $category_info): ?>
     <tr>

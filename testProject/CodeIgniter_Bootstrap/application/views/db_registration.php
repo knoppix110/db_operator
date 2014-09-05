@@ -35,22 +35,30 @@
               <input type="text" class="input-xlarge" id="input02" name="host_name" value="<?php echo $db_info['db_host'];?>">  
             </div>  
           </div>  
+
           <div class="control-group">  
-            <label class="control-label" for="input03">DB接続ユーザー名</label>  
+            <label class="control-label" for="input03">接続先Port</label>  
             <div class="controls">  
-              <input type="text" class="input-xlarge" id="input03" name="user_name" value="<?php echo $db_info['db_user'];?>">  
+              <input type="text" class="input-xlarge" id="input03" name="port" value="<?php echo $db_info['db_port'];?>">  
+            </div>  
+          </div>  
+
+          <div class="control-group">  
+            <label class="control-label" for="input04">DB接続ユーザー名</label>  
+            <div class="controls">  
+              <input type="text" class="input-xlarge" id="input04" name="user_name" value="<?php echo $db_info['db_user'];?>">  
             </div>  
           </div>  
           <div class="control-group">  
-            <label class="control-label" for="input04">DB接続パスワード</label>  
+            <label class="control-label" for="input05">DB接続パスワード</label>  
             <div class="controls">  
-              <input type="text" class="input-xlarge" id="input04" name="password" value="<?php echo $db_info['db_passwd'];?>">  
+              <input type="text" class="input-xlarge" id="input05" name="password" value="<?php echo $db_info['db_passwd'];?>">  
             </div>  
           </div>  
           <div class="control-group">  
-            <label class="control-label" for="input05">DB Name</label>  
+            <label class="control-label" for="input06">DB Name</label>  
             <div class="controls">  
-              <input type="text" class="input-xlarge" id="input05" name="db_name" value="<?php echo $db_info['db_name'];?>">  
+              <input type="text" class="input-xlarge" id="input06" name="db_name" value="<?php echo $db_info['db_name'];?>">  
             </div>  
           </div>  
           <div class="control-group">  

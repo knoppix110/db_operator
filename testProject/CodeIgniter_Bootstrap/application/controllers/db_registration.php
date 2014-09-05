@@ -22,6 +22,7 @@ class Db_registration extends Main_Controller
                                'description'=>'',
                                'dbms'=>'',
                                'db_host'=>'',
+                               'db_port'=>'',
                                'db_user'=>'',
                                'db_passwd'=>'',
                                'db_name'=>'');
