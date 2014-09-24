@@ -144,7 +144,13 @@ class Users extends CI_Model
      * @return bool
      */
     function is_table_empty(){
-        return $this->db->count_all($this->table_name);
+        $num=$this->db->count_all($this->table_name);
+
+        if($num==0){
+            return true;
+        }
+
+        return false;
     }
 
     /**

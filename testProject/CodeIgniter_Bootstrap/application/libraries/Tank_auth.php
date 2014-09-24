@@ -219,6 +219,11 @@ class Tank_auth
 		return ((strlen($username) > 0) AND $this->ci->users->is_username_available($username));
 	}
 
+    function get_all_users()
+    {
+        return $this->ci->users->get_all_users();
+    }
+
 	/**
 	 * Check if email available for registering.
 	 * Can be called for instant form validation.

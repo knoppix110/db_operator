@@ -2,15 +2,12 @@
 
 class Sql_execution extends Main_Controller
 {
-    private $data;
     function __construct() {
         parent::__construct();
         $this->load->model('db_search/sql_execution_model');
         $this->load->model('db_search/dba/db_info_model');
         $this->load->model('db_search/dba/authority_model');
         $this->load->helper('url');
-        $this->data['user_id']= $this->tank_auth->get_user_id();
-        $this->data['username']	= $this->tank_auth->get_username();
     }
 
     function index()
@@ -38,15 +35,19 @@ class Sql_execution extends Main_Controller
         /// 対象SQLに対してどの権限を持っているかを取得
         $auth_level=$this->authority_model->get_auth_level($this->tank_auth->get_user_id(),$sql_info['category_id']);
         
-        echo '</br>auth_level:'.$auth_level.'</br>';
+        log_message('debug','</br>auth_level:'.$auth_level.'</br>');
         
         $this->load->view('include/header',$this->data);
         if($auth_level>=1){ // 実行権限がある場合
             // model 実行
             $this->data['result']=$this->sql_execution_model->execute($this->input->post('sql_id'),$this->input->post('db_id'),$this->input->post('condition'));
+            log_message('debug',print_r($this->data['result'],true));
             //print_r($this->data['result']);
             $this->data['fields']=$this->sql_execution_model->list_fields();
+            log_message('debug',print_r($this->data['fields'],true));
             //print_r($this->data['fields']);
+            $db_info=$this->db_info_model->get_db_info_by_db_id($this->input->post('db_id'));
+            $this->data['target_db']=$db_info['display_name'];
             $this->load->view('sql_result',$this->data);
         }else{ // 権限がない場合
             $this->load->view('no_auth');

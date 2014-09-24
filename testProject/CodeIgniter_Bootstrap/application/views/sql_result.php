@@ -5,6 +5,9 @@
 table-hover 
 table-bordered
 table-condensed">
+<div class="alert alert-success">TargetDB  :  
+<b><?php echo $target_db; ?></b>
+</div>
 <?php foreach($fields as $field): ?>
     <th><?php echo $field; ?></th>
 <?php endforeach; ?>
@@ -17,5 +20,4 @@ table-condensed">
     </tr>
 <?php endforeach; ?>
 </table>
-
 

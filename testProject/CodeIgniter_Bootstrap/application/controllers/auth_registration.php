@@ -2,8 +2,6 @@
 
 class Auth_registration extends Main_Controller
 {
-    private $data;
-
     function __construct() {
         parent::__construct();
         $this->load->model('db_search/category_registration_model');
@@ -12,14 +10,10 @@ class Auth_registration extends Main_Controller
         $this->load->model('db_search/auth_registration_model');
         $this->load->model('tank_auth/users');
         $this->load->helper('url');
-        $this->data['user_id']	= $this->tank_auth->get_user_id();
-        $this->data['username']	= $this->tank_auth->get_username();
     }
 
     function index()
     {
-        echo "</br>admin::".$this->tank_auth->get_role()."</br>";
-
         if($this->tank_auth->get_role()=='admin'){
             // ユーザーリストとカテゴリリストを全部
             $this->data['categories']=$this->category_model->get_all();
@@ -27,6 +21,12 @@ class Auth_registration extends Main_Controller
         }else{
             // ユーザーリストは全部、カテゴリリストは自分が管理権限持っているもののみ取得
             $this->data['categories']=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
+            if(count($this->data['categories'])==0){
+                $this->load->view('include/header',$this->data);
+                $this->load->view('not_authorized');
+                $this->load->view('include/footer');
+                return;
+            }
             $this->data['users']=$this->users->get_all_users();
         }
         //print_r($this->data['categories']);
@@ -46,9 +46,15 @@ class Auth_registration extends Main_Controller
             foreach($category_rows as $row){
                 $authorized_categories[]=$row['category_name'];
             }
-            $this->data['auth_list']=$this->authority_model->get_auth_info_by_category($authorized_categories);
+            if(isset($authorized_categories)){
+                $this->data['auth_list']=$this->authority_model->get_auth_info_by_category($authorized_categories);
+            }else{
+                $this->load->view('include/header',$this->data);
+                $this->load->view('not_authorized');
+                $this->load->view('include/footer');
+                return;
+            }
         }
-
 
         $this->load->view('include/header',$this->data);
         $this->load->view('auth_list');

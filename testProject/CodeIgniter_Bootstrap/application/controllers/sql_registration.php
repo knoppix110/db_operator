@@ -2,19 +2,21 @@
 
 class Sql_registration extends Main_Controller
 {
-    private $data;
     function __construct() {
         parent::__construct();
         $this->load->model('db_search/sql_registration_model');
         $this->load->model('db_search/dba/db_sql_relation_model');
         $this->load->model('db_search/dba/category_model');
         $this->load->helper('url');
-        $this->data['user_id']	= $this->tank_auth->get_user_id();
-        $this->data['username']	= $this->tank_auth->get_username();
     }
 
     function index()
     {
+        if(!$this->has_authorizezd_categories()){
+            $this->load_not_authorized_view(); 
+            return false;
+        }
+
         // 自分のIDから、管理者権限のあるカテゴリを取得
         $this->data['category_list']=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
 
@@ -29,6 +31,7 @@ class Sql_registration extends Main_Controller
 
         // カテゴリIDからdb_listを取得する
         $this->data['dblist']=$this->sql_registration_model->get_available_db_list();
+
         $this->load->view('include/header',$this->data);
         $this->load->view('sql_registration', $this->data);
         $this->load->view('include/footer');

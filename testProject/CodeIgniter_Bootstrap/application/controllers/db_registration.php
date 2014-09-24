@@ -2,18 +2,25 @@
 
 class Db_registration extends Main_Controller
 {
-    private $data=array();
-
     function __construct() {
         parent::__construct();
         $this->load->model('db_search/db_registration_model');
         $this->load->helper('url');
-        $this->data['user_id']	= $this->tank_auth->get_user_id();
-        $this->data['username']	= $this->tank_auth->get_username();
     }
 
-    function index()
-    {
+    function index(){
+        $category_rows=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
+        // 単純な配列に詰め替え
+        foreach($category_rows as $row){
+            $authorized_categories[]=$row['category_name'];
+        }
+        if(!isset($authorized_categories)){
+            $this->load->view('include/header',$this->data);
+            $this->load->view('not_authorized');
+            $this->load->view('include/footer');
+            return;
+        }
+
         $this->data['category_list']=$this->db_registration_model->get_categories();
         // 新規登録なのでDB情報は空。編集処理の場合は値を入れる
         $this->data['db_info']=array('db_id'=>'',
@@ -78,7 +85,22 @@ class Db_registration extends Main_Controller
     }
 
     public function dblist(){
-        $this->data['db_list']=$this->db_registration_model->get_editable_dblist();
+        if($this->tank_auth->get_role()=='admin'){ // admin権限の場合、全リスト取得 
+            $this->data['db_list']=$this->db_registration_model->get_editable_dblist();
+        }else{ // それ以外の場合は権限があるカテゴリに関してのみデータ取得
+            $category_rows=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
+            foreach($category_rows as $row){
+                $authorized_categories[]=$row['category_name'];
+            }
+            if(isset($authorized_categories)){
+                $this->data['db_list']=$this->db_info->get_db_info_by_category($authorized_categories);
+            }else{
+                $this->load->view('include/header',$this->data);
+                $this->load->view('not_authorized');
+                $this->load->view('include/footer');
+                return;
+            }
+        }
 
         $this->load->view('include/header',$this->data);
         $this->load->view('dblist',$this->data);

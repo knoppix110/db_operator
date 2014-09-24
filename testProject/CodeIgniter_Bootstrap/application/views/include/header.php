@@ -49,6 +49,7 @@
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">アカウント管理<b class="caret"></b></a>
       <ul class="dropdown-menu">
 	  		<li><a href="<?php echo base_url('index.php/auth/register') ?>">アカウント登録</a></li>
+	  		<li><a href="<?php echo base_url('index.php/auth/account_list') ?>">アカウント一覧</a></li>
       </ul>
     </li>
 

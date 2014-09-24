@@ -105,6 +105,25 @@ class Auth extends Main_Controller
         $this->_show_message($this->lang->line('auth_message_logged_out'));
     }
 
+    function account_list(){
+
+        if ($this->tank_auth->get_role()!='admin') {
+            $this->data['user_id']  = $this->tank_auth->get_user_id();
+            $this->data['username'] = $this->tank_auth->get_username();
+            $this->load->view('include/header',$this->data);
+            $this->load->view('not_authorized', $this->data);
+            $this->load->view('include/footer');
+            return;
+        }
+        $this->data['account_list']=$this->tank_auth->get_all_users();
+        $this->data['user_id']  = $this->tank_auth->get_user_id();
+        $this->data['username'] = $this->tank_auth->get_username();
+        $this->load->view('include/header',$this->data);
+        $this->load->view('account_list', $this->data);
+        $this->load->view('include/footer');
+        log_message('debug',print_r($this->data['account_list'],true));
+    }
+
     /**
      * Register user on the site
      *
@@ -113,7 +132,13 @@ class Auth extends Main_Controller
     function register()
     {
         if ($this->tank_auth->get_role()!='admin') {									// logged in
-            redirect('');
+            //redirect('');
+            $this->data['user_id']  = $this->tank_auth->get_user_id();
+            $this->data['username'] = $this->tank_auth->get_username();
+            $this->load->view('include/header',$this->data);
+            $this->load->view('not_authorized', $this->data);
+            $this->load->view('include/footer');
+
 /*
         } elseif ($this->tank_auth->is_logged_in(FALSE)) {						// logged in, not activated
             redirect('/auth/send_again/');
@@ -121,6 +146,7 @@ class Auth extends Main_Controller
         } elseif (!$this->config->item('allow_registration', 'tank_auth')) {	// registration is off
             $this->_show_message($this->lang->line('auth_message_registration_disabled'));
 */
+
         } else {
             $use_username = $this->config->item('use_username', 'tank_auth');
             if ($use_username) {

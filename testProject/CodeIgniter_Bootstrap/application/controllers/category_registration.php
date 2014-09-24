@@ -2,8 +2,6 @@
 
 class Category_registration extends Main_Controller
 {
-    private $data;
-
     function __construct() {
         parent::__construct();
         $this->load->model('db_search/category_registration_model');
@@ -12,12 +10,17 @@ class Category_registration extends Main_Controller
         $this->load->model('db_search/dba/db_info_model');
         $this->load->model('db_search/dba/sql_info_model');
         $this->load->helper('url');
-        $this->data['user_id']	= $this->tank_auth->get_user_id();
-        $this->data['username']	= $this->tank_auth->get_username();
     }
 
     function index()
     {
+        if($this->tank_auth->get_role()!='admin'){
+            $this->load->view('include/header',$this->data);
+            $this->load->view('not_authorized');
+            $this->load->view('include/footer');
+            return;
+        }
+
         $this->load->view('include/header',$this->data);
         $this->load->view('category_registration');
         $this->load->view('include/footer');
@@ -79,3 +82,4 @@ class Category_registration extends Main_Controller
         
     }
 }
+
