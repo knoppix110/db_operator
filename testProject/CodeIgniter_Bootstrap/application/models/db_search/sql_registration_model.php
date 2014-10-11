@@ -1,4 +1,5 @@
 <?php
+
 class Sql_registration_model extends CI_Model{
 
     public function __construct()
@@ -36,7 +37,6 @@ class Sql_registration_model extends CI_Model{
     }
 
     public function register(){
-        print_r($_POST);
         // CSRF対策
 
         // トランザクション開始

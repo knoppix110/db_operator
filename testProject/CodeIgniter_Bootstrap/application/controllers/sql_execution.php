@@ -39,19 +39,30 @@ class Sql_execution extends Main_Controller
         
         $this->load->view('include/header',$this->data);
         if($auth_level>=1){ // 実行権限がある場合
-            // model 実行
+            // SQL 実行
             $this->data['result']=$this->sql_execution_model->execute($this->input->post('sql_id'),$this->input->post('db_id'),$this->input->post('condition'));
             log_message('debug',print_r($this->data['result'],true));
-            //print_r($this->data['result']);
+
+            // field取得
             $this->data['fields']=$this->sql_execution_model->list_fields();
             log_message('debug',print_r($this->data['fields'],true));
-            //print_r($this->data['fields']);
+
+            // DB情報の取得
             $db_info=$this->db_info_model->get_db_info_by_db_id($this->input->post('db_id'));
             $this->data['target_db']=$db_info['display_name'];
+
+            // 入力した条件を表示項目に追加
+            $this->data['conditions']=$this->input->post('conditions');
+
+            // 実行日時も表示項目に追加
+            $this->data['exec_date']=date('Y-m-d H:i:s');
+
             $this->load->view('sql_result',$this->data);
+
         }else{ // 権限がない場合
             $this->load->view('no_auth');
         }
+
         $this->load->view('include/footer');
        
     }
