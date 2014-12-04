@@ -27,7 +27,7 @@
                     <td><?php echo $sql_info['sql_text'];?></td>
                 </tr>
             </table>
-            <form class="well form-horizontal" style='width:800px;' action="<?php echo base_url('index.php/sql_execution/execute')?>" method="post"> 
+            <form class="thumbnail form-horizontal" style='width:800px;' action="<?php echo base_url('index.php/sql_execution/execute')?>" method="post"> 
                 <input type="hidden" name='sql_id' value='<?php echo $sql_info['sql_id'] ?>'>
                 <div class="control-group">  
                     <label class="control-label" for="input01">実行DB</label>  
@@ -44,9 +44,9 @@
                     foreach($conditions as $condition):
                 ?>
                 <div class="control-group">  
-                    <label class="control-label" for="condition"><?php echo $condition; ?></label>  
+                    <label class="control-label" for="conditions"><?php echo $condition; ?></label>  
                     <div class="controls">  
-                    <input type="text" class="input-xlarge" id="condition" name="condition[]"> 
+                    <input type="text" class="input-xlarge" id="conditions" name="conditions[]"> 
                     </div>  
                 </div>  
                 <?php

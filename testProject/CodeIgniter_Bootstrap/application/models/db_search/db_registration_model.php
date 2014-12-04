@@ -10,17 +10,28 @@ class Db_registration_model extends CI_Model{
         $this->load->model('db_search/dba/db_sql_relation_model');
     }
 
-    public function get_categories(){
-        $ary_obj_category=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
-        return $ary_obj_category;
-    }
-
-    public function register(){
+    public function register($_inserted_db_info){
         // CSRF対策
         // トランザクション開始
         $this->db->trans_start();
         // DB情報登録
-        $db_id = $this->db_info_model->insert(
+        if(isset($_inserted_db_info)){
+        echo $_inserted_db_info['display_name'];
+            $db_id = $this->db_info_model->insert(
+                array(
+                    'category_id' => $_inserted_db_info['category_id'],
+                    'display_name' => $_inserted_db_info['display_name'],
+                    'description' => $_inserted_db_info['description'],
+                    'dbms' => $_inserted_db_info['dbms'],
+                    'db_host' => $_inserted_db_info['db_host'],
+                    'db_port' => $_inserted_db_info['db_port'],
+                    'db_user' => $_inserted_db_info['db_user'],
+                    'db_passwd' => $_inserted_db_info['db_passwd'],
+                    'db_name' => $_inserted_db_info['db_name']
+                    )
+                );
+        }else{
+            $db_id = $this->db_info_model->insert(
                 array(
                     'category_id' => $this->input->post('category_id'),
                     'display_name' => $this->input->post('display_name'),
@@ -33,6 +44,7 @@ class Db_registration_model extends CI_Model{
                     'db_name' => $this->input->post('db_name')
                     )
                 );
+        }
 
         // トランザクション終了
         $this->db->trans_complete();
@@ -75,6 +87,7 @@ class Db_registration_model extends CI_Model{
         return true;
 
     }
+
     public function delete($_db_id){
         // CSRF対策
         // トランザクション開始
@@ -97,17 +110,6 @@ class Db_registration_model extends CI_Model{
         } 
         return true;
 
-    }
-
-
-
-    public function get_editable_dblist(){
-        $res=$this->db_info_model->get_dbs_by_uid($this->tank_auth->get_user_id(),2);
-        return $res;
-    }
-
-    public function get_db_info($_db_id){
-        return $this->db_info_model->get_db_info_by_db_id($_db_id);
     }
 
 }

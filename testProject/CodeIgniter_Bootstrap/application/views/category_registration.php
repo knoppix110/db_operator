@@ -7,7 +7,7 @@
 </head>  
 <body>  
 <div class="container">
-<form class="well form-horizontal" style='width:800px;' action="<?php echo base_url('index.php/category_registration/register')?>" method="post">  
+<form class="thumbnail form-horizontal" style='width:800px;' action="<?php echo base_url('index.php/category_registration/register')?>" method="post">  
         <fieldset>  
           <legend>カテゴリ登録画面</legend>  
           <div class="control-group">  

@@ -14,12 +14,7 @@ class Category_registration extends Main_Controller
 
     function index()
     {
-        if($this->tank_auth->get_role()!='admin'){
-            $this->load->view('include/header',$this->data);
-            $this->load->view('not_authorized');
-            $this->load->view('include/footer');
-            return;
-        }
+        if($this->is_unauthorized_user()){ return; }
 
         $this->load->view('include/header',$this->data);
         $this->load->view('category_registration');
@@ -27,6 +22,8 @@ class Category_registration extends Main_Controller
     }
 
     function register(){
+        if($this->is_unauthorized_user()){ return; }
+
         /*
            echo $this->input->post('category_id');
            echo $this->input->post('category_id');
@@ -49,6 +46,8 @@ class Category_registration extends Main_Controller
     }
 
     function delete(){
+        if($this->is_unauthorized_user()){ return; }
+
         // 権限のあるカテゴリを取得
         $category=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2,$this->input->get('category_id'));
         // 削除対象のカテゴリに対して権限があった場合
@@ -70,6 +69,8 @@ class Category_registration extends Main_Controller
     }
 
     function category_list(){
+        if($this->is_unauthorized_user()){ return; }
+
         if($this->tank_auth->get_role()=='admin'){ // admin権限の場合、全リスト取得
             // カテゴリリストを全部
             $this->data['category_list']=$this->category_model->get_all();

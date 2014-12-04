@@ -66,4 +66,16 @@ class Category_model extends CI_Model {
         return $query->result_array();
     }
 
+    public function get_editable_categories(){
+        $category_rows=$this->get_all_by_user_id($this->tank_auth->get_user_id(),2);
+
+        $authorized_categories=array();
+        foreach($category_rows as $row){ // 詰替え
+            $authorized_categories[]=$row['category_name'];
+        } 
+
+        return $authorized_categories;
+    }
+
+
 }

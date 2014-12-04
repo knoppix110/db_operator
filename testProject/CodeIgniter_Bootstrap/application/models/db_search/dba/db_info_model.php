@@ -73,6 +73,13 @@ class Db_info_model extends CI_Model {
         return $res->row_array();
     }
 
+    public function get_db_info_by_category_id($_category_id){
+        $this->db->select('*');
+        $this->db->where_in('category_id',$_category_id);
+        $res=$this->db->get('db_info');
+        return $res->result_array();
+    }
+
     public function get_db_info_by_sql_id($_sql_id){
         $this->db->select('db_info.db_id,display_name');
         $this->db->from('db_sql_relation');
@@ -104,6 +111,14 @@ class Db_info_model extends CI_Model {
         $res=$this->db->query($sql,array($_user_id,$_auth_level));
         return $res->result_array();
     }
+
+    public function get_editable_dblist(){
+        $res=$this->get_dbs_by_uid($this->tank_auth->get_user_id(),2);
+        return $res;
+    }
+
+
+
 
 
 }

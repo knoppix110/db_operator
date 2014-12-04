@@ -2,26 +2,19 @@
 
 class Db_registration extends Main_Controller
 {
-    function __construct() {
+
+    public function __construct() {
         parent::__construct();
         $this->load->model('db_search/db_registration_model');
         $this->load->helper('url');
     }
 
-    function index(){
-        $category_rows=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
-        // 単純な配列に詰め替え
-        foreach($category_rows as $row){
-            $authorized_categories[]=$row['category_name'];
-        }
-        if(!isset($authorized_categories)){
-            $this->load->view('include/header',$this->data);
-            $this->load->view('not_authorized');
-            $this->load->view('include/footer');
-            return;
-        }
+    public function index(){
+        if($this->is_unauthorized_user()){ return; }
 
-        $this->data['category_list']=$this->db_registration_model->get_categories();
+        $this->data['category_list']=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
+        //$this->data['category_list']=$this->category_model->get_editable_categories();
+
         // 新規登録なのでDB情報は空。編集処理の場合は値を入れる
         $this->data['db_info']=array('db_id'=>'',
                                'category_id'=>'',
@@ -39,7 +32,9 @@ class Db_registration extends Main_Controller
         $this->load->view('include/footer');
     }
 
-    function register(){
+    public function register(){
+        if($this->is_unauthorized_user()){ return; }
+
         // Form Valication 使う？（とりあえず面倒だから保留）
 
         // Model呼び出し
@@ -54,7 +49,27 @@ class Db_registration extends Main_Controller
         }
     }
 
-    function update(){
+    public function copy(){
+        if($this->is_unauthorized_user()){ return; }
+
+        $db_info=$this->db_info_model->get_db_info_by_db_id($this->input->get('db_id'));
+        $db_info['display_name']='Copy Of '.$db_info['display_name'];
+
+        // Model呼び出し
+        $res=$this->db_registration_model->register($db_info);
+        
+        if($res==false){
+            $this->load->view('include/header',$this->data);
+            echo "request failed";
+            $this->load->view('include/footer');
+        }else{
+            redirect(base_url('index.php/db_registration/dblist'));
+        }
+
+    }
+
+    public function update(){
+        if($this->is_unauthorized_user()){ return; }
         // Form Valication 使う？（とりあえず面倒だから保留）
 
         // Model呼び出し
@@ -69,7 +84,8 @@ class Db_registration extends Main_Controller
         }
     }
 
-    function delete(){
+    public function delete(){
+        if($this->is_unauthorized_user()){ return; }
         // Form Valication 使う？（とりあえず面倒だから保留）
 
         // Model呼び出し
@@ -85,22 +101,9 @@ class Db_registration extends Main_Controller
     }
 
     public function dblist(){
-        if($this->tank_auth->get_role()=='admin'){ // admin権限の場合、全リスト取得 
-            $this->data['db_list']=$this->db_registration_model->get_editable_dblist();
-        }else{ // それ以外の場合は権限があるカテゴリに関してのみデータ取得
-            $category_rows=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
-            foreach($category_rows as $row){
-                $authorized_categories[]=$row['category_name'];
-            }
-            if(isset($authorized_categories)){
-                $this->data['db_list']=$this->db_info->get_db_info_by_category($authorized_categories);
-            }else{
-                $this->load->view('include/header',$this->data);
-                $this->load->view('not_authorized');
-                $this->load->view('include/footer');
-                return;
-            }
-        }
+        if($this->is_unauthorized_user()){ return; }
+        // adminは所属カテゴリ以外も全部取得
+        $this->data['db_list']=$this->db_info_model->get_editable_dblist();
 
         $this->load->view('include/header',$this->data);
         $this->load->view('dblist',$this->data);
@@ -108,14 +111,17 @@ class Db_registration extends Main_Controller
     }
 
     public function show_edit(){
+        if($this->is_unauthorized_user()){ return; }
+        
         $this->data['category_list']=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
-
-        $this->data['db_info']=$this->db_registration_model->get_db_info($this->input->get('db_id'));
+        
+        $this->data['db_info']=$this->db_info_model->get_db_info_by_db_id($this->input->get('db_id'));
         $this->data['action']='index.php/db_registration/update';
         //var_dump($this->data);
-
+        
         $this->load->view('include/header',$this->data);
         $this->load->view('db_registration',$this->data);
         $this->load->view('include/footer');
     }
 }
+

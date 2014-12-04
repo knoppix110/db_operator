@@ -60,18 +60,16 @@ class Auth extends Main_Controller
 
             if ($this->form_validation->run()) {								// validation ok
                 if ($this->tank_auth->login(
-                            $this->form_validation->set_value('login'),
-                            $this->form_validation->set_value('password'),
-                            $this->form_validation->set_value('remember'),
-                            $data['login_by_username'],
-                            $data['login_by_email'])) {								// success
+                    $this->form_validation->set_value('login'),
+                    $this->form_validation->set_value('password'),
+                    $this->form_validation->set_value('remember'),
+                    $data['login_by_username'],
+                    $data['login_by_email'])) {								// success
                     redirect('/frontpage');
-
                 } else {
                     $errors = $this->tank_auth->get_error_message();
                     if (isset($errors['banned'])) {								// banned user
                         $this->_show_message($this->lang->line('auth_message_banned').' '.$errors['banned']);
-
                     } elseif (isset($errors['not_activated'])) {				// not activated user
                         redirect('/auth/send_again/');
 

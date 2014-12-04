@@ -7,7 +7,7 @@
 </head>  
 <body>  
 <div class="container">
-<form class="well form-horizontal" style='width:800px;' action="<?php echo base_url($action)?>" method="post">  
+<form class="thumbnail form-horizontal" style='width:800px;' action="<?php echo base_url($action)?>" method="post">  
         <input type="hidden" name="db_id" value="<?php echo $db_info['db_id']; ?>">
         <fieldset>  
           <legend>DB登録画面</legend>  

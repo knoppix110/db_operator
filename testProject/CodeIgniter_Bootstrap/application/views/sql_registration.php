@@ -10,16 +10,17 @@ $(function(){
         var i=<?php echo count($sql_info['conditions'])+1;?>
         
         $('#add_btn').click( function (){
-            $("#condition").append('<div class="control-group">');
-            $("#condition div:last").append('  <label class="control-label" for="input_cond'+i+'">条件項目名'+i+'</label>');
-            $("#condition div:last").append('  <div class="controls">');
-            $("#condition div:last").append('    <input type="text" class="input-xlarge" id="input_cond'+i+'" name="condition[]"> ');
+            $("#condition:last").append('    <tr style="width:400px">');
+            $("#condition tr:last").append('      <td>'+i+'</td>');
+            $("#condition tr:last").append('      <td><input type="text" class="input-medium" id="input_cond'+i+'" name="condition[]" value="">');
+            $("#condition tr:last").append('      <td>text</td>');
+            $("#condition tr:last").append('      <td>independant</td>');
             i++;
+
         });
 
         $('#del_btn').click( function (){
-            $("#condition div:last").remove();
-            $("#condition div:last").remove();
+            $("#condition tr:last").remove();
             if(i>1) i--;
         });
 
@@ -28,8 +29,8 @@ $(function(){
 </script>
 </head>  
 <body>  
-<div class="container">
-<form id="form1" class="well form-horizontal" style='width:800px;' action="<?php echo base_url($action)?>" method="post">  
+<div class="container"> 
+<form id="form1" class="thumbnail form-horizontal" style='width:800px;' action="<?php echo base_url($action)?>" method="post">  
         <input type="hidden" name="sql_id" value="<?php echo $sql_info['sql_id']; ?>">
         <fieldset>  
           <legend>SQL登録</legend>  
@@ -59,9 +60,33 @@ $(function(){
           <div class="control-group">  
             <label class="control-label" for="input03">SQL</label>  
             <div class="controls">  
-              <textarea class="input-xlarge" rows="4" id="input03" name="sql_text" style="width:400px;"><?php echo $sql_info['sql_text'];?></textarea>
+              <textarea class="input-xlarge" rows="4" id="input03" name="sql_text" style="width:500px;height:150px"><?php echo $sql_info['sql_text'];?></textarea>
             </div>  
           </div>  
+
+          <table id="condition" class="table table-bordered table-condensed" align='center' style="background-color:#eeeeee; border-color:#999;" >
+            <tr><th>条件項目#</th><th>項目名</th><th>type（text/date)</th><th>必須条件(checkbox)</th></tr>
+            <?php 
+                if($sql_info['conditions'] != null):
+                foreach($sql_info['conditions'] as $k=>$v):
+            ?>
+            <tr style='width:400px'>
+              <td><?php echo $k+1;?></td>
+              <td>
+                <input type="text" class="input-large" id="input_cond<?php echo $k;?>" name="condition[]" value="<?php echo $v;?>">
+              </td>
+              <td>text</td>
+              <td>independant</td>
+              <td>
+                <input type="button" id="del_btn" class="btn btn-danger" value="削除"></input>
+              </td>
+            </tr>
+            <?php 
+                endforeach;
+                endif;
+            ?>
+          </table>
+
           <div id="condition">  
             <?php 
                 if($sql_info['conditions'] != null):
@@ -89,7 +114,7 @@ $(function(){
          	<label class="control-label" for="listbox01">SQL実行先DB (#2)</label>
             <br>
          	<div class="controls" style='width:400px;'>
-                <select multiple="multiple" size="6" name="db_list[]" >
+                <select multiple="multiple" size="10" name="db_list[]" >
                 <?php foreach($dblist as $row): ?>
                     <option value="<?php echo $row['db_display_name'];?>" <?php echo  $row['selected'];?>><?php echo $row['db_display_name'];?></option>
                 <?php endforeach; ?>

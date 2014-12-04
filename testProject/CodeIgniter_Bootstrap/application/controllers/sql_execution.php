@@ -16,7 +16,9 @@ class Sql_execution extends Main_Controller
         $this->data['sql_info']=$this->sql_execution_model->index($this->input->get('sql_id'));
         $auth_level=$this->authority_model->get_auth_level($this->tank_auth->get_user_id(),$this->data['sql_info']['category_id']);
         $this->data['db_info_list']=$this->db_info_model->get_db_info_by_sql_id($this->input->get('sql_id'));
-        
+        $this->data['sql_info']['sql_text']=str_replace("\n",'</br>',$this->data['sql_info']['sql_text']);
+        $this->data['sql_info']['sql_text']=preg_replace('/<\/br>\s{2,}([^<]+)/','<dd>\1</dd>',$this->data['sql_info']['sql_text']);
+
         $this->load->view('include/header',$this->data);
         if($auth_level>=1){
             $this->load->view('sql_execution',$this->data);
@@ -29,10 +31,10 @@ class Sql_execution extends Main_Controller
 
     function execute(){
         // 妥当性のチェック（所属カテゴリに対して権限を持ってるか）
-        /// 対象のSQL情報を取得
+        //// 対象のSQL情報を取得
         $sql_info=$this->sql_info_model->get_sql_info_by_sql_id($this->input->post('sql_id')); 
         log_message('debug',print_r($sql_info,true));
-        /// 対象SQLに対してどの権限を持っているかを取得
+        //// 対象SQLに対してどの権限を持っているかを取得
         $auth_level=$this->authority_model->get_auth_level($this->tank_auth->get_user_id(),$sql_info['category_id']);
         
         log_message('debug','</br>auth_level:'.$auth_level.'</br>');
@@ -40,7 +42,10 @@ class Sql_execution extends Main_Controller
         $this->load->view('include/header',$this->data);
         if($auth_level>=1){ // 実行権限がある場合
             // SQL 実行
-            $this->data['result']=$this->sql_execution_model->execute($this->input->post('sql_id'),$this->input->post('db_id'),$this->input->post('condition'));
+            $ary_res=$this->sql_execution_model->execute($this->input->post('sql_id'),$this->input->post('db_id'),$this->input->post('conditions'));
+            $this->data['result']=$ary_res[0];  // true or false
+            $this->data['records']=$ary_res[1]; // エラー時はエラーメッセージが代入される
+            
             log_message('debug',print_r($this->data['result'],true));
 
             // field取得

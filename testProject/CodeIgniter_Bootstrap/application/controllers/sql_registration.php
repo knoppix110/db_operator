@@ -12,10 +12,7 @@ class Sql_registration extends Main_Controller
 
     function index()
     {
-        if(!$this->has_authorizezd_categories()){
-            $this->load_not_authorized_view(); 
-            return false;
-        }
+        if($this->is_unauthorized_user()){ return; }
 
         // 自分のIDから、管理者権限のあるカテゴリを取得
         $this->data['category_list']=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
@@ -38,6 +35,7 @@ class Sql_registration extends Main_Controller
     }
 
     function register(){
+        if($this->is_unauthorized_user()){ return; }
 
         // Model呼び出し
         $res=$this->sql_registration_model->register();
@@ -52,6 +50,7 @@ class Sql_registration extends Main_Controller
     }
 
     function update(){
+        if($this->is_unauthorized_user()){ return; }
         // Form Valication 使う？（とりあえず面倒だから保留）
 
         // Model呼び出し
@@ -67,6 +66,7 @@ class Sql_registration extends Main_Controller
     }
 
     function delete(){
+        if($this->is_unauthorized_user()){ return; }
         // Form Valication 使う？（とりあえず面倒だから保留）
 
         // Model呼び出し
@@ -82,6 +82,7 @@ class Sql_registration extends Main_Controller
     }
 
     public function sqllist(){
+        if($this->is_unauthorized_user()){ return; }
         $this->data['sql_list']=$this->sql_registration_model->get_editable_sqllist();
 
         $this->load->view('include/header',$this->data);
@@ -90,6 +91,8 @@ class Sql_registration extends Main_Controller
     }
 
     public function show_edit(){
+        if($this->is_unauthorized_user()){ return; }
+
         $this->data['category_list']=$this->category_model->get_all_by_user_id($this->tank_auth->get_user_id(),2);
         $this->data['dblist']=$this->sql_registration_model->get_available_db_list();
         $this->data['selected_dblist']=$this->db_sql_relation_model->get_all_by_sql_id($this->input->get('sql_id'));

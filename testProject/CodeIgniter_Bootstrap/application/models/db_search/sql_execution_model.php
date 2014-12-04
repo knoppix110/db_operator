@@ -31,7 +31,9 @@ class Sql_execution_model extends CI_Model{
         $targetDB=$this->load->database($this->create_dsn($db_info),TRUE);
         $result=$targetDB->query($sql_info['sql_text'],$_cond);
 
-    	//var_dump($result);
+        if(!$result){
+            return array(false,$targetDB->_error_message());
+        }
         
         //print_r($db_info);
         //print_r($sql_info);
@@ -39,7 +41,7 @@ class Sql_execution_model extends CI_Model{
         //var_dump($res->result_array());
 
         $this->fields=$result->list_fields();
-        return $result->result_array();
+        return array(true,$result->result_array());
     }
 
     public function list_fields(){

@@ -7,7 +7,7 @@
 </head>  
 <body>  
 <div class="container">
-<form class="well form-horizontal" style='width:800px;' action="<?php echo base_url('index.php/auth_registration/register')?>" method="post">  
+<form class="ghumbnail form-horizontal" style='width:800px;' action="<?php echo base_url('index.php/auth_registration/register')?>" method="post">  
         <fieldset>  
           <legend>権限付与画面</legend>  
           カテゴリ単位で他ユーザに権限付与する事が出来ます。</br>
@@ -17,7 +17,7 @@
               <label class="control-label" for="listbox01">対象ユーザー</label>
               <br>
               <div class="controls" style='width:400px;'>
-                  <select multiple="multiple" size="6" name="user_list[]" >
+                  <select multiple="multiple" size="10" name="user_list[]" >
                   <?php foreach($users as $user):?>
                     <option value="<?php echo $user['id'];?>"><?php echo $user['username'];?></option>
                   <?php endforeach;?>
@@ -36,7 +36,7 @@
               <label class="control-label" for="listbox01">対象カテゴリ</label>
               <br>
               <div class="controls" style='width:400px;'>
-                  <select multiple="multiple" size="6" name="category_list[]" >
+                  <select multiple="multiple" size="10" name="category_list[]" >
                   <?php foreach($categories as $category):?>
                     <option value="<?php echo $category['category_id'];?>"><?php echo $category['category_name'];?></option>
                   <?php endforeach;?>
