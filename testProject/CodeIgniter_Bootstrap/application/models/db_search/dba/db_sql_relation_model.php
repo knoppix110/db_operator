@@ -30,11 +30,16 @@ class Db_sql_relation_model extends CI_Model {
         return $res;
     }
 
-    public function delete($_ary)
+    public function delete_by_db_id($_db_id)
     {
-        // 片方のIDのみ指定、両方のIDが指定された場合はand検索
-        if(isset($_ary['sql_id']))$this->db->where('sql_id',$_ary['sql_id']);
-        if(isset($_ary['db_id']))$this->db->where('db_id',$_ary['db_id']);
+        $this->db->where('db_id',$_db_id);
+        $res=$this->db->delete('db_sql_relation');
+        return $res;
+    }
+
+    public function delete_by_sql_id($_sql_id)
+    {
+        $this->db->where('sql_id',$_sql_id);
         $res=$this->db->delete('db_sql_relation');
         return $res;
     }

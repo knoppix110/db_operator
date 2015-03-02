@@ -11,6 +11,7 @@ class Sql_registration_model extends CI_Model{
         $this->load->model('db_search/dba/category_model');
         $this->load->model('db_search/dba/db_sql_relation_model');
         $this->load->model('db_search/dba/category_model');
+        $this->load->model('db_search/dba/conditions_model');
     }
 
     public function get_category_by_user_id($_user_id){
@@ -36,25 +37,42 @@ class Sql_registration_model extends CI_Model{
         return $dblist;
     }
 
-    public function register(){
+    public function register($_post_data){
         // CSRF対策
 
         // トランザクション開始
         $this->db->trans_start();
 
         // SQLの条件項目を取得＆Json Encodeする
-        $conditions=json_encode($this->input->post('condition'));
+        #$conditions=json_encode($this->input->post('condition'));
 
         // SQL情報登録
         $sql_id = $this->sql_info_model->insert(
-                array(
-                    'category_id' => $this->input->post('category_id'),
-                    'display_name' => $this->input->post('display_name'),
-                    'description' => $this->input->post('description'),
-                    'sql_text' => $this->input->post('sql_text'),
-                    'conditions' => $conditions,
-                    )
-                );
+            array(
+                'category_id' => $_post_data['category_id'],
+                'display_name' => $_post_data['display_name'],
+                'description' => $_post_data['description'],
+                'sql_text' => $_post_data['sql_text'],
+            )
+        );
+
+        // Condition情報登録
+        for($i=0; $i<count($_post_data['condition_name']); $i++){
+            // echo $i;
+            $this->conditions_model->insert(
+                 array(
+                    'sql_id' => $sql_id,
+                    'condition_id' => $i+1,
+                    'location_no' => $_post_data['location_no'][$i],
+                    'condition_name' => $_post_data['condition_name'][$i],
+                    'column_name' => $_post_data['column_name'][$i],
+                    'rel_operator' => $_post_data['rel_operator'][$i],
+                    'type' => $_post_data['type'][$i],
+                    'removable' => $_post_data['removable'][$i],
+                    'connector' => $_post_data['connector'][$i],
+                )
+            );
+        }
 
         ////// DB_NAMEからDB_IDを取得	
         $db_ids=$this->db_info_model->get_id_by_name($this->input->post('db_list'));
@@ -78,34 +96,50 @@ class Sql_registration_model extends CI_Model{
         return true;
     }
 
-     public function update(){
+    public function update($_post_data){
         // CSRF対策
 
         // トランザクション開始
         $this->db->trans_start();
 
-        // SQLの条件項目を取得＆Json Encodeする
-        $conditions=json_encode($this->input->post('condition'));
-
         // SQL情報登録
         $this->sql_info_model->update(
-            $this->input->post('sql_id'),
+            $_post_data['sql_id'],
             array(
                 'category_id' => $this->input->post('category_id'),
                 'display_name' => $this->input->post('display_name'),
                 'description' => $this->input->post('description'),
                 'sql_text' => $this->input->post('sql_text'),
-                'conditions' => $conditions,
             )
         );
+
+        // Condition情報を一度削除
+        $this->conditions_model->delete_by_sql_id($_post_data['sql_id']);
+        
+        // Condition情報登録
+        for($i=0; $i<count($_post_data['condition_name']); $i++){
+            echo $i;
+            $this->conditions_model->insert(
+                 array(
+                    'sql_id' => $_post_data['sql_id'],
+                    'condition_id' => $i+1,
+                    'location_no' => $_post_data['location_no'][$i],
+                    'condition_name' => $_post_data['condition_name'][$i],
+                    'column_name' => $_post_data['column_name'][$i],
+                    'rel_operator' => $_post_data['rel_operator'][$i],
+                    'type' => $_post_data['type'][$i],
+                    'removable' => $_post_data['removable'][$i],
+                    'connector' => $_post_data['connector'][$i],
+                )
+            );
+        }
+
 
         ////// DB_NAMEからDB_IDを取得	
         $db_ids=$this->db_info_model->get_id_by_name($this->input->post('db_list'));
 
         // 一度関連対象SQL-IDのリレーション情報を削除
-        $this->db_sql_relation_model->delete(
-            array('sql_id'=>$this->input->post('sql_id'))
-        );
+        $this->db_sql_relation_model->delete_by_sql_id( $this->input->post('sql_id') );
 
         // DB-SQLリレーション情報登録（既に存在するレコードは上書き）
         foreach($db_ids as $db_id){
@@ -140,6 +174,9 @@ class Sql_registration_model extends CI_Model{
         
         // SQL情報削除
         $res=$this->sql_info_model->delete_by_sql_id($_sql_id);
+
+        // Condition情報削除
+        $this->conditions_model->delete_by_sql_id($_sql_id);
         
         // トランザクション終了
         $this->db->trans_complete();

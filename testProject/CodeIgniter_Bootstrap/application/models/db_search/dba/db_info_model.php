@@ -65,6 +65,12 @@ class Db_info_model extends CI_Model {
         return $res->result_array();	
     }
 
+    public function get_id_by_category_id($_category_id){
+        $this->db->select('db_id');
+        $this->db->where_in('category_id',$_category_id);	
+        $res=$this->db->get('db_info');
+        return $res->result_array();	
+    }
 
     public function get_db_info_by_db_id($_db_id){
         $this->db->select('*');

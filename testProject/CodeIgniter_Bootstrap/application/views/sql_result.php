@@ -1,16 +1,35 @@
-<br><br>
 <script type="text/javascript">
 </script>
+<div style="margin-left:30px">
+<div class="alert alert-success">TargetDB  :  
+<b><?php echo $target_db; ?></b>
+</div>
+<b>入力</b>
+<table class="table table-bordered" style="width:400px">
+<tr>
+    <th>条件名</th>
+    <th>入力値</th>
+</tr>
+<?php 
+    if(count($your_inputs)>0):
+    foreach($your_inputs as $name=>$value): 
+?>
+
+<tr>
+    <td><?php print($name);?></td>
+    <td><?php print($value);?></td>
+</tr>
+<?php 
+    endforeach; 
+    endif;
+?>
+</table>
+
+<b>結果</b>
 <table id="list" class="table table-bordered table-striped
 table-hover 
 table-bordered
 table-condensed">
-<div class="alert alert-success">TargetDB  :  
-<b><?php echo $target_db; ?></b>
-</div>
-    <?php foreach($conditions as $condition): ?>
-        <?php print($condition);?>
-    <?php endforeach; ?>
 <?php if($result): ?>
     <?php foreach($fields as $field): ?>
         <th><?php echo $field; ?></th>
@@ -29,3 +48,5 @@ table-condensed">
 <?php endif; ?>
 </table>
 
+
+</div>

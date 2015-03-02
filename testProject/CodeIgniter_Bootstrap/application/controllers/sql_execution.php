@@ -7,6 +7,7 @@ class Sql_execution extends Main_Controller
         $this->load->model('db_search/sql_execution_model');
         $this->load->model('db_search/dba/db_info_model');
         $this->load->model('db_search/dba/authority_model');
+        $this->load->model('db_search/dba/conditions_model');
         $this->load->helper('url');
     }
 
@@ -18,7 +19,11 @@ class Sql_execution extends Main_Controller
         $this->data['db_info_list']=$this->db_info_model->get_db_info_by_sql_id($this->input->get('sql_id'));
         $this->data['sql_info']['sql_text']=str_replace("\n",'</br>',$this->data['sql_info']['sql_text']);
         $this->data['sql_info']['sql_text']=preg_replace('/<\/br>\s{2,}([^<]+)/','<dd>\1</dd>',$this->data['sql_info']['sql_text']);
-
+        $this->data['sql_info']['description']=str_replace("\n",'</br>',$this->data['sql_info']['description']);
+        $this->data['sql_info']['description']=preg_replace('/<\/br>\s{2,}([^<]+)/','<dd>\1</dd>',$this->data['sql_info']['description']);
+        
+        $this->data['conditions']=$this->sql_execution_model->get_conditions_for_preview($this->input->get('sql_id'));
+        
         $this->load->view('include/header',$this->data);
         if($auth_level>=1){
             $this->load->view('sql_execution',$this->data);
@@ -30,17 +35,18 @@ class Sql_execution extends Main_Controller
     }
 
     function execute(){
-        // 妥当性のチェック（所属カテゴリに対して権限を持ってるか）
+
         //// 対象のSQL情報を取得
         $sql_info=$this->sql_info_model->get_sql_info_by_sql_id($this->input->post('sql_id')); 
         log_message('debug',print_r($sql_info,true));
+
         //// 対象SQLに対してどの権限を持っているかを取得
         $auth_level=$this->authority_model->get_auth_level($this->tank_auth->get_user_id(),$sql_info['category_id']);
         
         log_message('debug','</br>auth_level:'.$auth_level.'</br>');
         
         $this->load->view('include/header',$this->data);
-        if($auth_level>=1){ // 実行権限がある場合
+        if($auth_level>=1){ // 実行権限(auth_level=1)がある場合
             // SQL 実行
             $ary_res=$this->sql_execution_model->execute($this->input->post('sql_id'),$this->input->post('db_id'),$this->input->post('conditions'));
             $this->data['result']=$ary_res[0];  // true or false
@@ -57,7 +63,7 @@ class Sql_execution extends Main_Controller
             $this->data['target_db']=$db_info['display_name'];
 
             // 入力した条件を表示項目に追加
-            $this->data['conditions']=$this->input->post('conditions');
+            $this->data['your_inputs']=$this->sql_execution_model->get_name_value_list();
 
             // 実行日時も表示項目に追加
             $this->data['exec_date']=date('Y-m-d H:i:s');

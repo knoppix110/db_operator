@@ -16,7 +16,7 @@ class Db_registration_model extends CI_Model{
         $this->db->trans_start();
         // DB情報登録
         if(isset($_inserted_db_info)){
-        echo $_inserted_db_info['display_name'];
+            echo $_inserted_db_info['display_name'];
             $db_id = $this->db_info_model->insert(
                 array(
                     'category_id' => $_inserted_db_info['category_id'],
@@ -28,8 +28,8 @@ class Db_registration_model extends CI_Model{
                     'db_user' => $_inserted_db_info['db_user'],
                     'db_passwd' => $_inserted_db_info['db_passwd'],
                     'db_name' => $_inserted_db_info['db_name']
-                    )
-                );
+                )
+            );
         }else{
             $db_id = $this->db_info_model->insert(
                 array(
@@ -42,8 +42,8 @@ class Db_registration_model extends CI_Model{
                     'db_user' => $this->input->post('user_name'),
                     'db_passwd' => $this->input->post('password'),
                     'db_name' => $this->input->post('db_name')
-                    )
-                );
+                )
+            );
         }
 
         // トランザクション終了

@@ -7,6 +7,7 @@ class Sql_registration extends Main_Controller
         $this->load->model('db_search/sql_registration_model');
         $this->load->model('db_search/dba/db_sql_relation_model');
         $this->load->model('db_search/dba/category_model');
+        $this->load->model('db_search/dba/conditions_model');
         $this->load->helper('url');
     }
 
@@ -35,10 +36,10 @@ class Sql_registration extends Main_Controller
     }
 
     function register(){
-        if($this->is_unauthorized_user()){ return; }
+        $post_data=$this->input->post();
 
         // Model呼び出し
-        $res=$this->sql_registration_model->register();
+        $res=$this->sql_registration_model->register($post_data);
 
         if($res==false){
             $this->load->view('include/header',$this->data);
@@ -50,11 +51,11 @@ class Sql_registration extends Main_Controller
     }
 
     function update(){
-        if($this->is_unauthorized_user()){ return; }
         // Form Valication 使う？（とりあえず面倒だから保留）
+        $post_data=$this->input->post();
 
         // Model呼び出し
-        $res=$this->sql_registration_model->update();
+        $res=$this->sql_registration_model->update($post_data);
 
         if($res==false){
             $this->load->view('include/header',$this->data);
@@ -66,7 +67,6 @@ class Sql_registration extends Main_Controller
     }
 
     function delete(){
-        if($this->is_unauthorized_user()){ return; }
         // Form Valication 使う？（とりあえず面倒だから保留）
 
         // Model呼び出し
@@ -98,9 +98,11 @@ class Sql_registration extends Main_Controller
         $this->data['selected_dblist']=$this->db_sql_relation_model->get_all_by_sql_id($this->input->get('sql_id'));
 
         $this->data['sql_info']=$this->sql_registration_model->get_sql_info($this->input->get('sql_id'));
-        $this->data['sql_info']['conditions']=json_decode($this->data['sql_info']['conditions']);
-        if($this->data['sql_info']['conditions']==false)$this->data['sql_info']['conditions']=null;
+        //$this->data['sql_info']['conditions']=json_decode($this->data['sql_info']['conditions']);
+        //if($this->data['sql_info']['conditions']==false)$this->data['sql_info']['conditions']=null;
+        $this->data['conditions']=$this->conditions_model->get_by_sql_id($this->input->get('sql_id'));
         $this->data['action']='index.php/sql_registration/update';
+        //var_dump($this->data['conditions']);
 
         log_message('debug',print_r($this->data,true));
 

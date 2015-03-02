@@ -57,7 +57,12 @@ class Category_registration extends Main_Controller
             $this->authority_model->delete_by_category_id($this->input->get('category_id'));
             
             // カテゴリに紐づくdb_idとsql_idを削除
-            $this->db_sql_relation_model->delete_by_category_id($this->input->get('category_id'));
+            $db_info_list=$this->db_info_model->get_id_by_category_id($this->input->get('category_id'));
+            if(count($db_info_list) > 0 ){
+                foreach($db_info_list as $db_info){
+                    $this->db_sql_relation_model->delete_by_db_id($db_info['db_id']);
+                }
+            }
             $this->db_info_model->delete_by_category_id($this->input->get('category_id'));
             $this->sql_info_model->delete_by_category_id($this->input->get('category_id'));
             // カテゴリ削除

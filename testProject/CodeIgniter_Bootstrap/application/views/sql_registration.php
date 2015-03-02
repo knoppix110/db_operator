@@ -5,18 +5,52 @@
 <title>SQL登録画面</title>   
 <meta name="description" content="Twitter Bootstrap Version2.0 horizontal form layout example from w3resource.com.">   
 <script type="text/javascript">
+
+function add_cond_record(row){
+
+    var is_selected = function(name,value){
+        if(row[name] === value){
+            return 'selected'; 
+        }else{
+            return '';
+        }
+    }
+
+    if( row == null ){
+        row={"location_no":"","condition_name":"","column_name":"","type":"","removable":"","connector":""};
+    }
+
+    $("#condition:last").append('    <tr style="width:400px">');
+    $("#condition tr:last").append('      <td><input type="text" class="input-medium" id="input_cond" name="location_no[]" value="'+row['location_no']+'" style="width:40px;height:20px"></td>');
+    $("#condition tr:last").append('      <td><input type="text" class="input-medium" id="input_cond" name="condition_name[]" value="'+row['condition_name']+'" style="width:130px;height:20px">');
+    $("#condition tr:last").append('      <td><input type="text" class="input-medium" id="column" name="column_name[]" value="'+row['column_name']+'" style="width:130px;height:20px">');
+
+    $("#condition tr:last").append('      <td><select name="rel_operator[]" style="width:80px;">');
+    $("#condition select:last").append('      <option value="eq" '+is_selected('rel_operator','eq')+'>=</option>');
+    $("#condition select:last").append('      <option value="le" '+is_selected('rel_operator','le')+'>\<=</option>');
+    $("#condition select:last").append('      <option value="ge" '+is_selected('rel_operator','ge')+'>\>=</option>');
+    $("#condition tr:last").append('      <td><select name="type[]" style="width:70px;">');
+    $("#condition select:last").append('      <option value="text" '+is_selected('type','text')+'>text</option>');
+    $("#condition select:last").append('      <option value="num" '+is_selected('type','num')+'>numeric</option>');
+    $("#condition tr:last").append('      <td align=center><select name="removable[]" style="width:70px;">');
+    $("#condition select:last").append('      <option value="true" '+is_selected('removable','true')+'>true</option>');
+    $("#condition select:last").append('      <option value="false" '+is_selected('removable','false')+'>false</option>');
+    $("#condition tr:last").append('      <td align=center><select name="connector[]" style="width:70px;">');
+    $("#condition select:last").append('      <option value="and" '+is_selected('connector','and')+'>and</option>');
+    $("#condition select:last").append('      <option value="or" '+is_selected('connector','or')+'>or</option>');
+    $("#condition select:last").append('      <option value="nothing" '+is_selected('connector','nothing')+'>なし</option>');
+}
+
 $(function(){
        
-        var i=<?php echo count($sql_info['conditions'])+1;?>
+        var conditions=<?php echo (isset($conditions))?json_encode($conditions):0;?>;
+        for(var i=0;i<conditions.length;i++){
+            add_cond_record(conditions[i]);
+        }
         
         $('#add_btn').click( function (){
-            $("#condition:last").append('    <tr style="width:400px">');
-            $("#condition tr:last").append('      <td>'+i+'</td>');
-            $("#condition tr:last").append('      <td><input type="text" class="input-medium" id="input_cond'+i+'" name="condition[]" value="">');
-            $("#condition tr:last").append('      <td>text</td>');
-            $("#condition tr:last").append('      <td>independant</td>');
+            add_cond_record();
             i++;
-
         });
 
         $('#del_btn').click( function (){
@@ -25,6 +59,7 @@ $(function(){
         });
 
 })
+
 //var add_input=addInput();
 </script>
 </head>  
@@ -47,7 +82,7 @@ $(function(){
           <div class="control-group">  
             <label class="control-label" for="input01">表示名（任意）(#1)</label>  
             <div class="controls">  
-              <input type="text" class="input-xlarge" id="input01" name="display_name" style="width:400px;" value="<?php echo $sql_info['display_name'];?>">  
+              <input type="text" class="input-xlarge" id="input01" name="display_name" style="width:400px;height:20px;" value="<?php echo $sql_info['display_name'];?>">  
             </div>  
           </div>  
           <div class="control-group">  
@@ -64,46 +99,10 @@ $(function(){
             </div>  
           </div>  
 
-          <table id="condition" class="table table-bordered table-condensed" align='center' style="background-color:#eeeeee; border-color:#999;" >
-            <tr><th>条件項目#</th><th>項目名</th><th>type（text/date)</th><th>必須条件(checkbox)</th></tr>
-            <?php 
-                if($sql_info['conditions'] != null):
-                foreach($sql_info['conditions'] as $k=>$v):
-            ?>
-            <tr style='width:400px'>
-              <td><?php echo $k+1;?></td>
-              <td>
-                <input type="text" class="input-large" id="input_cond<?php echo $k;?>" name="condition[]" value="<?php echo $v;?>">
-              </td>
-              <td>text</td>
-              <td>independant</td>
-              <td>
-                <input type="button" id="del_btn" class="btn btn-danger" value="削除"></input>
-              </td>
-            </tr>
-            <?php 
-                endforeach;
-                endif;
-            ?>
+          <table id="condition" class="table table-bordered table-condensed" align='center' style="background-color:#eeeeee; border-color:#999;width: 90%;margin-bottom: 20px;empty-cells: show;" >
+            <tr><th width="50px">位置No</th><th width="140px">項目名</th><th width="140px">カラム名</th><th width="90px">比較演算子</th><th width="80px">type</th><th>着脱可</th><th>連結</th></tr>
           </table>
 
-          <div id="condition">  
-            <?php 
-                if($sql_info['conditions'] != null):
-                foreach($sql_info['conditions'] as $k=>$v):
-            ?>
-                <div class="control-group">
-                    <label class="control-label" for="input_cond<?php echo $k+1;?>">条件項目名<?php echo $k+1;?></label>
-                    <div class="controls">
-                        <input type="text" class="input-xlarge" id="input_cond<?php echo $k;?>" name="condition[]" value="<?php echo $v;?>">
-                    </div>
-                </div>
-            <?php 
-                endforeach;
-                endif;
-            ?>
-          </div>  
-          </br>
           <div class="control-group">  
             <div class="controls">  
           	    <input type="button" id="add_btn" class="btn btn-primary" value="条件項目名追加"></input>

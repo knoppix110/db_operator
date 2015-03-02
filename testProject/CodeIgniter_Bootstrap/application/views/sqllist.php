@@ -5,7 +5,6 @@
 table-hover 
 table-bordered
 table-condensed">
-<?php var_dump($sql_list); ?>
 <th>カテゴリ</th>
 <th>SQL_Name</th>
 <th></th>

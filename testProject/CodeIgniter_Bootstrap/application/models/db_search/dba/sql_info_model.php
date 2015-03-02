@@ -27,7 +27,7 @@ class Sql_info_model extends CI_Model {
                     'category_id' => $_ary['category_id'],
                     'description' => $_ary['description'],
                     'sql_text' => $_ary['sql_text'],
-                    'conditions' => $_ary['conditions'],
+                    //'conditions' => $_ary['conditions'],
                     )
                 );
 

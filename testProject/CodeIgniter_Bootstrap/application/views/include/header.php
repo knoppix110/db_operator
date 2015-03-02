@@ -7,7 +7,7 @@
    <meta name="keywords" content="">
    <meta name="author" content="">
 
-   <title>CodeIgniter Bootstrap</title>
+   <title>DB Operation Tool</title>
 
    <link href="<?php echo base_url('assets/css/bootstrap.css') ?>" rel="stylesheet">
    <link href="<?php echo base_url('assets/css/bootstrap-responsive.min.css') ?>" rel="stylesheet">
@@ -76,15 +76,13 @@
       <ul class="dropdown-menu">
 		    <li><a href="<?php echo base_url('index.php/sql_registration') ?>">SQL登録</a>
 		    <li><a href="<?php echo base_url('index.php/sql_registration/sqllist') ?>">SQL一覧/削除/編集</a>
-        <li class="divider"></li>
-        <li><a href="#">Separated link</a></li>
         </ul>
     </li>
     <li class="divider-vertical"></li>
     </ul>
 
     <ul class='nav pull-right'>
-    <li><a href=#>Hi, <?php echo $username; ?>! You are logged in now. </a></li>
+    <li><a href=#>UserName:  <?php echo $username; ?></a></li>
     <li><a href=<?php echo base_url('index.php/auth/logout/')?>>Logout</a></li> 
     </ul>
 

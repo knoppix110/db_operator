@@ -8,12 +8,6 @@ $(document).ready(function(){
 });
 //-->
 </script>
-<div class="controls">  
-  <select id="pulldown" name="dbms">  
-    <option>mysql</option>  
-    <option>mssql</option>  
-  </select>  
-</div>  
 <table id="list" class="table table-bordered table-striped
 table-hover 
 table-bordered
