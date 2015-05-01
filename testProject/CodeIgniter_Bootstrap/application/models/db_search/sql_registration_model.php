@@ -168,9 +168,7 @@ class Sql_registration_model extends CI_Model{
         $this->db->trans_start();
         
         // リレーション情報を削除
-        $this->db_sql_relation_model->delete(
-            array('sql_id'=>$_sql_id)
-        );
+        $this->db_sql_relation_model->delete_by_sql_id( $_sql_id );
         
         // SQL情報削除
         $res=$this->sql_info_model->delete_by_sql_id($_sql_id);

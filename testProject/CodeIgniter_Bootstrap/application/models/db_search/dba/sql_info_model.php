@@ -92,7 +92,7 @@ class Sql_info_model extends CI_Model {
                 s.category_id=c.category_id and
                 a.user_id=? and
                 a.auth_level>=? 
-                order by c.category_name,s.sql_id;
+                order by c.category_name,s.display_name;
         ';
         $query=$this->db->query($sql,array($_user_id,$_auth_level)); 
 

@@ -113,6 +113,7 @@ class Db_info_model extends CI_Model {
                 a.category_id=c.category_id and 
                 di.category_id=c.category_id and
                 a.user_id=? and a.auth_level>=?
+            order by category_name,display_name
                 ';  // 編集可能:auth_level>=２,実行可能：auth_level>=1
         $res=$this->db->query($sql,array($_user_id,$_auth_level));
         return $res->result_array();
