@@ -89,6 +89,7 @@ class Db_registration_model extends CI_Model{
     }
 
     public function delete($_db_id){
+
         // CSRF対策
         // トランザクション開始
         $this->db->trans_start();

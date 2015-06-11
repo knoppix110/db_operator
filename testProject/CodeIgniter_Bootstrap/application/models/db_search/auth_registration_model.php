@@ -1,14 +1,19 @@
 <?php
+
 class Auth_registration_model extends CI_Model{
 
     public function __construct()
     {
+
         parent::__construct();
+
         $this->load->model('db_search/dba/category_model');
         $this->load->model('db_search/dba/authority_model');
+
     }
 
     public function auth_list($_user_id,$_role){
+
         if($_role=='admin'){ // admin権限の場合、全リスト取得
             // ユーザーリストとカテゴリリストを全部
             $this->authority_model->get_auth_info_by_user_id($_user_id,2);
@@ -16,9 +21,11 @@ class Auth_registration_model extends CI_Model{
             // ユーザーリストは全部、カテゴリリストは自分が管理権限持っているもののみ
             $this->authority_model->get_auth_info_by_user_id($_user_id,2);
         }
+
     }
 
     public function register(){
+
         // CSRF対策…は社内だから保留。
         // トランザクション開始
         $this->db->trans_start();
@@ -47,4 +54,5 @@ class Auth_registration_model extends CI_Model{
         return true;
 
     }
+
 }

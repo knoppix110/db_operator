@@ -56,7 +56,7 @@ class Sql_execution_model extends CI_Model{
                 if(isset($cond_in['disable'])){
                     if($cond_in['disable']==true){continue;}
                 }
-                foreach($conditions_def as $cond_def){
+                foreach($conditions_def as $key=>$cond_def){
 
                     // 入力された条件情報が定義と一致されている
                     if( $cond_def['condition_id']==$id ){
@@ -82,6 +82,23 @@ class Sql_execution_model extends CI_Model{
                         // 入力値を配列に保存（後でバインドさせるため）
                         $values[]=$cond_in['value'];
                         //echo $cond_str[$cond_def['location_no']];
+
+                        // ▽入==== 入力値をＳＱＬ内で再利用する機能 ====
+                        // もし定義したＳＱＬに入力した「カラムの値」だけ組込む識別子があった場合
+                        $pattern='/@'.$cond_def['location_no'].'\-\>'.$cond_def['condition_name'].'/';
+                        // 数値以外をクオートする
+                        if (!is_numeric($cond_in['value'])) {
+                            $value = "'" . mysql_real_escape_string($cond_in['value']) . "'";
+                        }else{
+                            $value = mysql_real_escape_string($cond_in['value']);
+                        }
+                        $sql_info['sql_text']=preg_replace(
+                            $pattern, 
+                            $value, 
+                            $sql_info['sql_text']
+                        );
+                        // △入====  入力値をＳＱＬ内で再利用する機能 ====
+
                     }
                 }
             }
