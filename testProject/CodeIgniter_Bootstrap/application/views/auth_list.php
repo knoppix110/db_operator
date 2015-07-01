@@ -19,7 +19,7 @@ table-condensed">
     <td>
     <a class='btn  btn-danger  btn-small'  href='javascript:void(0)' 
         onclick='var ok=confirm("本当に削除しますか？"); 
-        if(ok){location.href="<?php echo base_url('index.php')."/auth_registration/delete?user_id=".$auth_info['user_id']."&category_id=".$auth_info['category_id']?>";} return false';>削除</a>
+        if(ok){location.href="<?php echo base_url('index.php')."/authorization/delete?user_id=".$auth_info['user_id']."&category_id=".$auth_info['category_id']?>";} return false';>削除</a>
     </td>
     </tr>
 <?php endforeach; ?>

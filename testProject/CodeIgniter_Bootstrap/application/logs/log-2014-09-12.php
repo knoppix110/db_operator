@@ -12672,7 +12672,7 @@ DEBUG - 2014-09-12 19:45:46 --> Model Class Initialized
 DEBUG - 2014-09-12 19:45:46 --> Model Class Initialized
 DEBUG - 2014-09-12 19:45:46 --> Model Class Initialized
 DEBUG - 2014-09-12 19:45:46 --> File loaded: application/views/include/header.php
-DEBUG - 2014-09-12 19:45:46 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-09-12 19:45:46 --> File loaded: application/views/authorization.php
 DEBUG - 2014-09-12 19:45:46 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-09-12 19:45:46 --> Final output sent to browser
 DEBUG - 2014-09-12 19:45:46 --> Total execution time: 0.0305
@@ -14199,7 +14199,7 @@ DEBUG - 2014-09-12 19:55:25 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:25 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:25 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:25 --> File loaded: application/views/include/header.php
-DEBUG - 2014-09-12 19:55:25 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-09-12 19:55:25 --> File loaded: application/views/authorization.php
 DEBUG - 2014-09-12 19:55:25 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-09-12 19:55:25 --> Final output sent to browser
 DEBUG - 2014-09-12 19:55:25 --> Total execution time: 0.0335
@@ -14294,7 +14294,7 @@ DEBUG - 2014-09-12 19:55:28 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:28 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:28 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:28 --> File loaded: application/views/include/header.php
-DEBUG - 2014-09-12 19:55:28 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-09-12 19:55:28 --> File loaded: application/views/authorization.php
 DEBUG - 2014-09-12 19:55:28 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-09-12 19:55:28 --> Final output sent to browser
 DEBUG - 2014-09-12 19:55:28 --> Total execution time: 0.0338
@@ -14389,7 +14389,7 @@ DEBUG - 2014-09-12 19:55:35 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:35 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:35 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:35 --> File loaded: application/views/include/header.php
-DEBUG - 2014-09-12 19:55:35 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-09-12 19:55:35 --> File loaded: application/views/authorization.php
 DEBUG - 2014-09-12 19:55:35 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-09-12 19:55:35 --> Final output sent to browser
 DEBUG - 2014-09-12 19:55:35 --> Total execution time: 0.0257
@@ -14436,7 +14436,7 @@ DEBUG - 2014-09-12 19:55:37 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:37 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:37 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:37 --> File loaded: application/views/include/header.php
-DEBUG - 2014-09-12 19:55:37 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-09-12 19:55:37 --> File loaded: application/views/authorization.php
 DEBUG - 2014-09-12 19:55:37 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-09-12 19:55:37 --> Final output sent to browser
 DEBUG - 2014-09-12 19:55:37 --> Total execution time: 0.0364
@@ -14483,7 +14483,7 @@ DEBUG - 2014-09-12 19:55:39 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:39 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:39 --> Model Class Initialized
 DEBUG - 2014-09-12 19:55:39 --> File loaded: application/views/include/header.php
-DEBUG - 2014-09-12 19:55:39 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-09-12 19:55:39 --> File loaded: application/views/authorization.php
 DEBUG - 2014-09-12 19:55:39 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-09-12 19:55:39 --> Final output sent to browser
 DEBUG - 2014-09-12 19:55:39 --> Total execution time: 0.0261
@@ -15057,7 +15057,7 @@ DEBUG - 2014-09-12 19:57:57 --> Model Class Initialized
 DEBUG - 2014-09-12 19:57:57 --> Model Class Initialized
 DEBUG - 2014-09-12 19:57:57 --> Model Class Initialized
 DEBUG - 2014-09-12 19:57:57 --> File loaded: application/views/include/header.php
-DEBUG - 2014-09-12 19:57:57 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-09-12 19:57:57 --> File loaded: application/views/authorization.php
 DEBUG - 2014-09-12 19:57:57 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-09-12 19:57:57 --> Final output sent to browser
 DEBUG - 2014-09-12 19:57:57 --> Total execution time: 0.0323

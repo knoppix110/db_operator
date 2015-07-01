@@ -57,8 +57,8 @@
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">権限管理<b class="caret"></b></a>
       <ul class="dropdown-menu">
-	  		<li><a href="<?php echo base_url('index.php/auth_registration') ?>">権限登録</a></li>
-	  		<li><a href="<?php echo base_url('index.php/auth_registration/auth_list') ?>">権限一覧/削除/編集</a></li>
+	  		<li><a href="<?php echo base_url('index.php/authorization') ?>">権限登録</a></li>
+	  		<li><a href="<?php echo base_url('index.php/authorization/auth_list') ?>">権限一覧/削除/編集</a></li>
       </ul>
     </li>
 

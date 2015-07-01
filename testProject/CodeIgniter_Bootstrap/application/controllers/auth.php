@@ -11,6 +11,7 @@ class Auth extends Main_Controller
         $this->load->library('security');
         $this->load->library('tank_auth');
         $this->lang->load('tank_auth');
+        $this->load->model('users');
     }
 
     function index()
@@ -120,6 +121,22 @@ class Auth extends Main_Controller
         $this->load->view('account_list', $this->data);
         $this->load->view('include/footer');
         log_message('debug',print_r($this->data['account_list'],true));
+    }
+
+    function delete(){
+        if ($this->tank_auth->get_role()!='admin') {
+
+            $this->data['user_id']  = $this->tank_auth->get_user_id();
+            $this->data['username'] = $this->tank_auth->get_username();
+            $this->load->view('include/header',$this->data);
+            $this->load->view('not_authorized', $this->data);
+            $this->load->view('include/footer');
+            return;
+
+        }
+
+        $this->users->delete_user($this->input->get('user_id'));
+        redirect('/auth/account_list');
     }
 
     /**

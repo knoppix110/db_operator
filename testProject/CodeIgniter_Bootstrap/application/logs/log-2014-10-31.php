@@ -3465,7 +3465,7 @@ DEBUG - 2014-10-31 18:05:12 --> Model Class Initialized
 DEBUG - 2014-10-31 18:05:12 --> Model Class Initialized
 DEBUG - 2014-10-31 18:05:12 --> Model Class Initialized
 DEBUG - 2014-10-31 18:05:12 --> File loaded: application/views/include/header.php
-DEBUG - 2014-10-31 18:05:12 --> File loaded: application/views/auth_registration.php
+DEBUG - 2014-10-31 18:05:12 --> File loaded: application/views/authorization.php
 DEBUG - 2014-10-31 18:05:12 --> File loaded: application/views/include/footer.php
 DEBUG - 2014-10-31 18:05:12 --> Final output sent to browser
 DEBUG - 2014-10-31 18:05:12 --> Total execution time: 0.0309
