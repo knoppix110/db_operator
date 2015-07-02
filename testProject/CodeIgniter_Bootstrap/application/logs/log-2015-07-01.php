@@ -7406,3 +7406,10964 @@ DEBUG - 2015-07-01 14:27:48 --> Array
 
 DEBUG - 2015-07-01 14:27:48 --> Final output sent to browser
 DEBUG - 2015-07-01 14:27:48 --> Total execution time: 0.0366
+DEBUG - 2015-07-01 14:30:55 --> Config Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:30:55 --> URI Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Router Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Output Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Security Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Input Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:30:55 --> Language Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:30:55 --> #### library:
+DEBUG - 2015-07-01 14:30:55 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:30:55 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:30:55 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:30:55 --> ####debug3:
+DEBUG - 2015-07-01 14:30:55 --> ####debug3.5:
+ERROR - 2015-07-01 14:30:55 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:30:55 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:30:55 --> ####debug4:
+DEBUG - 2015-07-01 14:30:55 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:30:55 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:30:55 --> #### library:session
+DEBUG - 2015-07-01 14:30:55 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:30:55 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:30:55 --> ####debug3:
+DEBUG - 2015-07-01 14:30:55 --> ####debug3.5:
+DEBUG - 2015-07-01 14:30:55 --> ####debug4:
+DEBUG - 2015-07-01 14:30:55 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:30:55 --> Session Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:30:55 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Session routines successfully run
+DEBUG - 2015-07-01 14:30:55 --> Model Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Model Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Model Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 14:30:55 --> #### library:form_validation
+DEBUG - 2015-07-01 14:30:55 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 14:30:55 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 14:30:55 --> ####debug3:
+DEBUG - 2015-07-01 14:30:55 --> ####debug3.5:
+DEBUG - 2015-07-01 14:30:55 --> ####debug4:
+DEBUG - 2015-07-01 14:30:55 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 14:30:55 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 14:30:55 --> #### library:security
+DEBUG - 2015-07-01 14:30:55 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:30:55 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:30:55 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 14:30:55 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 14:30:55 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:30:55 --> File loaded: application/views/account_list.php
+DEBUG - 2015-07-01 14:30:55 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:30:55 --> Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [username] => ryoheitakahashi
+            [password] => $2a$08$Qzd3xcDkfTQp0TSRsK2kte3g/8wmthH300tqSnIDDT3fEX8PVHi5q
+            [email] => ryoheitakahashi@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 11:05:14
+            [created] => 2014-09-05 11:28:44
+            [modified] => 2014-09-05 11:28:44
+            [admin] => 0
+            [role] => admin
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [username] => ryoheitakahashi2
+            [password] => $2a$08$EceGCEyP6YMnOcef6umMcOZC3xGMbmfFJTabyJzEnzJaRxE2uwAx2
+            [email] => ryoheitakahashi2@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.128.10.2
+            [last_login] => 2014-09-09 18:13:33
+            [created] => 2014-09-08 10:33:47
+            [modified] => 2014-09-08 10:33:47
+            [admin] => 0
+            [role] => admin
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [username] => mirainamatame
+            [password] => $2a$08$Dk05WkggXujsnH3h8bYLJ.Jc6g/Haao.uQY8.1So7MSfAkcno1b6C
+            [email] => mirainamatame@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-07 21:54:20
+            [created] => 2015-03-02 10:55:34
+            [modified] => 2015-03-02 10:55:34
+            [admin] => 0
+            [role] => user
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [username] => yujisato
+            [password] => $2a$08$7YHylmzVNRWkGFCEGKuF9OTtKATcLWBiLV/A.KKZWJAsohAEaIYQy
+            [email] => yujisato@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 11:06:56
+            [created] => 2015-03-05 18:51:27
+            [modified] => 2015-03-05 18:51:27
+            [admin] => 0
+            [role] => user
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [username] => kanamiujiie
+            [password] => $2a$08$UVIqDvvbjRhcv96jIrIXXOw.NTqhc0xt4GA..bv20LihKfpTyq3B.
+            [email] => kanamiujiie@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-11 16:43:49
+            [created] => 2015-04-09 21:11:00
+            [modified] => 2015-04-09 21:11:00
+            [admin] => 0
+            [role] => user
+        )
+
+    [5] => Array
+        (
+            [id] => 9
+            [username] => harryliu
+            [password] => $2a$08$YhJQAWRKTn/HaYMCQs7bsOhqKz83/DkFTzPgTEtbIL95RetaEvDt2
+            [email] => harryliu@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-01 17:28:11
+            [created] => 2015-05-01 10:52:39
+            [modified] => 2015-05-01 10:52:39
+            [admin] => 0
+            [role] => admin
+        )
+
+    [6] => Array
+        (
+            [id] => 10
+            [username] => teruhikotanaka
+            [password] => $2a$08$4Lz4WQb/Yx5xG1vnU9A6GuFXOlEv4vLD9EBmpAs/3/wl/2fL0M8oS
+            [email] => teruhikotanaka@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-30 11:35:34
+            [created] => 2015-05-01 22:18:47
+            [modified] => 2015-05-01 22:18:47
+            [admin] => 0
+            [role] => user
+        )
+
+    [7] => Array
+        (
+            [id] => 11
+            [username] => yuuichirohaga
+            [password] => $2a$08$Ni4if5zHXCXhRtRZQ.u.TOXaFw626Ctys93b79QOvYJ.wL4gBDH9.
+            [email] => yuuichirohaga@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-04 18:11:49
+            [created] => 2015-06-02 12:57:21
+            [modified] => 2015-06-02 12:57:21
+            [admin] => 0
+            [role] => user
+        )
+
+    [8] => Array
+        (
+            [id] => 12
+            [username] => daisukeasaeda
+            [password] => $2a$08$71XoK12uzQlyFQWTUVWg0.Df3OSFGrz60hfDbSJi.xcBdWH8KXs/i
+            [email] => daisukeasaeda@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-02 14:41:08
+            [created] => 2015-06-02 12:58:27
+            [modified] => 2015-06-02 12:58:27
+            [admin] => 0
+            [role] => user
+        )
+
+)
+
+DEBUG - 2015-07-01 14:30:55 --> Final output sent to browser
+DEBUG - 2015-07-01 14:30:55 --> Total execution time: 0.0344
+DEBUG - 2015-07-01 14:32:17 --> Config Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:32:17 --> URI Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Router Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Output Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Security Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Input Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:32:17 --> Language Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:32:17 --> #### library:
+DEBUG - 2015-07-01 14:32:17 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:32:17 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:32:17 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:32:17 --> ####debug3:
+DEBUG - 2015-07-01 14:32:17 --> ####debug3.5:
+ERROR - 2015-07-01 14:32:17 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:32:17 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:32:17 --> ####debug4:
+DEBUG - 2015-07-01 14:32:17 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:32:17 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:32:17 --> #### library:session
+DEBUG - 2015-07-01 14:32:17 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:32:17 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:32:17 --> ####debug3:
+DEBUG - 2015-07-01 14:32:17 --> ####debug3.5:
+DEBUG - 2015-07-01 14:32:17 --> ####debug4:
+DEBUG - 2015-07-01 14:32:17 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:32:17 --> Session Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:32:17 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Session routines successfully run
+DEBUG - 2015-07-01 14:32:17 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:17 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:32:17 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 14:32:17 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:32:17 --> Final output sent to browser
+DEBUG - 2015-07-01 14:32:17 --> Total execution time: 0.0334
+DEBUG - 2015-07-01 14:32:52 --> Config Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:32:52 --> URI Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Router Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Output Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Security Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Input Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:32:52 --> Language Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:32:52 --> #### library:
+DEBUG - 2015-07-01 14:32:52 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:32:52 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:32:52 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:32:52 --> ####debug3:
+DEBUG - 2015-07-01 14:32:52 --> ####debug3.5:
+ERROR - 2015-07-01 14:32:52 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:32:52 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:32:52 --> ####debug4:
+DEBUG - 2015-07-01 14:32:52 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:32:52 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:32:52 --> #### library:session
+DEBUG - 2015-07-01 14:32:52 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:32:52 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:32:52 --> ####debug3:
+DEBUG - 2015-07-01 14:32:52 --> ####debug3.5:
+DEBUG - 2015-07-01 14:32:52 --> ####debug4:
+DEBUG - 2015-07-01 14:32:52 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:32:52 --> Session Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:32:52 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> A session cookie was not found.
+DEBUG - 2015-07-01 14:32:52 --> Session routines successfully run
+DEBUG - 2015-07-01 14:32:52 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 14:32:52 --> Config Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:32:52 --> URI Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Router Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Output Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Security Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Input Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:32:52 --> Language Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:32:52 --> #### library:
+DEBUG - 2015-07-01 14:32:52 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:32:52 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:32:52 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:32:52 --> ####debug3:
+DEBUG - 2015-07-01 14:32:52 --> ####debug3.5:
+ERROR - 2015-07-01 14:32:52 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:32:52 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:32:52 --> ####debug4:
+DEBUG - 2015-07-01 14:32:52 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:32:52 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:32:52 --> #### library:session
+DEBUG - 2015-07-01 14:32:52 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:32:52 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:32:52 --> ####debug3:
+DEBUG - 2015-07-01 14:32:52 --> ####debug3.5:
+DEBUG - 2015-07-01 14:32:52 --> ####debug4:
+DEBUG - 2015-07-01 14:32:52 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:32:52 --> Session Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:32:52 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Session routines successfully run
+DEBUG - 2015-07-01 14:32:52 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 14:32:52 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 14:32:52 --> #### library:form_validation
+DEBUG - 2015-07-01 14:32:52 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 14:32:52 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 14:32:52 --> ####debug3:
+DEBUG - 2015-07-01 14:32:52 --> ####debug3.5:
+DEBUG - 2015-07-01 14:32:52 --> ####debug4:
+DEBUG - 2015-07-01 14:32:52 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 14:32:52 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> #### library:security
+DEBUG - 2015-07-01 14:32:52 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:32:52 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:32:52 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 14:32:52 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 14:32:52 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:52 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2015-07-01 14:32:52 --> Final output sent to browser
+DEBUG - 2015-07-01 14:32:52 --> Total execution time: 0.0371
+DEBUG - 2015-07-01 14:32:59 --> Config Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:32:59 --> URI Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Router Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Output Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Security Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Input Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:32:59 --> Language Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:32:59 --> #### library:
+DEBUG - 2015-07-01 14:32:59 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:32:59 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:32:59 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:32:59 --> ####debug3:
+DEBUG - 2015-07-01 14:32:59 --> ####debug3.5:
+ERROR - 2015-07-01 14:32:59 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:32:59 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:32:59 --> ####debug4:
+DEBUG - 2015-07-01 14:32:59 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:32:59 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:32:59 --> #### library:session
+DEBUG - 2015-07-01 14:32:59 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:32:59 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:32:59 --> ####debug3:
+DEBUG - 2015-07-01 14:32:59 --> ####debug3.5:
+DEBUG - 2015-07-01 14:32:59 --> ####debug4:
+DEBUG - 2015-07-01 14:32:59 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:32:59 --> Session Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:32:59 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Session routines successfully run
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 14:32:59 --> #### library:form_validation
+DEBUG - 2015-07-01 14:32:59 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 14:32:59 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 14:32:59 --> ####debug3:
+DEBUG - 2015-07-01 14:32:59 --> ####debug3.5:
+DEBUG - 2015-07-01 14:32:59 --> ####debug4:
+DEBUG - 2015-07-01 14:32:59 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 14:32:59 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> #### library:security
+DEBUG - 2015-07-01 14:32:59 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:32:59 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:32:59 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 14:32:59 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 14:32:59 --> XSS Filtering completed
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-07-01 14:32:59 --> XSS Filtering completed
+DEBUG - 2015-07-01 14:32:59 --> XSS Filtering completed
+DEBUG - 2015-07-01 14:32:59 --> Config Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:32:59 --> URI Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Router Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Output Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Security Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Input Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:32:59 --> Language Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:32:59 --> #### library:
+DEBUG - 2015-07-01 14:32:59 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:32:59 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:32:59 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:32:59 --> ####debug3:
+DEBUG - 2015-07-01 14:32:59 --> ####debug3.5:
+ERROR - 2015-07-01 14:32:59 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:32:59 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:32:59 --> ####debug4:
+DEBUG - 2015-07-01 14:32:59 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:32:59 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:32:59 --> #### library:session
+DEBUG - 2015-07-01 14:32:59 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:32:59 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:32:59 --> ####debug3:
+DEBUG - 2015-07-01 14:32:59 --> ####debug3.5:
+DEBUG - 2015-07-01 14:32:59 --> ####debug4:
+DEBUG - 2015-07-01 14:32:59 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:32:59 --> Session Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:32:59 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Session routines successfully run
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> Model Class Initialized
+DEBUG - 2015-07-01 14:32:59 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:32:59 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 14:32:59 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:32:59 --> Final output sent to browser
+DEBUG - 2015-07-01 14:32:59 --> Total execution time: 0.0264
+DEBUG - 2015-07-01 14:33:05 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:05 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:05 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:05 --> #### library:
+DEBUG - 2015-07-01 14:33:05 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:05 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:05 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:05 --> ####debug3:
+DEBUG - 2015-07-01 14:33:05 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:05 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:05 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:05 --> ####debug4:
+DEBUG - 2015-07-01 14:33:05 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:05 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:05 --> #### library:session
+DEBUG - 2015-07-01 14:33:05 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:05 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:05 --> ####debug3:
+DEBUG - 2015-07-01 14:33:05 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:05 --> ####debug4:
+DEBUG - 2015-07-01 14:33:05 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:05 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:05 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:05 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 14:33:05 --> #### library:form_validation
+DEBUG - 2015-07-01 14:33:05 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 14:33:05 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 14:33:05 --> ####debug3:
+DEBUG - 2015-07-01 14:33:05 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:05 --> ####debug4:
+DEBUG - 2015-07-01 14:33:05 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 14:33:05 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 14:33:05 --> #### library:security
+DEBUG - 2015-07-01 14:33:05 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:05 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:05 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 14:33:05 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 14:33:05 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:05 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2015-07-01 14:33:05 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:05 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:05 --> Total execution time: 0.0409
+DEBUG - 2015-07-01 14:33:07 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:07 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:07 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:07 --> #### library:
+DEBUG - 2015-07-01 14:33:07 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:07 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:07 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:07 --> ####debug3:
+DEBUG - 2015-07-01 14:33:07 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:07 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:07 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:07 --> ####debug4:
+DEBUG - 2015-07-01 14:33:07 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:07 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:07 --> #### library:session
+DEBUG - 2015-07-01 14:33:07 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:07 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:07 --> ####debug3:
+DEBUG - 2015-07-01 14:33:07 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:07 --> ####debug4:
+DEBUG - 2015-07-01 14:33:07 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:07 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:07 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Session garbage collection performed.
+DEBUG - 2015-07-01 14:33:07 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:07 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:07 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:07 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 14:33:07 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:07 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:07 --> Total execution time: 0.0387
+DEBUG - 2015-07-01 14:33:08 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:08 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:08 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:08 --> #### library:
+DEBUG - 2015-07-01 14:33:08 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:08 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:08 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:08 --> ####debug3:
+DEBUG - 2015-07-01 14:33:08 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:08 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:08 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:08 --> ####debug4:
+DEBUG - 2015-07-01 14:33:08 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:08 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:08 --> #### library:session
+DEBUG - 2015-07-01 14:33:08 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:08 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:08 --> ####debug3:
+DEBUG - 2015-07-01 14:33:08 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:08 --> ####debug4:
+DEBUG - 2015-07-01 14:33:08 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:08 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:08 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:08 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 14:33:08 --> #### library:form_validation
+DEBUG - 2015-07-01 14:33:08 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 14:33:08 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 14:33:08 --> ####debug3:
+DEBUG - 2015-07-01 14:33:08 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:08 --> ####debug4:
+DEBUG - 2015-07-01 14:33:08 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 14:33:08 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 14:33:08 --> #### library:security
+DEBUG - 2015-07-01 14:33:08 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:08 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:08 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 14:33:08 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 14:33:08 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:08 --> File loaded: application/views/account_list.php
+DEBUG - 2015-07-01 14:33:08 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:08 --> Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [username] => ryoheitakahashi
+            [password] => $2a$08$Qzd3xcDkfTQp0TSRsK2kte3g/8wmthH300tqSnIDDT3fEX8PVHi5q
+            [email] => ryoheitakahashi@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 14:32:59
+            [created] => 2014-09-05 11:28:44
+            [modified] => 2014-09-05 11:28:44
+            [admin] => 0
+            [role] => admin
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [username] => ryoheitakahashi2
+            [password] => $2a$08$EceGCEyP6YMnOcef6umMcOZC3xGMbmfFJTabyJzEnzJaRxE2uwAx2
+            [email] => ryoheitakahashi2@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.128.10.2
+            [last_login] => 2014-09-09 18:13:33
+            [created] => 2014-09-08 10:33:47
+            [modified] => 2014-09-08 10:33:47
+            [admin] => 0
+            [role] => admin
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [username] => mirainamatame
+            [password] => $2a$08$Dk05WkggXujsnH3h8bYLJ.Jc6g/Haao.uQY8.1So7MSfAkcno1b6C
+            [email] => mirainamatame@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-07 21:54:20
+            [created] => 2015-03-02 10:55:34
+            [modified] => 2015-03-02 10:55:34
+            [admin] => 0
+            [role] => user
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [username] => yujisato
+            [password] => $2a$08$7YHylmzVNRWkGFCEGKuF9OTtKATcLWBiLV/A.KKZWJAsohAEaIYQy
+            [email] => yujisato@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 11:06:56
+            [created] => 2015-03-05 18:51:27
+            [modified] => 2015-03-05 18:51:27
+            [admin] => 0
+            [role] => user
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [username] => kanamiujiie
+            [password] => $2a$08$UVIqDvvbjRhcv96jIrIXXOw.NTqhc0xt4GA..bv20LihKfpTyq3B.
+            [email] => kanamiujiie@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-11 16:43:49
+            [created] => 2015-04-09 21:11:00
+            [modified] => 2015-04-09 21:11:00
+            [admin] => 0
+            [role] => user
+        )
+
+    [5] => Array
+        (
+            [id] => 9
+            [username] => harryliu
+            [password] => $2a$08$YhJQAWRKTn/HaYMCQs7bsOhqKz83/DkFTzPgTEtbIL95RetaEvDt2
+            [email] => harryliu@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-01 17:28:11
+            [created] => 2015-05-01 10:52:39
+            [modified] => 2015-05-01 10:52:39
+            [admin] => 0
+            [role] => admin
+        )
+
+    [6] => Array
+        (
+            [id] => 10
+            [username] => teruhikotanaka
+            [password] => $2a$08$4Lz4WQb/Yx5xG1vnU9A6GuFXOlEv4vLD9EBmpAs/3/wl/2fL0M8oS
+            [email] => teruhikotanaka@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-30 11:35:34
+            [created] => 2015-05-01 22:18:47
+            [modified] => 2015-05-01 22:18:47
+            [admin] => 0
+            [role] => user
+        )
+
+    [7] => Array
+        (
+            [id] => 11
+            [username] => yuuichirohaga
+            [password] => $2a$08$Ni4if5zHXCXhRtRZQ.u.TOXaFw626Ctys93b79QOvYJ.wL4gBDH9.
+            [email] => yuuichirohaga@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-04 18:11:49
+            [created] => 2015-06-02 12:57:21
+            [modified] => 2015-06-02 12:57:21
+            [admin] => 0
+            [role] => user
+        )
+
+    [8] => Array
+        (
+            [id] => 12
+            [username] => daisukeasaeda
+            [password] => $2a$08$71XoK12uzQlyFQWTUVWg0.Df3OSFGrz60hfDbSJi.xcBdWH8KXs/i
+            [email] => daisukeasaeda@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-02 14:41:08
+            [created] => 2015-06-02 12:58:27
+            [modified] => 2015-06-02 12:58:27
+            [admin] => 0
+            [role] => user
+        )
+
+)
+
+DEBUG - 2015-07-01 14:33:08 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:08 --> Total execution time: 0.0363
+DEBUG - 2015-07-01 14:33:09 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:09 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:09 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:09 --> #### library:
+DEBUG - 2015-07-01 14:33:09 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:09 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:09 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:09 --> ####debug3:
+DEBUG - 2015-07-01 14:33:09 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:09 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:09 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:09 --> ####debug4:
+DEBUG - 2015-07-01 14:33:09 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:09 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:09 --> #### library:session
+DEBUG - 2015-07-01 14:33:09 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:09 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:09 --> ####debug3:
+DEBUG - 2015-07-01 14:33:09 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:09 --> ####debug4:
+DEBUG - 2015-07-01 14:33:09 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:09 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:09 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:09 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:09 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:09 --> File loaded: application/views/category_registration.php
+DEBUG - 2015-07-01 14:33:09 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:09 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:09 --> Total execution time: 0.0352
+DEBUG - 2015-07-01 14:33:11 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:11 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:11 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:11 --> #### library:
+DEBUG - 2015-07-01 14:33:11 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:11 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:11 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:11 --> ####debug3:
+DEBUG - 2015-07-01 14:33:11 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:11 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:11 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:11 --> ####debug4:
+DEBUG - 2015-07-01 14:33:11 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:11 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:11 --> #### library:session
+DEBUG - 2015-07-01 14:33:11 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:11 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:11 --> ####debug3:
+DEBUG - 2015-07-01 14:33:11 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:11 --> ####debug4:
+DEBUG - 2015-07-01 14:33:11 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:11 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:11 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:11 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:11 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:11 --> File loaded: application/views/category_list.php
+DEBUG - 2015-07-01 14:33:11 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:11 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:11 --> Total execution time: 0.0379
+DEBUG - 2015-07-01 14:33:14 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:14 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:14 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:14 --> #### library:
+DEBUG - 2015-07-01 14:33:14 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:14 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:14 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:14 --> ####debug3:
+DEBUG - 2015-07-01 14:33:14 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:14 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:14 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:14 --> ####debug4:
+DEBUG - 2015-07-01 14:33:14 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:14 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:14 --> #### library:session
+DEBUG - 2015-07-01 14:33:14 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:14 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:14 --> ####debug3:
+DEBUG - 2015-07-01 14:33:14 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:14 --> ####debug4:
+DEBUG - 2015-07-01 14:33:14 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:14 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:14 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:14 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:14 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:14 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 14:33:14 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:14 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:14 --> Total execution time: 0.0388
+DEBUG - 2015-07-01 14:33:16 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:16 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:16 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:16 --> #### library:
+DEBUG - 2015-07-01 14:33:16 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:16 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:16 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:16 --> ####debug3:
+DEBUG - 2015-07-01 14:33:16 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:16 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:16 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:16 --> ####debug4:
+DEBUG - 2015-07-01 14:33:16 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:16 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:16 --> #### library:session
+DEBUG - 2015-07-01 14:33:16 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:16 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:16 --> ####debug3:
+DEBUG - 2015-07-01 14:33:16 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:16 --> ####debug4:
+DEBUG - 2015-07-01 14:33:16 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:16 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:16 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:16 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:16 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:16 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 14:33:16 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:16 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:16 --> Total execution time: 0.0380
+DEBUG - 2015-07-01 14:33:19 --> Config Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Hooks Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 14:33:19 --> URI Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Router Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Output Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Security Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Input Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 14:33:19 --> Language Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Loader Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 14:33:19 --> #### library:
+DEBUG - 2015-07-01 14:33:19 --> Controller Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> #### library:tank_auth
+DEBUG - 2015-07-01 14:33:19 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 14:33:19 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 14:33:19 --> ####debug3:
+DEBUG - 2015-07-01 14:33:19 --> ####debug3.5:
+ERROR - 2015-07-01 14:33:19 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 14:33:19 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 14:33:19 --> ####debug4:
+DEBUG - 2015-07-01 14:33:19 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 14:33:19 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 14:33:19 --> #### library:session
+DEBUG - 2015-07-01 14:33:19 --> ####ci_load_class:session
+DEBUG - 2015-07-01 14:33:19 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 14:33:19 --> ####debug3:
+DEBUG - 2015-07-01 14:33:19 --> ####debug3.5:
+DEBUG - 2015-07-01 14:33:19 --> ####debug4:
+DEBUG - 2015-07-01 14:33:19 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 14:33:19 --> Session Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 14:33:19 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Session routines successfully run
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> Model Class Initialized
+DEBUG - 2015-07-01 14:33:19 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 14:33:19 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 14:33:19 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 14:33:19 --> Final output sent to browser
+DEBUG - 2015-07-01 14:33:19 --> Total execution time: 0.0324
+DEBUG - 2015-07-01 15:11:02 --> Config Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:11:02 --> URI Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Router Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 15:11:02 --> Output Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Security Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Input Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:11:02 --> Language Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:11:02 --> #### library:
+DEBUG - 2015-07-01 15:11:02 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:11:02 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:11:02 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:11:02 --> ####debug3:
+DEBUG - 2015-07-01 15:11:02 --> ####debug3.5:
+ERROR - 2015-07-01 15:11:02 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:11:02 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:11:02 --> ####debug4:
+DEBUG - 2015-07-01 15:11:02 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:11:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:11:02 --> #### library:session
+DEBUG - 2015-07-01 15:11:02 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:11:02 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:11:02 --> ####debug3:
+DEBUG - 2015-07-01 15:11:02 --> ####debug3.5:
+DEBUG - 2015-07-01 15:11:02 --> ####debug4:
+DEBUG - 2015-07-01 15:11:02 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:11:02 --> Session Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:11:02 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> A session cookie was not found.
+DEBUG - 2015-07-01 15:11:02 --> Session routines successfully run
+DEBUG - 2015-07-01 15:11:02 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 15:11:02 --> XSS Filtering completed
+DEBUG - 2015-07-01 15:11:02 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:02 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:11:02 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:11:02 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:11:02 --> Final output sent to browser
+DEBUG - 2015-07-01 15:11:02 --> Total execution time: 0.0493
+DEBUG - 2015-07-01 15:11:07 --> Config Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:11:07 --> URI Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Router Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Output Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Security Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Input Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:11:07 --> Language Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:11:07 --> #### library:
+DEBUG - 2015-07-01 15:11:07 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:11:07 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:11:07 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:11:07 --> ####debug3:
+DEBUG - 2015-07-01 15:11:07 --> ####debug3.5:
+ERROR - 2015-07-01 15:11:07 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:11:07 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:11:07 --> ####debug4:
+DEBUG - 2015-07-01 15:11:07 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:11:07 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:11:07 --> #### library:session
+DEBUG - 2015-07-01 15:11:07 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:11:07 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:11:07 --> ####debug3:
+DEBUG - 2015-07-01 15:11:07 --> ####debug3.5:
+DEBUG - 2015-07-01 15:11:07 --> ####debug4:
+DEBUG - 2015-07-01 15:11:07 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:11:07 --> Session Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:11:07 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Session routines successfully run
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:07 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:11:07 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:11:07 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:11:07 --> Final output sent to browser
+DEBUG - 2015-07-01 15:11:07 --> Total execution time: 0.0315
+DEBUG - 2015-07-01 15:11:35 --> Config Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:11:35 --> URI Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Router Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Output Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Security Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Input Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:11:35 --> Language Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:11:35 --> #### library:
+DEBUG - 2015-07-01 15:11:35 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:11:35 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:11:35 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:11:35 --> ####debug3:
+DEBUG - 2015-07-01 15:11:35 --> ####debug3.5:
+ERROR - 2015-07-01 15:11:35 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:11:35 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:11:35 --> ####debug4:
+DEBUG - 2015-07-01 15:11:35 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:11:35 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:11:35 --> #### library:session
+DEBUG - 2015-07-01 15:11:35 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:11:35 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:11:35 --> ####debug3:
+DEBUG - 2015-07-01 15:11:35 --> ####debug3.5:
+DEBUG - 2015-07-01 15:11:35 --> ####debug4:
+DEBUG - 2015-07-01 15:11:35 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:11:35 --> Session Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:11:35 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Session routines successfully run
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> Array
+(
+    [sql_id] => 41
+    [category_id] => 9
+    [display_name] => ActiveID
+    [description] => ひと月にログインしたユーザー数。
+その月に同じユーザーが何度ログインしても
+1回としてカウントしてください。
+
+※入力例：2015-04-01 00:00:00
+    [sql_text] => select
+  platform, 
+  count(t_member_id) as ActiveID 
+from
+  ( 
+    select
+      t1.t_member_id, 
+      t2.platform      
+    from
+      suj_db2.l_member_logins as t1
+	left join suj_db2.t_members as t2 on t1.t_member_id = t2.id
+    where
+    @1
+    group by
+      t1.t_member_id
+  ) as t3 
+group by platform;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:11:35 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:11:35 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:11:35 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:11:35 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:11:35 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:11:35 --> 1
+DEBUG - 2015-07-01 15:11:35 --> Array
+(
+    [0] => platform
+    [1] => ActiveID
+)
+
+DEBUG - 2015-07-01 15:11:35 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:11:35 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:11:35 --> Final output sent to browser
+DEBUG - 2015-07-01 15:11:35 --> Total execution time: 0.1149
+DEBUG - 2015-07-01 15:12:40 --> Config Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:12:40 --> URI Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Router Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Output Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Security Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Input Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:12:40 --> Language Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:12:40 --> #### library:
+DEBUG - 2015-07-01 15:12:40 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:12:40 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:12:40 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:12:40 --> ####debug3:
+DEBUG - 2015-07-01 15:12:40 --> ####debug3.5:
+ERROR - 2015-07-01 15:12:40 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:12:40 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:12:40 --> ####debug4:
+DEBUG - 2015-07-01 15:12:40 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:12:40 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:12:40 --> #### library:session
+DEBUG - 2015-07-01 15:12:40 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:12:40 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:12:40 --> ####debug3:
+DEBUG - 2015-07-01 15:12:40 --> ####debug3.5:
+DEBUG - 2015-07-01 15:12:40 --> ####debug4:
+DEBUG - 2015-07-01 15:12:40 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:12:40 --> Session Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:12:40 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Session routines successfully run
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> Array
+(
+    [sql_id] => 41
+    [category_id] => 9
+    [display_name] => ActiveID
+    [description] => ひと月にログインしたユーザー数。
+その月に同じユーザーが何度ログインしても
+1回としてカウントしてください。
+
+※入力例：2015-04-01 00:00:00
+    [sql_text] => select
+  platform, 
+  count(t_member_id) as ActiveID 
+from
+  ( 
+    select
+      t1.t_member_id, 
+      t2.platform      
+    from
+      suj_db2.l_member_logins as t1
+	left join suj_db2.t_members as t2 on t1.t_member_id = t2.id
+    where
+    @1
+    group by
+      t1.t_member_id
+  ) as t3 
+group by platform;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:12:40 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:12:40 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:12:40 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:12:40 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:12:40 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:12:40 --> 1
+DEBUG - 2015-07-01 15:12:40 --> Array
+(
+    [0] => platform
+    [1] => ActiveID
+)
+
+DEBUG - 2015-07-01 15:12:40 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:12:40 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:12:40 --> Final output sent to browser
+DEBUG - 2015-07-01 15:12:40 --> Total execution time: 0.0951
+DEBUG - 2015-07-01 15:12:54 --> Config Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:12:54 --> URI Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Router Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Output Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Security Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Input Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:12:54 --> Language Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:12:54 --> #### library:
+DEBUG - 2015-07-01 15:12:54 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:12:54 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:12:54 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:12:54 --> ####debug3:
+DEBUG - 2015-07-01 15:12:54 --> ####debug3.5:
+ERROR - 2015-07-01 15:12:54 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:12:54 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:12:54 --> ####debug4:
+DEBUG - 2015-07-01 15:12:54 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:12:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:12:54 --> #### library:session
+DEBUG - 2015-07-01 15:12:54 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:12:54 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:12:54 --> ####debug3:
+DEBUG - 2015-07-01 15:12:54 --> ####debug3.5:
+DEBUG - 2015-07-01 15:12:54 --> ####debug4:
+DEBUG - 2015-07-01 15:12:54 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:12:54 --> Session Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:12:54 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Session routines successfully run
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:12:54 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:12:54 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:12:54 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:12:54 --> Final output sent to browser
+DEBUG - 2015-07-01 15:12:54 --> Total execution time: 0.0332
+DEBUG - 2015-07-01 15:13:13 --> Config Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:13:13 --> URI Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Router Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Output Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Security Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Input Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:13:13 --> Language Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:13:13 --> #### library:
+DEBUG - 2015-07-01 15:13:13 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:13:13 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:13:13 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:13:13 --> ####debug3:
+DEBUG - 2015-07-01 15:13:13 --> ####debug3.5:
+ERROR - 2015-07-01 15:13:13 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:13:13 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:13:13 --> ####debug4:
+DEBUG - 2015-07-01 15:13:13 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:13:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:13:13 --> #### library:session
+DEBUG - 2015-07-01 15:13:13 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:13:13 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:13:13 --> ####debug3:
+DEBUG - 2015-07-01 15:13:13 --> ####debug3.5:
+DEBUG - 2015-07-01 15:13:13 --> ####debug4:
+DEBUG - 2015-07-01 15:13:13 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:13:13 --> Session Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:13:13 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Session routines successfully run
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> Array
+(
+    [sql_id] => 45
+    [category_id] => 9
+    [display_name] => ActiveID（リセマラ抜き）
+    [description] => ひと月にログインしたユーザー数。
+その月に同じユーザーが何度ログインしても
+1回としてカウントしてください。
+
+経験値7以下をリセマラユーザーとしてカウント
+
+※入力例：2015-04-01 00:00:00
+    [sql_text] => select
+  platform, 
+  count(t_member_id) as ActiveID 
+from
+  ( 
+    select
+      t1.t_member_id, 
+      t2.platform      
+    from
+      suj_db2.l_member_logins as t1
+	left join suj_db2.t_members as t2 on t1.t_member_id = t2.id
+    where
+    @1
+    and t2.exp>7
+    group by
+      t1.t_member_id
+  ) as t3 
+group by platform;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:13:13 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:13:13 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:13:13 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:13:13 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:13:13 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:13:13 --> 1
+DEBUG - 2015-07-01 15:13:13 --> Array
+(
+    [0] => platform
+    [1] => ActiveID
+)
+
+DEBUG - 2015-07-01 15:13:13 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:13:13 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:13:13 --> Final output sent to browser
+DEBUG - 2015-07-01 15:13:13 --> Total execution time: 0.0828
+DEBUG - 2015-07-01 15:13:37 --> Config Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:13:37 --> URI Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Router Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Output Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Security Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Input Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:13:37 --> Language Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:13:37 --> #### library:
+DEBUG - 2015-07-01 15:13:37 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:13:37 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:13:37 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:13:37 --> ####debug3:
+DEBUG - 2015-07-01 15:13:37 --> ####debug3.5:
+ERROR - 2015-07-01 15:13:37 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:13:37 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:13:37 --> ####debug4:
+DEBUG - 2015-07-01 15:13:37 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:13:37 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:13:37 --> #### library:session
+DEBUG - 2015-07-01 15:13:37 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:13:37 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:13:37 --> ####debug3:
+DEBUG - 2015-07-01 15:13:37 --> ####debug3.5:
+DEBUG - 2015-07-01 15:13:37 --> ####debug4:
+DEBUG - 2015-07-01 15:13:37 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:13:37 --> Session Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:13:37 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Session routines successfully run
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:37 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:13:37 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:13:37 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:13:37 --> Final output sent to browser
+DEBUG - 2015-07-01 15:13:37 --> Total execution time: 0.0338
+DEBUG - 2015-07-01 15:13:43 --> Config Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:13:43 --> URI Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Router Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Output Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Security Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Input Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:13:43 --> Language Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:13:43 --> #### library:
+DEBUG - 2015-07-01 15:13:43 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:13:43 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:13:43 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:13:43 --> ####debug3:
+DEBUG - 2015-07-01 15:13:43 --> ####debug3.5:
+ERROR - 2015-07-01 15:13:43 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:13:43 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:13:43 --> ####debug4:
+DEBUG - 2015-07-01 15:13:43 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:13:43 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:13:43 --> #### library:session
+DEBUG - 2015-07-01 15:13:43 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:13:43 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:13:43 --> ####debug3:
+DEBUG - 2015-07-01 15:13:43 --> ####debug3.5:
+DEBUG - 2015-07-01 15:13:43 --> ####debug4:
+DEBUG - 2015-07-01 15:13:43 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:13:43 --> Session Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:13:43 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Session routines successfully run
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> Array
+(
+    [sql_id] => 42
+    [category_id] => 9
+    [display_name] => NewPUID
+    [description] => ひと月の新規課金ユーザー数。
+過去1度も課金したことないユーザーが
+その月に課金した場合カウントしてください。
+
+※入力例：2015-04-01 00:00:00
+※3番目の入力項目は通常1番目と同じ日付でＯＫ
+    [sql_text] => SELECT
+  platform, 
+  count(t2.t_member_id) as NewPUID 
+FROM
+  ( 
+    select
+      t3.t_member_id, 
+      t4.platform
+    from
+      suj_db2.l_member_payments as t3
+      left join suj_db2.t_members as t4 on t3.t_member_id = t4.id
+    where
+    @1
+    group by
+      t3.t_member_id
+  ) as t2 
+WHERE
+  NOT EXISTS ( 
+    SELECT
+      * 
+    FROM
+      suj_db2.l_member_payments as t1 
+    WHERE
+      t2.t_member_id = t1.t_member_id 
+      and t1.created <= @1->start_time
+  )
+group by platform;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:13:43 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:13:43 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:13:43 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:13:43 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:13:43 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:13:43 --> 1
+DEBUG - 2015-07-01 15:13:43 --> Array
+(
+    [0] => platform
+    [1] => NewPUID
+)
+
+DEBUG - 2015-07-01 15:13:43 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:13:43 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:13:43 --> Final output sent to browser
+DEBUG - 2015-07-01 15:13:43 --> Total execution time: 0.0463
+DEBUG - 2015-07-01 15:14:43 --> Config Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:14:43 --> URI Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Router Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Output Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Security Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Input Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:14:43 --> Language Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:14:43 --> #### library:
+DEBUG - 2015-07-01 15:14:43 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:14:43 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:14:43 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:14:43 --> ####debug3:
+DEBUG - 2015-07-01 15:14:43 --> ####debug3.5:
+ERROR - 2015-07-01 15:14:43 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:14:43 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:14:43 --> ####debug4:
+DEBUG - 2015-07-01 15:14:43 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:14:43 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:14:43 --> #### library:session
+DEBUG - 2015-07-01 15:14:43 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:14:43 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:14:43 --> ####debug3:
+DEBUG - 2015-07-01 15:14:43 --> ####debug3.5:
+DEBUG - 2015-07-01 15:14:43 --> ####debug4:
+DEBUG - 2015-07-01 15:14:43 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:14:43 --> Session Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:14:43 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Session routines successfully run
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:43 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:14:43 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:14:43 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:14:43 --> Final output sent to browser
+DEBUG - 2015-07-01 15:14:43 --> Total execution time: 0.0277
+DEBUG - 2015-07-01 15:14:50 --> Config Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:14:50 --> URI Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Router Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Output Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Security Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Input Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:14:50 --> Language Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:14:50 --> #### library:
+DEBUG - 2015-07-01 15:14:50 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:14:50 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:14:50 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:14:50 --> ####debug3:
+DEBUG - 2015-07-01 15:14:50 --> ####debug3.5:
+ERROR - 2015-07-01 15:14:50 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:14:50 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:14:50 --> ####debug4:
+DEBUG - 2015-07-01 15:14:50 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:14:50 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:14:50 --> #### library:session
+DEBUG - 2015-07-01 15:14:50 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:14:50 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:14:50 --> ####debug3:
+DEBUG - 2015-07-01 15:14:50 --> ####debug3.5:
+DEBUG - 2015-07-01 15:14:50 --> ####debug4:
+DEBUG - 2015-07-01 15:14:50 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:14:50 --> Session Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:14:50 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Session routines successfully run
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 15:14:50 --> Array
+(
+    [sql_id] => 43
+    [category_id] => 9
+    [display_name] => PUID
+    [description] => ひと月の課金ユーザー数。
+その月に同じユーザーが何度も課金しても
+1回としてカウントしてください
+    [sql_text] => select
+  platform, 
+  count(t_member_id) as PUID 
+from
+  ( 
+    select
+      t1.t_member_id, 
+      t2.platform
+    from
+      suj_db2.l_member_payments as t1
+      left join suj_db2.t_members as t2 on t1.t_member_id = t2.id
+    where
+        @1
+    group by
+      t_member_id
+  ) as t3 
+group by platform;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:14:50 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:14:50 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:14:50 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:14:50 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:14:50 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:14:51 --> 1
+DEBUG - 2015-07-01 15:14:51 --> Array
+(
+    [0] => platform
+    [1] => PUID
+)
+
+DEBUG - 2015-07-01 15:14:51 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:14:51 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:14:51 --> Final output sent to browser
+DEBUG - 2015-07-01 15:14:51 --> Total execution time: 0.0376
+DEBUG - 2015-07-01 15:15:27 --> Config Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:15:27 --> URI Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Router Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Output Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Security Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Input Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:15:27 --> Language Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:15:27 --> #### library:
+DEBUG - 2015-07-01 15:15:27 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:15:27 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:15:27 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:15:27 --> ####debug3:
+DEBUG - 2015-07-01 15:15:27 --> ####debug3.5:
+ERROR - 2015-07-01 15:15:27 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:15:27 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:15:27 --> ####debug4:
+DEBUG - 2015-07-01 15:15:27 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:15:27 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:15:27 --> #### library:session
+DEBUG - 2015-07-01 15:15:27 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:15:27 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:15:27 --> ####debug3:
+DEBUG - 2015-07-01 15:15:27 --> ####debug3.5:
+DEBUG - 2015-07-01 15:15:27 --> ####debug4:
+DEBUG - 2015-07-01 15:15:27 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:15:27 --> Session Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:15:27 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Session routines successfully run
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:27 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:15:27 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:15:27 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:15:27 --> Final output sent to browser
+DEBUG - 2015-07-01 15:15:27 --> Total execution time: 0.0353
+DEBUG - 2015-07-01 15:15:38 --> Config Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:15:38 --> URI Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Router Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Output Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Security Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Input Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:15:38 --> Language Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:15:38 --> #### library:
+DEBUG - 2015-07-01 15:15:38 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:15:38 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:15:38 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:15:38 --> ####debug3:
+DEBUG - 2015-07-01 15:15:38 --> ####debug3.5:
+ERROR - 2015-07-01 15:15:38 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:15:38 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:15:38 --> ####debug4:
+DEBUG - 2015-07-01 15:15:38 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:15:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:15:38 --> #### library:session
+DEBUG - 2015-07-01 15:15:38 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:15:38 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:15:38 --> ####debug3:
+DEBUG - 2015-07-01 15:15:38 --> ####debug3.5:
+DEBUG - 2015-07-01 15:15:38 --> ####debug4:
+DEBUG - 2015-07-01 15:15:38 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:15:38 --> Session Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:15:38 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Session routines successfully run
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> Array
+(
+    [sql_id] => 46
+    [category_id] => 9
+    [display_name] => 「登録数」と「登録数の中での課金アカウント数」（リセマラ抜き）
+    [description] => 登録数＝その日にゲームを始めたアカウント数
+課金数＝登録数の中で課金アカウント数
+※課金数は抽出日によって、増加する
+※exp7以下は除外
+    [sql_text] => select 
+    newuser.d as '登録日',
+    newuser.cnt as '登録数',
+    ifnull(payment.cnt,0)  as '課金数'
+from 
+(
+    select left(created,10) as d,count(*) as cnt
+    from t_members
+    where
+        @1 and exp >7
+    group by left(created,10)
+) as newuser
+left join
+(
+    select left(created,10) as d,count(*) cnt
+    from 
+      (
+        select id,created from t_members
+        where
+             created >= @1->start_time and exp >7
+      ) as t1
+    where
+    exists (
+        select * from l_member_payments t2
+        where t1.id=t2.t_member_id
+    )
+    group by left(created,10)
+) as payment
+on 
+newuser.d = payment.d
+
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:15:38 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:15:38 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:15:38 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:15:38 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:15:38 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:15:38 --> 1
+DEBUG - 2015-07-01 15:15:38 --> Array
+(
+    [0] => 登録日
+    [1] => 登録数
+    [2] => 課金数
+)
+
+DEBUG - 2015-07-01 15:15:38 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:15:38 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:15:38 --> Final output sent to browser
+DEBUG - 2015-07-01 15:15:38 --> Total execution time: 0.2937
+DEBUG - 2015-07-01 15:21:16 --> Config Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:21:16 --> URI Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Router Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Output Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Security Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Input Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:21:16 --> Language Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:21:16 --> #### library:
+DEBUG - 2015-07-01 15:21:16 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:21:16 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:21:16 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:21:16 --> ####debug3:
+DEBUG - 2015-07-01 15:21:16 --> ####debug3.5:
+ERROR - 2015-07-01 15:21:16 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:21:16 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:21:16 --> ####debug4:
+DEBUG - 2015-07-01 15:21:16 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:21:16 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:21:16 --> #### library:session
+DEBUG - 2015-07-01 15:21:16 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:21:16 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:21:16 --> ####debug3:
+DEBUG - 2015-07-01 15:21:16 --> ####debug3.5:
+DEBUG - 2015-07-01 15:21:16 --> ####debug4:
+DEBUG - 2015-07-01 15:21:16 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:21:16 --> Session Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:21:16 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Session routines successfully run
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:16 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:21:16 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:21:16 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:21:16 --> Final output sent to browser
+DEBUG - 2015-07-01 15:21:16 --> Total execution time: 0.0313
+DEBUG - 2015-07-01 15:21:21 --> Config Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:21:21 --> URI Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Router Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Output Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Security Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Input Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:21:21 --> Language Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:21:21 --> #### library:
+DEBUG - 2015-07-01 15:21:21 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:21:21 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:21:21 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:21:21 --> ####debug3:
+DEBUG - 2015-07-01 15:21:21 --> ####debug3.5:
+ERROR - 2015-07-01 15:21:21 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:21:21 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:21:21 --> ####debug4:
+DEBUG - 2015-07-01 15:21:21 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:21:21 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:21:21 --> #### library:session
+DEBUG - 2015-07-01 15:21:21 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:21:21 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:21:21 --> ####debug3:
+DEBUG - 2015-07-01 15:21:21 --> ####debug3.5:
+DEBUG - 2015-07-01 15:21:21 --> ####debug4:
+DEBUG - 2015-07-01 15:21:21 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:21:21 --> Session Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:21:21 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Session routines successfully run
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> Array
+(
+    [sql_id] => 46
+    [category_id] => 9
+    [display_name] => 「登録数」と「登録数の中での課金アカウント数」（リセマラ抜き）
+    [description] => 登録数＝その日にゲームを始めたアカウント数
+課金数＝登録数の中で課金アカウント数
+※課金数は抽出日によって、増加する
+※exp7以下は除外
+    [sql_text] => select 
+    newuser.d as '登録日',
+    newuser.cnt as '登録数',
+    ifnull(payment.cnt,0)  as '課金数'
+from 
+(
+    select left(created,10) as d,count(*) as cnt
+    from t_members
+    where
+        @1 and exp >7
+    group by left(created,10)
+) as newuser
+left join
+(
+    select left(created,10) as d,count(*) cnt
+    from 
+      (
+        select id,created from t_members
+        where
+             created >= @1->start_time and exp >7
+      ) as t1
+    where
+    exists (
+        select * from l_member_payments t2
+        where t1.id=t2.t_member_id
+    )
+    group by left(created,10)
+) as payment
+on 
+newuser.d = payment.d
+
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:21:21 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:21:21 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:21:21 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:21:21 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:21:21 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:21:21 --> 1
+DEBUG - 2015-07-01 15:21:21 --> Array
+(
+    [0] => 登録日
+    [1] => 登録数
+    [2] => 課金数
+)
+
+DEBUG - 2015-07-01 15:21:21 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:21:21 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:21:21 --> Final output sent to browser
+DEBUG - 2015-07-01 15:21:21 --> Total execution time: 0.2477
+DEBUG - 2015-07-01 15:48:24 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:24 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:24 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:24 --> #### library:
+DEBUG - 2015-07-01 15:48:24 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:24 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:24 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:24 --> ####debug3:
+DEBUG - 2015-07-01 15:48:24 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:24 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:24 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:24 --> ####debug4:
+DEBUG - 2015-07-01 15:48:24 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:24 --> #### library:session
+DEBUG - 2015-07-01 15:48:24 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:24 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:24 --> ####debug3:
+DEBUG - 2015-07-01 15:48:24 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:24 --> ####debug4:
+DEBUG - 2015-07-01 15:48:24 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:24 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:24 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:24 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:24 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:24 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:48:24 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:24 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:24 --> Total execution time: 0.0364
+DEBUG - 2015-07-01 15:48:32 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:32 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:32 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:32 --> #### library:
+DEBUG - 2015-07-01 15:48:32 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:32 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:32 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:32 --> ####debug3:
+DEBUG - 2015-07-01 15:48:32 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:32 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:32 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:32 --> ####debug4:
+DEBUG - 2015-07-01 15:48:32 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:32 --> #### library:session
+DEBUG - 2015-07-01 15:48:32 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:32 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:32 --> ####debug3:
+DEBUG - 2015-07-01 15:48:32 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:32 --> ####debug4:
+DEBUG - 2015-07-01 15:48:32 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:32 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:32 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Session garbage collection performed.
+DEBUG - 2015-07-01 15:48:32 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 15:48:32 --> #### library:form_validation
+DEBUG - 2015-07-01 15:48:32 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 15:48:32 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 15:48:32 --> ####debug3:
+DEBUG - 2015-07-01 15:48:32 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:32 --> ####debug4:
+DEBUG - 2015-07-01 15:48:32 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 15:48:32 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 15:48:32 --> #### library:security
+DEBUG - 2015-07-01 15:48:32 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:32 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:32 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 15:48:32 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 15:48:32 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:32 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2015-07-01 15:48:32 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:32 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:32 --> Total execution time: 0.0431
+DEBUG - 2015-07-01 15:48:39 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:39 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:39 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:39 --> #### library:
+DEBUG - 2015-07-01 15:48:39 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:39 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:39 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:39 --> ####debug3:
+DEBUG - 2015-07-01 15:48:39 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:39 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:39 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:39 --> ####debug4:
+DEBUG - 2015-07-01 15:48:39 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:39 --> #### library:session
+DEBUG - 2015-07-01 15:48:39 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:39 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:39 --> ####debug3:
+DEBUG - 2015-07-01 15:48:39 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:39 --> ####debug4:
+DEBUG - 2015-07-01 15:48:39 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:39 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:39 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:39 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:39 --> File loaded: application/views/authorization.php
+DEBUG - 2015-07-01 15:48:39 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:39 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:39 --> Total execution time: 0.0371
+DEBUG - 2015-07-01 15:48:41 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:41 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:41 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:41 --> #### library:
+DEBUG - 2015-07-01 15:48:41 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:41 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:41 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:41 --> ####debug3:
+DEBUG - 2015-07-01 15:48:41 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:41 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:41 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:41 --> ####debug4:
+DEBUG - 2015-07-01 15:48:41 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:41 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:41 --> #### library:session
+DEBUG - 2015-07-01 15:48:41 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:41 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:41 --> ####debug3:
+DEBUG - 2015-07-01 15:48:41 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:41 --> ####debug4:
+DEBUG - 2015-07-01 15:48:41 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:41 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:41 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:41 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:41 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:41 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 15:48:41 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:41 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:41 --> Total execution time: 0.0301
+DEBUG - 2015-07-01 15:48:42 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:42 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:42 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:42 --> #### library:
+DEBUG - 2015-07-01 15:48:42 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:42 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:42 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:42 --> ####debug3:
+DEBUG - 2015-07-01 15:48:42 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:42 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:42 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:42 --> ####debug4:
+DEBUG - 2015-07-01 15:48:42 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:42 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:42 --> #### library:session
+DEBUG - 2015-07-01 15:48:42 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:42 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:42 --> ####debug3:
+DEBUG - 2015-07-01 15:48:42 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:42 --> ####debug4:
+DEBUG - 2015-07-01 15:48:42 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:42 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:42 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:42 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:42 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:42 --> File loaded: application/views/authorization.php
+DEBUG - 2015-07-01 15:48:42 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:42 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:42 --> Total execution time: 0.0338
+DEBUG - 2015-07-01 15:48:45 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:45 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:45 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:45 --> #### library:
+DEBUG - 2015-07-01 15:48:45 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:45 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:45 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:45 --> ####debug3:
+DEBUG - 2015-07-01 15:48:45 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:45 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:45 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:45 --> ####debug4:
+DEBUG - 2015-07-01 15:48:45 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:45 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:45 --> #### library:session
+DEBUG - 2015-07-01 15:48:45 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:45 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:45 --> ####debug3:
+DEBUG - 2015-07-01 15:48:45 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:45 --> ####debug4:
+DEBUG - 2015-07-01 15:48:45 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:45 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:45 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:45 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:45 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:45 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 15:48:45 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:45 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:45 --> Total execution time: 0.0348
+DEBUG - 2015-07-01 15:48:51 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:51 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:51 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:51 --> #### library:
+DEBUG - 2015-07-01 15:48:51 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:51 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:51 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:51 --> ####debug3:
+DEBUG - 2015-07-01 15:48:51 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:51 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:51 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:51 --> ####debug4:
+DEBUG - 2015-07-01 15:48:51 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:51 --> #### library:session
+DEBUG - 2015-07-01 15:48:51 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:51 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:51 --> ####debug3:
+DEBUG - 2015-07-01 15:48:51 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:51 --> ####debug4:
+DEBUG - 2015-07-01 15:48:51 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:51 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:51 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:51 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:51 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 15:48:51 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:51 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:51 --> Total execution time: 0.0283
+DEBUG - 2015-07-01 15:48:54 --> Config Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:48:54 --> URI Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Router Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Output Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Security Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Input Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:48:54 --> Language Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:48:54 --> #### library:
+DEBUG - 2015-07-01 15:48:54 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:48:54 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:48:54 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:48:54 --> ####debug3:
+DEBUG - 2015-07-01 15:48:54 --> ####debug3.5:
+ERROR - 2015-07-01 15:48:54 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:48:54 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:48:54 --> ####debug4:
+DEBUG - 2015-07-01 15:48:54 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:48:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:48:54 --> #### library:session
+DEBUG - 2015-07-01 15:48:54 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:48:54 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:48:54 --> ####debug3:
+DEBUG - 2015-07-01 15:48:54 --> ####debug3.5:
+DEBUG - 2015-07-01 15:48:54 --> ####debug4:
+DEBUG - 2015-07-01 15:48:54 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:48:54 --> Session Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:48:54 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Session routines successfully run
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:48:54 --> Array
+(
+    [user_id] => 1
+    [username] => ryoheitakahashi
+    [category_list] => Array
+        (
+            [0] => Array
+                (
+                    [category_id] => 1
+                    [category_name] => XD
+                )
+
+            [1] => Array
+                (
+                    [category_id] => 6
+                    [category_name] => 相互送客
+                )
+
+            [2] => Array
+                (
+                    [category_id] => 8
+                    [category_name] => SMI
+                )
+
+            [3] => Array
+                (
+                    [category_id] => 9
+                    [category_name] => SUJ
+                )
+
+        )
+
+    [dblist] => Array
+        (
+            [0] => Array
+                (
+                    [db_id] => 29
+                    [category_name] => SMI
+                    [db_display_name] => TestDB(ice)
+                    [selected] => 
+                )
+
+            [1] => Array
+                (
+                    [db_id] => 30
+                    [category_name] => SMI
+                    [db_display_name] => TestDB(ice_kpi)
+                    [selected] => 
+                )
+
+            [2] => Array
+                (
+                    [db_id] => 31
+                    [category_name] => SUJ
+                    [db_display_name] => SUJ_DB2_Slave
+                    [selected] => 
+                )
+
+            [3] => Array
+                (
+                    [db_id] => 4
+                    [category_name] => XD
+                    [db_display_name] => XD_Test1
+                    [selected] => 
+                )
+
+            [4] => Array
+                (
+                    [db_id] => 5
+                    [category_name] => XD
+                    [db_display_name] => XD_Test2
+                    [selected] => 
+                )
+
+            [5] => Array
+                (
+                    [db_id] => 6
+                    [category_name] => XD
+                    [db_display_name] => XD_Test3
+                    [selected] => 
+                )
+
+            [6] => Array
+                (
+                    [db_id] => 1
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_index_Slave
+                    [selected] => 
+                )
+
+            [7] => Array
+                (
+                    [db_id] => 27
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_index_and _log
+                    [selected] => 
+                )
+
+            [8] => Array
+                (
+                    [db_id] => 18
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_log_slave
+                    [selected] => selected
+                )
+
+            [9] => Array
+                (
+                    [db_id] => 7
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_user00_slave
+                    [selected] => 
+                )
+
+            [10] => Array
+                (
+                    [db_id] => 2
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_index_Slave
+                    [selected] => 
+                )
+
+            [11] => Array
+                (
+                    [db_id] => 26
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_index_and _log
+                    [selected] => 
+                )
+
+            [12] => Array
+                (
+                    [db_id] => 19
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_log_slave
+                    [selected] => selected
+                )
+
+            [13] => Array
+                (
+                    [db_id] => 15
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_user00_slave
+                    [selected] => 
+                )
+
+            [14] => Array
+                (
+                    [db_id] => 3
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_index_Slave
+                    [selected] => 
+                )
+
+            [15] => Array
+                (
+                    [db_id] => 25
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_index_and _log
+                    [selected] => 
+                )
+
+            [16] => Array
+                (
+                    [db_id] => 20
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_log_slave
+                    [selected] => selected
+                )
+
+            [17] => Array
+                (
+                    [db_id] => 16
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_user00_slave
+                    [selected] => 
+                )
+
+            [18] => Array
+                (
+                    [db_id] => 21
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_index_and _log
+                    [selected] => 
+                )
+
+            [19] => Array
+                (
+                    [db_id] => 22
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_log_slave
+                    [selected] => selected
+                )
+
+            [20] => Array
+                (
+                    [db_id] => 24
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_user00_slave
+                    [selected] => 
+                )
+
+            [21] => Array
+                (
+                    [db_id] => 23
+                    [category_name] => 相互送客
+                    [db_display_name] => 相互送客DB
+                    [selected] => 
+                )
+
+        )
+
+    [selected_dblist] => Array
+        (
+            [0] => Array
+                (
+                    [sql_id] => 22
+                    [db_id] => 18
+                )
+
+            [1] => Array
+                (
+                    [sql_id] => 22
+                    [db_id] => 19
+                )
+
+            [2] => Array
+                (
+                    [sql_id] => 22
+                    [db_id] => 20
+                )
+
+            [3] => Array
+                (
+                    [sql_id] => 22
+                    [db_id] => 22
+                )
+
+        )
+
+    [sql_info] => Array
+        (
+            [sql_id] => 22
+            [category_id] => 1
+            [display_name] => 【月初】課金ログの抽出
+            [description] => ユーザーの課金ログを抽出します。
+【抽出条件例】
+2015-01-01 00:00:00
+2015-02-01 00:00:00
+            [sql_text] => select pid as payment_id,gash,create_time from cash_trade_log
+where @1
+            [conditions] => 
+        )
+
+    [conditions] => Array
+        (
+            [0] => Array
+                (
+                    [sql_id] => 22
+                    [condition_id] => 1
+                    [location_no] => 1
+                    [condition_name] => create_time_start
+                    [column_name] => create_time
+                    [rel_operator] => ge
+                    [type] => text
+                    [removable] => true
+                    [connector] => and
+                )
+
+            [1] => Array
+                (
+                    [sql_id] => 22
+                    [condition_id] => 2
+                    [location_no] => 1
+                    [condition_name] => create_time_end
+                    [column_name] => create_time
+                    [rel_operator] => le
+                    [type] => text
+                    [removable] => true
+                    [connector] => nothing
+                )
+
+        )
+
+    [action] => index.php/sql_registration/update
+)
+
+DEBUG - 2015-07-01 15:48:54 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:48:54 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 15:48:54 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:48:54 --> Final output sent to browser
+DEBUG - 2015-07-01 15:48:54 --> Total execution time: 0.0393
+DEBUG - 2015-07-01 15:52:30 --> Config Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:52:30 --> URI Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Router Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Output Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Security Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Input Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:52:30 --> Language Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:52:30 --> #### library:
+DEBUG - 2015-07-01 15:52:30 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:52:30 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:52:30 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:52:30 --> ####debug3:
+DEBUG - 2015-07-01 15:52:30 --> ####debug3.5:
+ERROR - 2015-07-01 15:52:30 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:52:30 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:52:30 --> ####debug4:
+DEBUG - 2015-07-01 15:52:30 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:52:30 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:52:30 --> #### library:session
+DEBUG - 2015-07-01 15:52:30 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:52:30 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:52:30 --> ####debug3:
+DEBUG - 2015-07-01 15:52:30 --> ####debug3.5:
+DEBUG - 2015-07-01 15:52:30 --> ####debug4:
+DEBUG - 2015-07-01 15:52:30 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:52:30 --> Session Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:52:30 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Session routines successfully run
+DEBUG - 2015-07-01 15:52:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:30 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:52:30 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:52:30 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:52:30 --> Final output sent to browser
+DEBUG - 2015-07-01 15:52:30 --> Total execution time: 0.0368
+DEBUG - 2015-07-01 15:52:32 --> Config Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:52:32 --> URI Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Router Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Output Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Security Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Input Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:52:32 --> Language Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:52:32 --> #### library:
+DEBUG - 2015-07-01 15:52:32 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:52:32 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:52:32 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:52:32 --> ####debug3:
+DEBUG - 2015-07-01 15:52:32 --> ####debug3.5:
+ERROR - 2015-07-01 15:52:32 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:52:32 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:52:32 --> ####debug4:
+DEBUG - 2015-07-01 15:52:32 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:52:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:52:32 --> #### library:session
+DEBUG - 2015-07-01 15:52:32 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:52:32 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:52:32 --> ####debug3:
+DEBUG - 2015-07-01 15:52:32 --> ####debug3.5:
+DEBUG - 2015-07-01 15:52:32 --> ####debug4:
+DEBUG - 2015-07-01 15:52:32 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:52:32 --> Session Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:52:32 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Session routines successfully run
+DEBUG - 2015-07-01 15:52:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:32 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:52:32 --> File loaded: application/views/authorization.php
+DEBUG - 2015-07-01 15:52:32 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:52:32 --> Final output sent to browser
+DEBUG - 2015-07-01 15:52:32 --> Total execution time: 0.0285
+DEBUG - 2015-07-01 15:52:35 --> Config Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:52:35 --> URI Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Router Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Output Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Security Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Input Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:52:35 --> Language Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:52:35 --> #### library:
+DEBUG - 2015-07-01 15:52:35 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:52:35 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:52:35 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:52:35 --> ####debug3:
+DEBUG - 2015-07-01 15:52:35 --> ####debug3.5:
+ERROR - 2015-07-01 15:52:35 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:52:35 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:52:35 --> ####debug4:
+DEBUG - 2015-07-01 15:52:35 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:52:35 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:52:35 --> #### library:session
+DEBUG - 2015-07-01 15:52:35 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:52:35 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:52:35 --> ####debug3:
+DEBUG - 2015-07-01 15:52:35 --> ####debug3.5:
+DEBUG - 2015-07-01 15:52:35 --> ####debug4:
+DEBUG - 2015-07-01 15:52:35 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:52:35 --> Session Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:52:35 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Session routines successfully run
+DEBUG - 2015-07-01 15:52:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:35 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:52:35 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 15:52:35 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:52:35 --> Final output sent to browser
+DEBUG - 2015-07-01 15:52:35 --> Total execution time: 0.0282
+DEBUG - 2015-07-01 15:52:39 --> Config Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:52:39 --> URI Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Router Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Output Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Security Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Input Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:52:39 --> Language Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:52:39 --> #### library:
+DEBUG - 2015-07-01 15:52:39 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:52:39 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:52:39 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:52:39 --> ####debug3:
+DEBUG - 2015-07-01 15:52:39 --> ####debug3.5:
+ERROR - 2015-07-01 15:52:39 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:52:39 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:52:39 --> ####debug4:
+DEBUG - 2015-07-01 15:52:39 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:52:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:52:39 --> #### library:session
+DEBUG - 2015-07-01 15:52:39 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:52:39 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:52:39 --> ####debug3:
+DEBUG - 2015-07-01 15:52:39 --> ####debug3.5:
+DEBUG - 2015-07-01 15:52:39 --> ####debug4:
+DEBUG - 2015-07-01 15:52:39 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:52:39 --> Session Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:52:39 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Session routines successfully run
+DEBUG - 2015-07-01 15:52:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:52:39 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:52:39 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:52:39 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:52:39 --> Final output sent to browser
+DEBUG - 2015-07-01 15:52:39 --> Total execution time: 0.0345
+DEBUG - 2015-07-01 15:53:05 --> Config Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:53:05 --> URI Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Router Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Output Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Security Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Input Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:53:05 --> Language Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:53:05 --> #### library:
+DEBUG - 2015-07-01 15:53:05 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:53:05 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:53:05 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:53:05 --> ####debug3:
+DEBUG - 2015-07-01 15:53:05 --> ####debug3.5:
+ERROR - 2015-07-01 15:53:05 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:53:05 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:53:05 --> ####debug4:
+DEBUG - 2015-07-01 15:53:05 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:53:05 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:53:05 --> #### library:session
+DEBUG - 2015-07-01 15:53:05 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:53:05 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:53:05 --> ####debug3:
+DEBUG - 2015-07-01 15:53:05 --> ####debug3.5:
+DEBUG - 2015-07-01 15:53:05 --> ####debug4:
+DEBUG - 2015-07-01 15:53:05 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:53:05 --> Session Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:53:05 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Session routines successfully run
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:05 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:53:05 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:53:05 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:53:05 --> Final output sent to browser
+DEBUG - 2015-07-01 15:53:05 --> Total execution time: 0.0344
+DEBUG - 2015-07-01 15:53:25 --> Config Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:53:25 --> URI Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Router Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Output Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Security Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Input Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:53:25 --> Language Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:53:25 --> #### library:
+DEBUG - 2015-07-01 15:53:25 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:53:25 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:53:25 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:53:25 --> ####debug3:
+DEBUG - 2015-07-01 15:53:25 --> ####debug3.5:
+ERROR - 2015-07-01 15:53:25 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:53:25 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:53:25 --> ####debug4:
+DEBUG - 2015-07-01 15:53:25 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:53:25 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:53:25 --> #### library:session
+DEBUG - 2015-07-01 15:53:25 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:53:25 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:53:25 --> ####debug3:
+DEBUG - 2015-07-01 15:53:25 --> ####debug3.5:
+DEBUG - 2015-07-01 15:53:25 --> ####debug4:
+DEBUG - 2015-07-01 15:53:25 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:53:25 --> Session Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:53:25 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Session routines successfully run
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> Array
+(
+    [sql_id] => 44
+    [category_id] => 9
+    [display_name] => 「登録数」と「登録数の中での課金アカウント数」
+    [description] => 登録数＝その日にゲームを始めたアカウント数
+課金数＝登録数の中で課金アカウント数
+※課金数は抽出日によって、増加する
+    [sql_text] => select 
+    newuser.d as '登録日',
+    newuser.cnt as '登録数',
+    ifnull(payment.cnt,0)  as '課金数'
+from 
+(
+    select left(created,10) as d,count(*) as cnt
+    from t_members
+    where
+        @1
+    group by left(created,10)
+) as newuser
+left join
+(
+    select left(created,10) as d,count(*) cnt
+    from 
+      (
+        select id,created from t_members
+        where
+             created >= @1->start_time
+      ) as t1
+    where
+    exists (
+        select * from l_member_payments t2
+        where t1.id=t2.t_member_id
+    )
+    group by left(created,10)
+) as payment
+on 
+newuser.d = payment.d
+
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:53:25 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 15:53:25 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:53:25 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 15:53:25 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 15:53:25 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:53:25 --> 1
+DEBUG - 2015-07-01 15:53:25 --> Array
+(
+    [0] => 登録日
+    [1] => 登録数
+    [2] => 課金数
+)
+
+DEBUG - 2015-07-01 15:53:25 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:53:25 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:53:25 --> Final output sent to browser
+DEBUG - 2015-07-01 15:53:25 --> Total execution time: 0.7604
+DEBUG - 2015-07-01 15:53:32 --> Config Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:53:32 --> URI Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Router Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Output Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Security Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Input Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:53:32 --> Language Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:53:32 --> #### library:
+DEBUG - 2015-07-01 15:53:32 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:53:32 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:53:32 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:53:32 --> ####debug3:
+DEBUG - 2015-07-01 15:53:32 --> ####debug3.5:
+ERROR - 2015-07-01 15:53:32 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:53:32 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:53:32 --> ####debug4:
+DEBUG - 2015-07-01 15:53:32 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:53:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:53:32 --> #### library:session
+DEBUG - 2015-07-01 15:53:32 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:53:32 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:53:32 --> ####debug3:
+DEBUG - 2015-07-01 15:53:32 --> ####debug3.5:
+DEBUG - 2015-07-01 15:53:32 --> ####debug4:
+DEBUG - 2015-07-01 15:53:32 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:53:32 --> Session Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:53:32 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Session routines successfully run
+DEBUG - 2015-07-01 15:53:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:32 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:53:32 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:53:32 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:53:32 --> Final output sent to browser
+DEBUG - 2015-07-01 15:53:32 --> Total execution time: 0.0297
+DEBUG - 2015-07-01 15:53:34 --> Config Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:53:34 --> URI Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Router Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Output Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Security Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Input Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:53:34 --> Language Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:53:34 --> #### library:
+DEBUG - 2015-07-01 15:53:34 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:53:34 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:53:34 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:53:34 --> ####debug3:
+DEBUG - 2015-07-01 15:53:34 --> ####debug3.5:
+ERROR - 2015-07-01 15:53:34 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:53:34 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:53:34 --> ####debug4:
+DEBUG - 2015-07-01 15:53:34 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:53:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:53:34 --> #### library:session
+DEBUG - 2015-07-01 15:53:34 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:53:34 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:53:34 --> ####debug3:
+DEBUG - 2015-07-01 15:53:34 --> ####debug3.5:
+DEBUG - 2015-07-01 15:53:34 --> ####debug4:
+DEBUG - 2015-07-01 15:53:34 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:53:34 --> Session Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:53:34 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Session routines successfully run
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:34 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:53:34 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 15:53:34 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:53:34 --> Final output sent to browser
+DEBUG - 2015-07-01 15:53:34 --> Total execution time: 0.0324
+DEBUG - 2015-07-01 15:53:36 --> Config Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:53:36 --> URI Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Router Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Output Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Security Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Input Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:53:36 --> Language Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:53:36 --> #### library:
+DEBUG - 2015-07-01 15:53:36 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:53:36 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:53:36 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:53:36 --> ####debug3:
+DEBUG - 2015-07-01 15:53:36 --> ####debug3.5:
+ERROR - 2015-07-01 15:53:36 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:53:36 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:53:36 --> ####debug4:
+DEBUG - 2015-07-01 15:53:36 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:53:36 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:53:36 --> #### library:session
+DEBUG - 2015-07-01 15:53:36 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:53:36 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:53:36 --> ####debug3:
+DEBUG - 2015-07-01 15:53:36 --> ####debug3.5:
+DEBUG - 2015-07-01 15:53:36 --> ####debug4:
+DEBUG - 2015-07-01 15:53:36 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:53:36 --> Session Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:53:36 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Session routines successfully run
+DEBUG - 2015-07-01 15:53:36 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:36 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:53:36 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:53:36 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:53:36 --> Final output sent to browser
+DEBUG - 2015-07-01 15:53:36 --> Total execution time: 0.0300
+DEBUG - 2015-07-01 15:53:39 --> Config Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:53:39 --> URI Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Router Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Output Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Security Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Input Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:53:39 --> Language Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:53:39 --> #### library:
+DEBUG - 2015-07-01 15:53:39 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:53:39 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:53:39 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:53:39 --> ####debug3:
+DEBUG - 2015-07-01 15:53:39 --> ####debug3.5:
+ERROR - 2015-07-01 15:53:39 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:53:39 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:53:39 --> ####debug4:
+DEBUG - 2015-07-01 15:53:39 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:53:39 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:53:39 --> #### library:session
+DEBUG - 2015-07-01 15:53:39 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:53:39 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:53:39 --> ####debug3:
+DEBUG - 2015-07-01 15:53:39 --> ####debug3.5:
+DEBUG - 2015-07-01 15:53:39 --> ####debug4:
+DEBUG - 2015-07-01 15:53:39 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:53:39 --> Session Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:53:39 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Session routines successfully run
+DEBUG - 2015-07-01 15:53:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> Model Class Initialized
+DEBUG - 2015-07-01 15:53:39 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:53:39 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 15:53:39 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:53:39 --> Final output sent to browser
+DEBUG - 2015-07-01 15:53:39 --> Total execution time: 0.0250
+DEBUG - 2015-07-01 15:54:10 --> Config Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:54:10 --> URI Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Router Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Output Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Security Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Input Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:54:10 --> Language Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:54:10 --> #### library:
+DEBUG - 2015-07-01 15:54:10 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:54:10 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:54:10 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:54:10 --> ####debug3:
+DEBUG - 2015-07-01 15:54:10 --> ####debug3.5:
+ERROR - 2015-07-01 15:54:10 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:54:10 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:54:10 --> ####debug4:
+DEBUG - 2015-07-01 15:54:10 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:54:10 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:54:10 --> #### library:session
+DEBUG - 2015-07-01 15:54:10 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:54:10 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:54:10 --> ####debug3:
+DEBUG - 2015-07-01 15:54:10 --> ####debug3.5:
+DEBUG - 2015-07-01 15:54:10 --> ####debug4:
+DEBUG - 2015-07-01 15:54:10 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:54:10 --> Session Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:54:10 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Session routines successfully run
+DEBUG - 2015-07-01 15:54:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:10 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:54:10 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:54:10 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:54:10 --> Final output sent to browser
+DEBUG - 2015-07-01 15:54:10 --> Total execution time: 0.0207
+DEBUG - 2015-07-01 15:54:16 --> Config Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:54:16 --> URI Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Router Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Output Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Security Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Input Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:54:16 --> Language Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:54:16 --> #### library:
+DEBUG - 2015-07-01 15:54:16 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:54:16 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:54:16 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:54:16 --> ####debug3:
+DEBUG - 2015-07-01 15:54:16 --> ####debug3.5:
+ERROR - 2015-07-01 15:54:16 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:54:16 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:54:16 --> ####debug4:
+DEBUG - 2015-07-01 15:54:16 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:54:16 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:54:16 --> #### library:session
+DEBUG - 2015-07-01 15:54:16 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:54:16 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:54:16 --> ####debug3:
+DEBUG - 2015-07-01 15:54:16 --> ####debug3.5:
+DEBUG - 2015-07-01 15:54:16 --> ####debug4:
+DEBUG - 2015-07-01 15:54:16 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:54:16 --> Session Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:54:16 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Session routines successfully run
+DEBUG - 2015-07-01 15:54:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:16 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:54:16 --> File loaded: application/views/category_list.php
+DEBUG - 2015-07-01 15:54:16 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:54:16 --> Final output sent to browser
+DEBUG - 2015-07-01 15:54:16 --> Total execution time: 0.0331
+DEBUG - 2015-07-01 15:54:18 --> Config Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:54:18 --> URI Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Router Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Output Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Security Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Input Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:54:18 --> Language Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:54:18 --> #### library:
+DEBUG - 2015-07-01 15:54:18 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:54:18 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:54:18 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:54:18 --> ####debug3:
+DEBUG - 2015-07-01 15:54:18 --> ####debug3.5:
+ERROR - 2015-07-01 15:54:18 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:54:18 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:54:18 --> ####debug4:
+DEBUG - 2015-07-01 15:54:18 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:54:18 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:54:18 --> #### library:session
+DEBUG - 2015-07-01 15:54:18 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:54:18 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:54:18 --> ####debug3:
+DEBUG - 2015-07-01 15:54:18 --> ####debug3.5:
+DEBUG - 2015-07-01 15:54:18 --> ####debug4:
+DEBUG - 2015-07-01 15:54:18 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:54:18 --> Session Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:54:18 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Session routines successfully run
+DEBUG - 2015-07-01 15:54:18 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 15:54:18 --> #### library:form_validation
+DEBUG - 2015-07-01 15:54:18 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 15:54:18 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 15:54:18 --> ####debug3:
+DEBUG - 2015-07-01 15:54:18 --> ####debug3.5:
+DEBUG - 2015-07-01 15:54:18 --> ####debug4:
+DEBUG - 2015-07-01 15:54:18 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 15:54:18 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 15:54:18 --> #### library:security
+DEBUG - 2015-07-01 15:54:18 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:54:18 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:54:18 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 15:54:18 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 15:54:18 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:54:18 --> File loaded: application/views/account_list.php
+DEBUG - 2015-07-01 15:54:18 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:54:18 --> Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [username] => ryoheitakahashi
+            [password] => $2a$08$Qzd3xcDkfTQp0TSRsK2kte3g/8wmthH300tqSnIDDT3fEX8PVHi5q
+            [email] => ryoheitakahashi@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 14:32:59
+            [created] => 2014-09-05 11:28:44
+            [modified] => 2014-09-05 11:28:44
+            [admin] => 0
+            [role] => admin
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [username] => ryoheitakahashi2
+            [password] => $2a$08$EceGCEyP6YMnOcef6umMcOZC3xGMbmfFJTabyJzEnzJaRxE2uwAx2
+            [email] => ryoheitakahashi2@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.128.10.2
+            [last_login] => 2014-09-09 18:13:33
+            [created] => 2014-09-08 10:33:47
+            [modified] => 2014-09-08 10:33:47
+            [admin] => 0
+            [role] => admin
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [username] => mirainamatame
+            [password] => $2a$08$Dk05WkggXujsnH3h8bYLJ.Jc6g/Haao.uQY8.1So7MSfAkcno1b6C
+            [email] => mirainamatame@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-07 21:54:20
+            [created] => 2015-03-02 10:55:34
+            [modified] => 2015-03-02 10:55:34
+            [admin] => 0
+            [role] => user
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [username] => yujisato
+            [password] => $2a$08$7YHylmzVNRWkGFCEGKuF9OTtKATcLWBiLV/A.KKZWJAsohAEaIYQy
+            [email] => yujisato@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 11:06:56
+            [created] => 2015-03-05 18:51:27
+            [modified] => 2015-03-05 18:51:27
+            [admin] => 0
+            [role] => user
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [username] => kanamiujiie
+            [password] => $2a$08$UVIqDvvbjRhcv96jIrIXXOw.NTqhc0xt4GA..bv20LihKfpTyq3B.
+            [email] => kanamiujiie@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-11 16:43:49
+            [created] => 2015-04-09 21:11:00
+            [modified] => 2015-04-09 21:11:00
+            [admin] => 0
+            [role] => user
+        )
+
+    [5] => Array
+        (
+            [id] => 9
+            [username] => harryliu
+            [password] => $2a$08$YhJQAWRKTn/HaYMCQs7bsOhqKz83/DkFTzPgTEtbIL95RetaEvDt2
+            [email] => harryliu@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-01 17:28:11
+            [created] => 2015-05-01 10:52:39
+            [modified] => 2015-05-01 10:52:39
+            [admin] => 0
+            [role] => admin
+        )
+
+    [6] => Array
+        (
+            [id] => 10
+            [username] => teruhikotanaka
+            [password] => $2a$08$4Lz4WQb/Yx5xG1vnU9A6GuFXOlEv4vLD9EBmpAs/3/wl/2fL0M8oS
+            [email] => teruhikotanaka@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-30 11:35:34
+            [created] => 2015-05-01 22:18:47
+            [modified] => 2015-05-01 22:18:47
+            [admin] => 0
+            [role] => user
+        )
+
+    [7] => Array
+        (
+            [id] => 11
+            [username] => yuuichirohaga
+            [password] => $2a$08$Ni4if5zHXCXhRtRZQ.u.TOXaFw626Ctys93b79QOvYJ.wL4gBDH9.
+            [email] => yuuichirohaga@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 15:11:02
+            [created] => 2015-06-02 12:57:21
+            [modified] => 2015-06-02 12:57:21
+            [admin] => 0
+            [role] => user
+        )
+
+    [8] => Array
+        (
+            [id] => 12
+            [username] => daisukeasaeda
+            [password] => $2a$08$71XoK12uzQlyFQWTUVWg0.Df3OSFGrz60hfDbSJi.xcBdWH8KXs/i
+            [email] => daisukeasaeda@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-02 14:41:08
+            [created] => 2015-06-02 12:58:27
+            [modified] => 2015-06-02 12:58:27
+            [admin] => 0
+            [role] => user
+        )
+
+)
+
+DEBUG - 2015-07-01 15:54:18 --> Final output sent to browser
+DEBUG - 2015-07-01 15:54:18 --> Total execution time: 0.0288
+DEBUG - 2015-07-01 15:54:21 --> Config Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:54:21 --> URI Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Router Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Output Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Security Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Input Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:54:21 --> Language Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:54:21 --> #### library:
+DEBUG - 2015-07-01 15:54:21 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:54:21 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:54:21 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:54:21 --> ####debug3:
+DEBUG - 2015-07-01 15:54:21 --> ####debug3.5:
+ERROR - 2015-07-01 15:54:21 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:54:21 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:54:21 --> ####debug4:
+DEBUG - 2015-07-01 15:54:21 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:54:21 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:54:21 --> #### library:session
+DEBUG - 2015-07-01 15:54:21 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:54:21 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:54:21 --> ####debug3:
+DEBUG - 2015-07-01 15:54:21 --> ####debug3.5:
+DEBUG - 2015-07-01 15:54:21 --> ####debug4:
+DEBUG - 2015-07-01 15:54:21 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:54:21 --> Session Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:54:21 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Session routines successfully run
+DEBUG - 2015-07-01 15:54:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:21 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:54:21 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 15:54:21 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:54:21 --> Final output sent to browser
+DEBUG - 2015-07-01 15:54:21 --> Total execution time: 0.0252
+DEBUG - 2015-07-01 15:54:25 --> Config Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:54:25 --> URI Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Router Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Output Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Security Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Input Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:54:25 --> Language Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:54:25 --> #### library:
+DEBUG - 2015-07-01 15:54:25 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:54:25 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:54:25 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:54:25 --> ####debug3:
+DEBUG - 2015-07-01 15:54:25 --> ####debug3.5:
+ERROR - 2015-07-01 15:54:25 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:54:25 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:54:25 --> ####debug4:
+DEBUG - 2015-07-01 15:54:25 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:54:25 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:54:25 --> #### library:session
+DEBUG - 2015-07-01 15:54:25 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:54:25 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:54:25 --> ####debug3:
+DEBUG - 2015-07-01 15:54:25 --> ####debug3.5:
+DEBUG - 2015-07-01 15:54:25 --> ####debug4:
+DEBUG - 2015-07-01 15:54:25 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:54:25 --> Session Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:54:25 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Session routines successfully run
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:25 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:54:25 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 15:54:25 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:54:25 --> Final output sent to browser
+DEBUG - 2015-07-01 15:54:25 --> Total execution time: 0.0299
+DEBUG - 2015-07-01 15:54:30 --> Config Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:54:30 --> URI Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Router Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Output Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Security Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Input Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:54:30 --> Language Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:54:30 --> #### library:
+DEBUG - 2015-07-01 15:54:30 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:54:30 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:54:30 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:54:30 --> ####debug3:
+DEBUG - 2015-07-01 15:54:30 --> ####debug3.5:
+ERROR - 2015-07-01 15:54:30 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:54:30 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:54:30 --> ####debug4:
+DEBUG - 2015-07-01 15:54:30 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:54:30 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:54:30 --> #### library:session
+DEBUG - 2015-07-01 15:54:30 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:54:30 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:54:30 --> ####debug3:
+DEBUG - 2015-07-01 15:54:30 --> ####debug3.5:
+DEBUG - 2015-07-01 15:54:30 --> ####debug4:
+DEBUG - 2015-07-01 15:54:30 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:54:30 --> Session Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:54:30 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Session routines successfully run
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> Model Class Initialized
+DEBUG - 2015-07-01 15:54:30 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:54:30 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 15:54:30 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:54:30 --> Final output sent to browser
+DEBUG - 2015-07-01 15:54:30 --> Total execution time: 0.0338
+DEBUG - 2015-07-01 15:56:38 --> Config Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:56:38 --> URI Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Router Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 15:56:38 --> Output Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Security Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Input Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:56:38 --> Language Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:56:38 --> #### library:
+DEBUG - 2015-07-01 15:56:38 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:56:38 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:56:38 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:56:38 --> ####debug3:
+DEBUG - 2015-07-01 15:56:38 --> ####debug3.5:
+ERROR - 2015-07-01 15:56:38 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:56:38 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:56:38 --> ####debug4:
+DEBUG - 2015-07-01 15:56:38 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:56:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:56:38 --> #### library:session
+DEBUG - 2015-07-01 15:56:38 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:56:38 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:56:38 --> ####debug3:
+DEBUG - 2015-07-01 15:56:38 --> ####debug3.5:
+DEBUG - 2015-07-01 15:56:38 --> ####debug4:
+DEBUG - 2015-07-01 15:56:38 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:56:38 --> Session Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:56:38 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> A session cookie was not found.
+DEBUG - 2015-07-01 15:56:38 --> Session routines successfully run
+DEBUG - 2015-07-01 15:56:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 15:56:38 --> Config Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:56:38 --> URI Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Router Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Output Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Security Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Input Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:56:38 --> Language Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:56:38 --> #### library:
+DEBUG - 2015-07-01 15:56:38 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:56:38 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:56:38 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:56:38 --> ####debug3:
+DEBUG - 2015-07-01 15:56:38 --> ####debug3.5:
+ERROR - 2015-07-01 15:56:38 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:56:38 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:56:38 --> ####debug4:
+DEBUG - 2015-07-01 15:56:38 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:56:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:56:38 --> #### library:session
+DEBUG - 2015-07-01 15:56:38 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:56:38 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:56:38 --> ####debug3:
+DEBUG - 2015-07-01 15:56:38 --> ####debug3.5:
+DEBUG - 2015-07-01 15:56:38 --> ####debug4:
+DEBUG - 2015-07-01 15:56:38 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:56:38 --> Session Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:56:38 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Session routines successfully run
+DEBUG - 2015-07-01 15:56:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 15:56:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 15:56:38 --> #### library:form_validation
+DEBUG - 2015-07-01 15:56:38 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 15:56:38 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 15:56:38 --> ####debug3:
+DEBUG - 2015-07-01 15:56:38 --> ####debug3.5:
+DEBUG - 2015-07-01 15:56:38 --> ####debug4:
+DEBUG - 2015-07-01 15:56:38 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 15:56:38 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> #### library:security
+DEBUG - 2015-07-01 15:56:38 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:56:38 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:56:38 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 15:56:38 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 15:56:38 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:38 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2015-07-01 15:56:38 --> Final output sent to browser
+DEBUG - 2015-07-01 15:56:38 --> Total execution time: 0.0336
+DEBUG - 2015-07-01 15:56:57 --> Config Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:56:57 --> URI Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Router Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Output Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Security Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Input Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:56:57 --> Language Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:56:57 --> #### library:
+DEBUG - 2015-07-01 15:56:57 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:56:57 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:56:57 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:56:57 --> ####debug3:
+DEBUG - 2015-07-01 15:56:57 --> ####debug3.5:
+ERROR - 2015-07-01 15:56:57 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:56:57 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:56:57 --> ####debug4:
+DEBUG - 2015-07-01 15:56:57 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:56:57 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:56:57 --> #### library:session
+DEBUG - 2015-07-01 15:56:57 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:56:57 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:56:57 --> ####debug3:
+DEBUG - 2015-07-01 15:56:57 --> ####debug3.5:
+DEBUG - 2015-07-01 15:56:57 --> ####debug4:
+DEBUG - 2015-07-01 15:56:57 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:56:57 --> Session Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:56:57 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Session routines successfully run
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 15:56:57 --> #### library:form_validation
+DEBUG - 2015-07-01 15:56:57 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 15:56:57 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 15:56:57 --> ####debug3:
+DEBUG - 2015-07-01 15:56:57 --> ####debug3.5:
+DEBUG - 2015-07-01 15:56:57 --> ####debug4:
+DEBUG - 2015-07-01 15:56:57 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 15:56:57 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> #### library:security
+DEBUG - 2015-07-01 15:56:57 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:56:57 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:56:57 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 15:56:57 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 15:56:57 --> XSS Filtering completed
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-07-01 15:56:57 --> XSS Filtering completed
+DEBUG - 2015-07-01 15:56:57 --> XSS Filtering completed
+DEBUG - 2015-07-01 15:56:57 --> Config Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:56:57 --> URI Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Router Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Output Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Security Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Input Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:56:57 --> Language Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:56:57 --> #### library:
+DEBUG - 2015-07-01 15:56:57 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:56:57 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:56:57 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:56:57 --> ####debug3:
+DEBUG - 2015-07-01 15:56:57 --> ####debug3.5:
+ERROR - 2015-07-01 15:56:57 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:56:57 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:56:57 --> ####debug4:
+DEBUG - 2015-07-01 15:56:57 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:56:57 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:56:57 --> #### library:session
+DEBUG - 2015-07-01 15:56:57 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:56:57 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:56:57 --> ####debug3:
+DEBUG - 2015-07-01 15:56:57 --> ####debug3.5:
+DEBUG - 2015-07-01 15:56:57 --> ####debug4:
+DEBUG - 2015-07-01 15:56:57 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:56:57 --> Session Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:56:57 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Session routines successfully run
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> Model Class Initialized
+DEBUG - 2015-07-01 15:56:57 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:56:57 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 15:56:57 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:56:57 --> Final output sent to browser
+DEBUG - 2015-07-01 15:56:57 --> Total execution time: 0.0295
+DEBUG - 2015-07-01 15:57:23 --> Config Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:57:23 --> URI Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Router Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Output Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Security Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Input Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:57:23 --> Language Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:57:23 --> #### library:
+DEBUG - 2015-07-01 15:57:23 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:57:23 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:57:23 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:57:23 --> ####debug3:
+DEBUG - 2015-07-01 15:57:23 --> ####debug3.5:
+ERROR - 2015-07-01 15:57:23 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:57:23 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:57:23 --> ####debug4:
+DEBUG - 2015-07-01 15:57:23 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:57:23 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:57:23 --> #### library:session
+DEBUG - 2015-07-01 15:57:23 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:57:23 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:57:23 --> ####debug3:
+DEBUG - 2015-07-01 15:57:23 --> ####debug3.5:
+DEBUG - 2015-07-01 15:57:23 --> ####debug4:
+DEBUG - 2015-07-01 15:57:23 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:57:23 --> Session Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:57:23 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Session routines successfully run
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:23 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:57:23 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 15:57:23 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:57:23 --> Final output sent to browser
+DEBUG - 2015-07-01 15:57:23 --> Total execution time: 0.0290
+DEBUG - 2015-07-01 15:57:54 --> Config Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:57:54 --> URI Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Router Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Output Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Security Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Input Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:57:54 --> Language Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:57:54 --> #### library:
+DEBUG - 2015-07-01 15:57:54 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:57:54 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:57:54 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:57:54 --> ####debug3:
+DEBUG - 2015-07-01 15:57:54 --> ####debug3.5:
+ERROR - 2015-07-01 15:57:54 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:57:54 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:57:54 --> ####debug4:
+DEBUG - 2015-07-01 15:57:54 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:57:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:57:54 --> #### library:session
+DEBUG - 2015-07-01 15:57:54 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:57:54 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:57:54 --> ####debug3:
+DEBUG - 2015-07-01 15:57:54 --> ####debug3.5:
+DEBUG - 2015-07-01 15:57:54 --> ####debug4:
+DEBUG - 2015-07-01 15:57:54 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:57:54 --> Session Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:57:54 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Session routines successfully run
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> Array
+(
+    [sql_id] => 22
+    [category_id] => 1
+    [display_name] => 【月初】課金ログの抽出
+    [description] => ユーザーの課金ログを抽出します。
+【抽出条件例】
+2015-01-01 00:00:00
+2015-02-01 00:00:00
+    [sql_text] => select pid as payment_id,gash,create_time from cash_trade_log
+where @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:57:54 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:57:54 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:57:54 --> mysql://xdadmin:xdm4m4!!!@10.128.10.15/w1_xd_log?port=3306
+DEBUG - 2015-07-01 15:57:54 --> Array
+(
+    [db_id] => 18
+    [category_id] => 1
+    [display_name] => w1_xd_log_slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.15
+    [db_port] => 3306
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => w1_xd_log
+)
+
+DEBUG - 2015-07-01 15:57:54 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:57:54 --> 1
+DEBUG - 2015-07-01 15:57:54 --> Array
+(
+    [0] => payment_id
+    [1] => gash
+    [2] => create_time
+)
+
+DEBUG - 2015-07-01 15:57:54 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:57:54 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:57:54 --> Final output sent to browser
+DEBUG - 2015-07-01 15:57:54 --> Total execution time: 0.0669
+DEBUG - 2015-07-01 15:58:44 --> Config Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:58:44 --> URI Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Router Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Output Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Security Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Input Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:58:44 --> Language Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:58:44 --> #### library:
+DEBUG - 2015-07-01 15:58:44 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:58:44 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:58:44 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:58:44 --> ####debug3:
+DEBUG - 2015-07-01 15:58:44 --> ####debug3.5:
+ERROR - 2015-07-01 15:58:44 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:58:44 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:58:44 --> ####debug4:
+DEBUG - 2015-07-01 15:58:44 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:58:44 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:58:44 --> #### library:session
+DEBUG - 2015-07-01 15:58:44 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:58:44 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:58:44 --> ####debug3:
+DEBUG - 2015-07-01 15:58:44 --> ####debug3.5:
+DEBUG - 2015-07-01 15:58:44 --> ####debug4:
+DEBUG - 2015-07-01 15:58:44 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:58:44 --> Session Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:58:44 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Session routines successfully run
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Model Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> Array
+(
+    [sql_id] => 22
+    [category_id] => 1
+    [display_name] => 【月初】課金ログの抽出
+    [description] => ユーザーの課金ログを抽出します。
+【抽出条件例】
+2015-01-01 00:00:00
+2015-02-01 00:00:00
+    [sql_text] => select pid as payment_id,gash,create_time from cash_trade_log
+where @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:58:44 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:58:44 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:58:44 --> mysql://xdadmin:xdm4m4!!!@10.128.10.25/w2_xd_log?port=
+DEBUG - 2015-07-01 15:58:44 --> Array
+(
+    [db_id] => 19
+    [category_id] => 1
+    [display_name] => w2_xd_log_slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.25
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => w2_xd_log
+)
+
+DEBUG - 2015-07-01 15:58:44 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:58:44 --> 1
+DEBUG - 2015-07-01 15:58:44 --> Array
+(
+    [0] => payment_id
+    [1] => gash
+    [2] => create_time
+)
+
+DEBUG - 2015-07-01 15:58:44 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:58:44 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:58:44 --> Final output sent to browser
+DEBUG - 2015-07-01 15:58:44 --> Total execution time: 0.0855
+DEBUG - 2015-07-01 15:59:10 --> Config Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Hooks Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 15:59:10 --> URI Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Router Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Output Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Security Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Input Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 15:59:10 --> Language Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Loader Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 15:59:10 --> #### library:
+DEBUG - 2015-07-01 15:59:10 --> Controller Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> #### library:tank_auth
+DEBUG - 2015-07-01 15:59:10 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 15:59:10 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 15:59:10 --> ####debug3:
+DEBUG - 2015-07-01 15:59:10 --> ####debug3.5:
+ERROR - 2015-07-01 15:59:10 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 15:59:10 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 15:59:10 --> ####debug4:
+DEBUG - 2015-07-01 15:59:10 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 15:59:10 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 15:59:10 --> #### library:session
+DEBUG - 2015-07-01 15:59:10 --> ####ci_load_class:session
+DEBUG - 2015-07-01 15:59:10 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 15:59:10 --> ####debug3:
+DEBUG - 2015-07-01 15:59:10 --> ####debug3.5:
+DEBUG - 2015-07-01 15:59:10 --> ####debug4:
+DEBUG - 2015-07-01 15:59:10 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 15:59:10 --> Session Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 15:59:10 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Session routines successfully run
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Model Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> Array
+(
+    [sql_id] => 22
+    [category_id] => 1
+    [display_name] => 【月初】課金ログの抽出
+    [description] => ユーザーの課金ログを抽出します。
+【抽出条件例】
+2015-01-01 00:00:00
+2015-02-01 00:00:00
+    [sql_text] => select pid as payment_id,gash,create_time from cash_trade_log
+where @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 15:59:10 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 15:59:10 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 15:59:10 --> mysql://xdadmin:xdm4m4!!!@10.128.10.35/w3_xd_log?port=
+DEBUG - 2015-07-01 15:59:10 --> Array
+(
+    [db_id] => 20
+    [category_id] => 1
+    [display_name] => w3_xd_log_slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.35
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => w3_xd_log
+)
+
+DEBUG - 2015-07-01 15:59:10 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 15:59:10 --> 1
+DEBUG - 2015-07-01 15:59:10 --> Array
+(
+    [0] => payment_id
+    [1] => gash
+    [2] => create_time
+)
+
+DEBUG - 2015-07-01 15:59:10 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 15:59:10 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 15:59:10 --> Final output sent to browser
+DEBUG - 2015-07-01 15:59:10 --> Total execution time: 0.0557
+DEBUG - 2015-07-01 16:40:17 --> Config Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:40:17 --> URI Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Router Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Output Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Security Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Input Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:40:17 --> Language Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:40:17 --> #### library:
+DEBUG - 2015-07-01 16:40:17 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:40:17 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:40:17 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:40:17 --> ####debug3:
+DEBUG - 2015-07-01 16:40:17 --> ####debug3.5:
+ERROR - 2015-07-01 16:40:17 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:40:17 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:40:17 --> ####debug4:
+DEBUG - 2015-07-01 16:40:17 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:40:17 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:40:17 --> #### library:session
+DEBUG - 2015-07-01 16:40:17 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:40:17 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:40:17 --> ####debug3:
+DEBUG - 2015-07-01 16:40:17 --> ####debug3.5:
+DEBUG - 2015-07-01 16:40:17 --> ####debug4:
+DEBUG - 2015-07-01 16:40:17 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:40:17 --> Session Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:40:17 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Session routines successfully run
+DEBUG - 2015-07-01 16:40:17 --> Model Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Model Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Model Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Model Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> Model Class Initialized
+DEBUG - 2015-07-01 16:40:17 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:40:17 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 16:40:17 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:40:17 --> Final output sent to browser
+DEBUG - 2015-07-01 16:40:17 --> Total execution time: 0.0289
+DEBUG - 2015-07-01 16:47:36 --> Config Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:47:36 --> URI Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Router Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Output Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Security Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Input Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:47:36 --> Language Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:47:36 --> #### library:
+DEBUG - 2015-07-01 16:47:36 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:47:36 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:47:36 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:47:36 --> ####debug3:
+DEBUG - 2015-07-01 16:47:36 --> ####debug3.5:
+ERROR - 2015-07-01 16:47:36 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:47:36 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:47:36 --> ####debug4:
+DEBUG - 2015-07-01 16:47:36 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:47:36 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:47:36 --> #### library:session
+DEBUG - 2015-07-01 16:47:36 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:47:36 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:47:36 --> ####debug3:
+DEBUG - 2015-07-01 16:47:36 --> ####debug3.5:
+DEBUG - 2015-07-01 16:47:36 --> ####debug4:
+DEBUG - 2015-07-01 16:47:36 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:47:36 --> Session Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:47:36 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> A session cookie was not found.
+DEBUG - 2015-07-01 16:47:36 --> Session routines successfully run
+DEBUG - 2015-07-01 16:47:36 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 16:47:36 --> Config Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:47:36 --> URI Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Router Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Output Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Security Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Input Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:47:36 --> Language Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:47:36 --> #### library:
+DEBUG - 2015-07-01 16:47:36 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:47:36 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:47:36 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:47:36 --> ####debug3:
+DEBUG - 2015-07-01 16:47:36 --> ####debug3.5:
+ERROR - 2015-07-01 16:47:36 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:47:36 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:47:36 --> ####debug4:
+DEBUG - 2015-07-01 16:47:36 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:47:36 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:47:36 --> #### library:session
+DEBUG - 2015-07-01 16:47:36 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:47:36 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:47:36 --> ####debug3:
+DEBUG - 2015-07-01 16:47:36 --> ####debug3.5:
+DEBUG - 2015-07-01 16:47:36 --> ####debug4:
+DEBUG - 2015-07-01 16:47:36 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:47:36 --> Session Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:47:36 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Session routines successfully run
+DEBUG - 2015-07-01 16:47:36 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 16:47:36 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 16:47:36 --> #### library:form_validation
+DEBUG - 2015-07-01 16:47:36 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 16:47:36 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 16:47:36 --> ####debug3:
+DEBUG - 2015-07-01 16:47:36 --> ####debug3.5:
+DEBUG - 2015-07-01 16:47:36 --> ####debug4:
+DEBUG - 2015-07-01 16:47:36 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 16:47:36 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> #### library:security
+DEBUG - 2015-07-01 16:47:36 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:47:36 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:47:36 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 16:47:36 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 16:47:36 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:36 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2015-07-01 16:47:36 --> Final output sent to browser
+DEBUG - 2015-07-01 16:47:36 --> Total execution time: 0.0390
+DEBUG - 2015-07-01 16:47:44 --> Config Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:47:44 --> URI Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Router Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Output Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Security Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Input Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:47:44 --> Language Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:47:44 --> #### library:
+DEBUG - 2015-07-01 16:47:44 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:47:44 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:47:44 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:47:44 --> ####debug3:
+DEBUG - 2015-07-01 16:47:44 --> ####debug3.5:
+ERROR - 2015-07-01 16:47:44 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:47:44 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:47:44 --> ####debug4:
+DEBUG - 2015-07-01 16:47:44 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:47:44 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:47:44 --> #### library:session
+DEBUG - 2015-07-01 16:47:44 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:47:44 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:47:44 --> ####debug3:
+DEBUG - 2015-07-01 16:47:44 --> ####debug3.5:
+DEBUG - 2015-07-01 16:47:44 --> ####debug4:
+DEBUG - 2015-07-01 16:47:44 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:47:44 --> Session Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:47:44 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Session routines successfully run
+DEBUG - 2015-07-01 16:47:44 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 16:47:44 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 16:47:44 --> #### library:form_validation
+DEBUG - 2015-07-01 16:47:44 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 16:47:44 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 16:47:44 --> ####debug3:
+DEBUG - 2015-07-01 16:47:44 --> ####debug3.5:
+DEBUG - 2015-07-01 16:47:44 --> ####debug4:
+DEBUG - 2015-07-01 16:47:44 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 16:47:44 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> #### library:security
+DEBUG - 2015-07-01 16:47:44 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:47:44 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:47:44 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 16:47:44 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 16:47:44 --> XSS Filtering completed
+DEBUG - 2015-07-01 16:47:44 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:44 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-07-01 16:47:44 --> XSS Filtering completed
+DEBUG - 2015-07-01 16:47:44 --> XSS Filtering completed
+DEBUG - 2015-07-01 16:47:45 --> Config Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:47:45 --> URI Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Router Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Output Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Security Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Input Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:47:45 --> Language Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:47:45 --> #### library:
+DEBUG - 2015-07-01 16:47:45 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:47:45 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:47:45 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:47:45 --> ####debug3:
+DEBUG - 2015-07-01 16:47:45 --> ####debug3.5:
+ERROR - 2015-07-01 16:47:45 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:47:45 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:47:45 --> ####debug4:
+DEBUG - 2015-07-01 16:47:45 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:47:45 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:47:45 --> #### library:session
+DEBUG - 2015-07-01 16:47:45 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:47:45 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:47:45 --> ####debug3:
+DEBUG - 2015-07-01 16:47:45 --> ####debug3.5:
+DEBUG - 2015-07-01 16:47:45 --> ####debug4:
+DEBUG - 2015-07-01 16:47:45 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:47:45 --> Session Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:47:45 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Session routines successfully run
+DEBUG - 2015-07-01 16:47:45 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:45 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:47:45 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 16:47:45 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:47:45 --> Final output sent to browser
+DEBUG - 2015-07-01 16:47:45 --> Total execution time: 0.0261
+DEBUG - 2015-07-01 16:47:47 --> Config Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:47:47 --> URI Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Router Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Output Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Security Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Input Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:47:47 --> Language Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:47:47 --> #### library:
+DEBUG - 2015-07-01 16:47:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:47:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:47:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:47:47 --> ####debug3:
+DEBUG - 2015-07-01 16:47:47 --> ####debug3.5:
+ERROR - 2015-07-01 16:47:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:47:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:47:47 --> ####debug4:
+DEBUG - 2015-07-01 16:47:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:47:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:47:47 --> #### library:session
+DEBUG - 2015-07-01 16:47:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:47:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:47:47 --> ####debug3:
+DEBUG - 2015-07-01 16:47:47 --> ####debug3.5:
+DEBUG - 2015-07-01 16:47:47 --> ####debug4:
+DEBUG - 2015-07-01 16:47:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:47:47 --> Session Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:47:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Session routines successfully run
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:47:47 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:47:47 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 16:47:47 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:47:47 --> Final output sent to browser
+DEBUG - 2015-07-01 16:47:47 --> Total execution time: 0.0340
+DEBUG - 2015-07-01 16:49:47 --> Config Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:49:47 --> URI Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Router Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Output Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Security Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Input Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:49:47 --> Language Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:49:47 --> #### library:
+DEBUG - 2015-07-01 16:49:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:49:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:49:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:49:47 --> ####debug3:
+DEBUG - 2015-07-01 16:49:47 --> ####debug3.5:
+ERROR - 2015-07-01 16:49:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:49:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:49:47 --> ####debug4:
+DEBUG - 2015-07-01 16:49:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:49:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:49:47 --> #### library:session
+DEBUG - 2015-07-01 16:49:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:49:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:49:47 --> ####debug3:
+DEBUG - 2015-07-01 16:49:47 --> ####debug3.5:
+DEBUG - 2015-07-01 16:49:47 --> ####debug4:
+DEBUG - 2015-07-01 16:49:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:49:47 --> Session Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:49:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Session routines successfully run
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+ERROR - 2015-07-01 16:49:47 --> Severity: Notice  --> Undefined index: condition_name /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/models/db_search/sql_registration_model.php 60
+DEBUG - 2015-07-01 16:49:47 --> Config Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:49:47 --> URI Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Router Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 16:49:47 --> Output Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Security Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Input Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:49:47 --> Language Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:49:47 --> #### library:
+DEBUG - 2015-07-01 16:49:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:49:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:49:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:49:47 --> ####debug3:
+DEBUG - 2015-07-01 16:49:47 --> ####debug3.5:
+ERROR - 2015-07-01 16:49:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:49:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:49:47 --> ####debug4:
+DEBUG - 2015-07-01 16:49:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:49:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:49:47 --> #### library:session
+DEBUG - 2015-07-01 16:49:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:49:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:49:47 --> ####debug3:
+DEBUG - 2015-07-01 16:49:47 --> ####debug3.5:
+DEBUG - 2015-07-01 16:49:47 --> ####debug4:
+DEBUG - 2015-07-01 16:49:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:49:47 --> Session Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:49:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Session routines successfully run
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:47 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:49:47 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 16:49:47 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:49:47 --> Final output sent to browser
+DEBUG - 2015-07-01 16:49:47 --> Total execution time: 0.0264
+DEBUG - 2015-07-01 16:49:52 --> Config Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:49:52 --> URI Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Router Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Output Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Security Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Input Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:49:52 --> Language Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:49:52 --> #### library:
+DEBUG - 2015-07-01 16:49:52 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:49:52 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:49:52 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:49:52 --> ####debug3:
+DEBUG - 2015-07-01 16:49:52 --> ####debug3.5:
+ERROR - 2015-07-01 16:49:52 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:49:52 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:49:52 --> ####debug4:
+DEBUG - 2015-07-01 16:49:52 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:49:52 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:49:52 --> #### library:session
+DEBUG - 2015-07-01 16:49:52 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:49:52 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:49:52 --> ####debug3:
+DEBUG - 2015-07-01 16:49:52 --> ####debug3.5:
+DEBUG - 2015-07-01 16:49:52 --> ####debug4:
+DEBUG - 2015-07-01 16:49:52 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:49:52 --> Session Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:49:52 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Session routines successfully run
+DEBUG - 2015-07-01 16:49:52 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:52 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:49:52 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:49:52 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:49:52 --> Final output sent to browser
+DEBUG - 2015-07-01 16:49:52 --> Total execution time: 0.0212
+DEBUG - 2015-07-01 16:49:54 --> Config Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:49:54 --> URI Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Router Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Output Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Security Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Input Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:49:54 --> Language Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:49:54 --> #### library:
+DEBUG - 2015-07-01 16:49:54 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:49:54 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:49:54 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:49:54 --> ####debug3:
+DEBUG - 2015-07-01 16:49:54 --> ####debug3.5:
+ERROR - 2015-07-01 16:49:54 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:49:54 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:49:54 --> ####debug4:
+DEBUG - 2015-07-01 16:49:54 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:49:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:49:54 --> #### library:session
+DEBUG - 2015-07-01 16:49:54 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:49:54 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:49:54 --> ####debug3:
+DEBUG - 2015-07-01 16:49:54 --> ####debug3.5:
+DEBUG - 2015-07-01 16:49:54 --> ####debug4:
+DEBUG - 2015-07-01 16:49:54 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:49:54 --> Session Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:49:54 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Session routines successfully run
+DEBUG - 2015-07-01 16:49:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:49:54 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:49:54 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:49:54 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:49:54 --> Final output sent to browser
+DEBUG - 2015-07-01 16:49:54 --> Total execution time: 0.0344
+DEBUG - 2015-07-01 16:50:13 --> Config Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:50:13 --> URI Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Router Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Output Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Security Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Input Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:50:13 --> Language Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:50:13 --> #### library:
+DEBUG - 2015-07-01 16:50:13 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:50:13 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:50:13 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:50:13 --> ####debug3:
+DEBUG - 2015-07-01 16:50:13 --> ####debug3.5:
+ERROR - 2015-07-01 16:50:13 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:50:13 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:50:13 --> ####debug4:
+DEBUG - 2015-07-01 16:50:13 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:50:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:50:13 --> #### library:session
+DEBUG - 2015-07-01 16:50:13 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:50:13 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:50:13 --> ####debug3:
+DEBUG - 2015-07-01 16:50:13 --> ####debug3.5:
+DEBUG - 2015-07-01 16:50:13 --> ####debug4:
+DEBUG - 2015-07-01 16:50:13 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:50:13 --> Session Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:50:13 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Session routines successfully run
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Config Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:50:13 --> URI Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Router Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Output Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Security Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Input Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:50:13 --> Language Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:50:13 --> #### library:
+DEBUG - 2015-07-01 16:50:13 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:50:13 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:50:13 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:50:13 --> ####debug3:
+DEBUG - 2015-07-01 16:50:13 --> ####debug3.5:
+ERROR - 2015-07-01 16:50:13 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:50:13 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:50:13 --> ####debug4:
+DEBUG - 2015-07-01 16:50:13 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:50:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:50:13 --> #### library:session
+DEBUG - 2015-07-01 16:50:13 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:50:13 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:50:13 --> ####debug3:
+DEBUG - 2015-07-01 16:50:13 --> ####debug3.5:
+DEBUG - 2015-07-01 16:50:13 --> ####debug4:
+DEBUG - 2015-07-01 16:50:13 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:50:13 --> Session Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:50:13 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Session routines successfully run
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:13 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:50:13 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:50:13 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:50:13 --> Final output sent to browser
+DEBUG - 2015-07-01 16:50:13 --> Total execution time: 0.0255
+DEBUG - 2015-07-01 16:50:15 --> Config Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:50:15 --> URI Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Router Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Output Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Security Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Input Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:50:15 --> Language Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:50:15 --> #### library:
+DEBUG - 2015-07-01 16:50:15 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:50:15 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:50:15 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:50:15 --> ####debug3:
+DEBUG - 2015-07-01 16:50:15 --> ####debug3.5:
+ERROR - 2015-07-01 16:50:15 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:50:15 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:50:15 --> ####debug4:
+DEBUG - 2015-07-01 16:50:15 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:50:15 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:50:15 --> #### library:session
+DEBUG - 2015-07-01 16:50:15 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:50:15 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:50:15 --> ####debug3:
+DEBUG - 2015-07-01 16:50:15 --> ####debug3.5:
+DEBUG - 2015-07-01 16:50:15 --> ####debug4:
+DEBUG - 2015-07-01 16:50:15 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:50:15 --> Session Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:50:15 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Session routines successfully run
+DEBUG - 2015-07-01 16:50:15 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> Model Class Initialized
+DEBUG - 2015-07-01 16:50:15 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:50:15 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:50:15 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:50:15 --> Final output sent to browser
+DEBUG - 2015-07-01 16:50:15 --> Total execution time: 0.0355
+DEBUG - 2015-07-01 16:53:13 --> Config Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:53:13 --> URI Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Router Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Output Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Security Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Input Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:53:13 --> Language Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:53:13 --> #### library:
+DEBUG - 2015-07-01 16:53:13 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:53:13 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:53:13 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:53:13 --> ####debug3:
+DEBUG - 2015-07-01 16:53:13 --> ####debug3.5:
+ERROR - 2015-07-01 16:53:13 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:53:13 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:53:13 --> ####debug4:
+DEBUG - 2015-07-01 16:53:13 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:53:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:53:13 --> #### library:session
+DEBUG - 2015-07-01 16:53:13 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:53:13 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:53:13 --> ####debug3:
+DEBUG - 2015-07-01 16:53:13 --> ####debug3.5:
+DEBUG - 2015-07-01 16:53:13 --> ####debug4:
+DEBUG - 2015-07-01 16:53:13 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:53:13 --> Session Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:53:13 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Session routines successfully run
+DEBUG - 2015-07-01 16:53:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:13 --> DB Transaction Failure
+ERROR - 2015-07-01 16:53:13 --> Query error: Duplicate entry 'w3_xd_index_Slave' for key 'display_name'
+DEBUG - 2015-07-01 16:53:13 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2015-07-01 16:53:26 --> Config Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:53:26 --> URI Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Router Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Output Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Security Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Input Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:53:26 --> Language Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:53:26 --> #### library:
+DEBUG - 2015-07-01 16:53:26 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:53:26 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:53:26 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:53:26 --> ####debug3:
+DEBUG - 2015-07-01 16:53:26 --> ####debug3.5:
+ERROR - 2015-07-01 16:53:26 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:53:26 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:53:26 --> ####debug4:
+DEBUG - 2015-07-01 16:53:26 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:53:26 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:53:26 --> #### library:session
+DEBUG - 2015-07-01 16:53:26 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:53:26 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:53:26 --> ####debug3:
+DEBUG - 2015-07-01 16:53:26 --> ####debug3.5:
+DEBUG - 2015-07-01 16:53:26 --> ####debug4:
+DEBUG - 2015-07-01 16:53:26 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:53:26 --> Session Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:53:26 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Session routines successfully run
+DEBUG - 2015-07-01 16:53:26 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:26 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:53:26 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:53:26 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:53:26 --> Final output sent to browser
+DEBUG - 2015-07-01 16:53:26 --> Total execution time: 0.0300
+DEBUG - 2015-07-01 16:53:31 --> Config Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:53:31 --> URI Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Router Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Output Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Security Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Input Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:53:31 --> Language Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:53:31 --> #### library:
+DEBUG - 2015-07-01 16:53:31 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:53:31 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:53:31 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:53:31 --> ####debug3:
+DEBUG - 2015-07-01 16:53:31 --> ####debug3.5:
+ERROR - 2015-07-01 16:53:31 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:53:31 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:53:31 --> ####debug4:
+DEBUG - 2015-07-01 16:53:31 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:53:31 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:53:31 --> #### library:session
+DEBUG - 2015-07-01 16:53:31 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:53:31 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:53:31 --> ####debug3:
+DEBUG - 2015-07-01 16:53:31 --> ####debug3.5:
+DEBUG - 2015-07-01 16:53:31 --> ####debug4:
+DEBUG - 2015-07-01 16:53:31 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:53:31 --> Session Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:53:31 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Session routines successfully run
+DEBUG - 2015-07-01 16:53:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:31 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:53:31 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:53:31 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:53:31 --> Final output sent to browser
+DEBUG - 2015-07-01 16:53:31 --> Total execution time: 0.0264
+DEBUG - 2015-07-01 16:53:46 --> Config Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:53:46 --> URI Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Router Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Output Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Security Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Input Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:53:46 --> Language Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:53:46 --> #### library:
+DEBUG - 2015-07-01 16:53:46 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:53:46 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:53:46 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:53:46 --> ####debug3:
+DEBUG - 2015-07-01 16:53:46 --> ####debug3.5:
+ERROR - 2015-07-01 16:53:46 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:53:46 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:53:46 --> ####debug4:
+DEBUG - 2015-07-01 16:53:46 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:53:46 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:53:46 --> #### library:session
+DEBUG - 2015-07-01 16:53:46 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:53:46 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:53:46 --> ####debug3:
+DEBUG - 2015-07-01 16:53:46 --> ####debug3.5:
+DEBUG - 2015-07-01 16:53:46 --> ####debug4:
+DEBUG - 2015-07-01 16:53:46 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:53:46 --> Session Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:53:46 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Session routines successfully run
+DEBUG - 2015-07-01 16:53:46 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:46 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:53:46 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:53:46 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:53:46 --> Final output sent to browser
+DEBUG - 2015-07-01 16:53:46 --> Total execution time: 0.0252
+DEBUG - 2015-07-01 16:53:58 --> Config Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:53:58 --> URI Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Router Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Output Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Security Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Input Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:53:58 --> Language Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:53:58 --> #### library:
+DEBUG - 2015-07-01 16:53:58 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:53:58 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:53:58 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:53:58 --> ####debug3:
+DEBUG - 2015-07-01 16:53:58 --> ####debug3.5:
+ERROR - 2015-07-01 16:53:58 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:53:58 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:53:58 --> ####debug4:
+DEBUG - 2015-07-01 16:53:58 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:53:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:53:58 --> #### library:session
+DEBUG - 2015-07-01 16:53:58 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:53:58 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:53:58 --> ####debug3:
+DEBUG - 2015-07-01 16:53:58 --> ####debug3.5:
+DEBUG - 2015-07-01 16:53:58 --> ####debug4:
+DEBUG - 2015-07-01 16:53:58 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:53:58 --> Session Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:53:58 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Session routines successfully run
+DEBUG - 2015-07-01 16:53:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:53:58 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:53:58 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:53:58 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:53:58 --> Final output sent to browser
+DEBUG - 2015-07-01 16:53:58 --> Total execution time: 0.0321
+DEBUG - 2015-07-01 16:54:11 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:11 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:11 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:11 --> #### library:
+DEBUG - 2015-07-01 16:54:11 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:11 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:11 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:11 --> ####debug3:
+DEBUG - 2015-07-01 16:54:11 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:11 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:11 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:11 --> ####debug4:
+DEBUG - 2015-07-01 16:54:11 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:11 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:11 --> #### library:session
+DEBUG - 2015-07-01 16:54:11 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:11 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:11 --> ####debug3:
+DEBUG - 2015-07-01 16:54:11 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:11 --> ####debug4:
+DEBUG - 2015-07-01 16:54:11 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:11 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:11 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:11 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:11 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:54:11 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:54:11 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:54:11 --> Final output sent to browser
+DEBUG - 2015-07-01 16:54:11 --> Total execution time: 0.0379
+DEBUG - 2015-07-01 16:54:14 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:14 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:14 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:14 --> #### library:
+DEBUG - 2015-07-01 16:54:14 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:14 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:14 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:14 --> ####debug3:
+DEBUG - 2015-07-01 16:54:14 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:14 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:14 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:14 --> ####debug4:
+DEBUG - 2015-07-01 16:54:14 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:14 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:14 --> #### library:session
+DEBUG - 2015-07-01 16:54:14 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:14 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:14 --> ####debug3:
+DEBUG - 2015-07-01 16:54:14 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:14 --> ####debug4:
+DEBUG - 2015-07-01 16:54:14 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:14 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:14 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:14 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:54:14 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:54:14 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:54:14 --> Final output sent to browser
+DEBUG - 2015-07-01 16:54:14 --> Total execution time: 0.0381
+DEBUG - 2015-07-01 16:54:25 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:25 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:25 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:25 --> #### library:
+DEBUG - 2015-07-01 16:54:25 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:25 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:25 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:25 --> ####debug3:
+DEBUG - 2015-07-01 16:54:25 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:25 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:25 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:25 --> ####debug4:
+DEBUG - 2015-07-01 16:54:25 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:25 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:25 --> #### library:session
+DEBUG - 2015-07-01 16:54:25 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:25 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:25 --> ####debug3:
+DEBUG - 2015-07-01 16:54:25 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:25 --> ####debug4:
+DEBUG - 2015-07-01 16:54:25 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:25 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:25 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:25 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:25 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:25 --> #### library:
+DEBUG - 2015-07-01 16:54:25 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:25 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:25 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:25 --> ####debug3:
+DEBUG - 2015-07-01 16:54:25 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:25 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:25 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:25 --> ####debug4:
+DEBUG - 2015-07-01 16:54:25 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:25 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:25 --> #### library:session
+DEBUG - 2015-07-01 16:54:25 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:25 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:25 --> ####debug3:
+DEBUG - 2015-07-01 16:54:25 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:25 --> ####debug4:
+DEBUG - 2015-07-01 16:54:25 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:25 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:25 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:25 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:54:25 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:54:25 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:54:25 --> Final output sent to browser
+DEBUG - 2015-07-01 16:54:25 --> Total execution time: 0.0268
+DEBUG - 2015-07-01 16:54:31 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:31 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:31 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:31 --> #### library:
+DEBUG - 2015-07-01 16:54:31 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:31 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:31 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:31 --> ####debug3:
+DEBUG - 2015-07-01 16:54:31 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:31 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:31 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:31 --> ####debug4:
+DEBUG - 2015-07-01 16:54:31 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:31 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:31 --> #### library:session
+DEBUG - 2015-07-01 16:54:31 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:31 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:31 --> ####debug3:
+DEBUG - 2015-07-01 16:54:31 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:31 --> ####debug4:
+DEBUG - 2015-07-01 16:54:31 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:31 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:31 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:31 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:54:31 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:54:31 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:54:31 --> Final output sent to browser
+DEBUG - 2015-07-01 16:54:31 --> Total execution time: 0.0319
+DEBUG - 2015-07-01 16:54:47 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:47 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:47 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:47 --> #### library:
+DEBUG - 2015-07-01 16:54:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:47 --> ####debug3:
+DEBUG - 2015-07-01 16:54:47 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:47 --> ####debug4:
+DEBUG - 2015-07-01 16:54:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:47 --> #### library:session
+DEBUG - 2015-07-01 16:54:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:47 --> ####debug3:
+DEBUG - 2015-07-01 16:54:47 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:47 --> ####debug4:
+DEBUG - 2015-07-01 16:54:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:47 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:47 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:54:47 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:54:47 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:54:47 --> Final output sent to browser
+DEBUG - 2015-07-01 16:54:47 --> Total execution time: 0.0311
+DEBUG - 2015-07-01 16:54:53 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:53 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:53 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:53 --> #### library:
+DEBUG - 2015-07-01 16:54:53 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:53 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:53 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:53 --> ####debug3:
+DEBUG - 2015-07-01 16:54:53 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:53 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:53 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:53 --> ####debug4:
+DEBUG - 2015-07-01 16:54:53 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:53 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:53 --> #### library:session
+DEBUG - 2015-07-01 16:54:53 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:53 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:53 --> ####debug3:
+DEBUG - 2015-07-01 16:54:53 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:53 --> ####debug4:
+DEBUG - 2015-07-01 16:54:53 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:53 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:53 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:53 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:53 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:53 --> #### library:
+DEBUG - 2015-07-01 16:54:53 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:53 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:53 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:53 --> ####debug3:
+DEBUG - 2015-07-01 16:54:53 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:53 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:53 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:53 --> ####debug4:
+DEBUG - 2015-07-01 16:54:53 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:53 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:53 --> #### library:session
+DEBUG - 2015-07-01 16:54:53 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:53 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:53 --> ####debug3:
+DEBUG - 2015-07-01 16:54:53 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:53 --> ####debug4:
+DEBUG - 2015-07-01 16:54:53 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:53 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:53 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:53 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:54:53 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:54:53 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:54:53 --> Final output sent to browser
+DEBUG - 2015-07-01 16:54:53 --> Total execution time: 0.0223
+DEBUG - 2015-07-01 16:54:58 --> Config Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:54:58 --> URI Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Router Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Output Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Security Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Input Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:54:58 --> Language Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:54:58 --> #### library:
+DEBUG - 2015-07-01 16:54:58 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:54:58 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:54:58 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:54:58 --> ####debug3:
+DEBUG - 2015-07-01 16:54:58 --> ####debug3.5:
+ERROR - 2015-07-01 16:54:58 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:54:58 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:54:58 --> ####debug4:
+DEBUG - 2015-07-01 16:54:58 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:54:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:54:58 --> #### library:session
+DEBUG - 2015-07-01 16:54:58 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:54:58 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:54:58 --> ####debug3:
+DEBUG - 2015-07-01 16:54:58 --> ####debug3.5:
+DEBUG - 2015-07-01 16:54:58 --> ####debug4:
+DEBUG - 2015-07-01 16:54:58 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:54:58 --> Session Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:54:58 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Session routines successfully run
+DEBUG - 2015-07-01 16:54:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:54:58 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:54:58 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:54:58 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:54:58 --> Final output sent to browser
+DEBUG - 2015-07-01 16:54:58 --> Total execution time: 0.0264
+DEBUG - 2015-07-01 16:55:02 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:02 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:02 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:02 --> #### library:
+DEBUG - 2015-07-01 16:55:02 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:02 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:02 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:02 --> ####debug3:
+DEBUG - 2015-07-01 16:55:02 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:02 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:02 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:02 --> ####debug4:
+DEBUG - 2015-07-01 16:55:02 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:02 --> #### library:session
+DEBUG - 2015-07-01 16:55:02 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:02 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:02 --> ####debug3:
+DEBUG - 2015-07-01 16:55:02 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:02 --> ####debug4:
+DEBUG - 2015-07-01 16:55:02 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:02 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:02 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:02 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:02 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:02 --> #### library:
+DEBUG - 2015-07-01 16:55:02 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:02 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:02 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:02 --> ####debug3:
+DEBUG - 2015-07-01 16:55:02 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:02 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:02 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:02 --> ####debug4:
+DEBUG - 2015-07-01 16:55:02 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:02 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:02 --> #### library:session
+DEBUG - 2015-07-01 16:55:02 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:02 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:02 --> ####debug3:
+DEBUG - 2015-07-01 16:55:02 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:02 --> ####debug4:
+DEBUG - 2015-07-01 16:55:02 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:02 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:02 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:02 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:02 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:55:02 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:02 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:02 --> Total execution time: 0.0277
+DEBUG - 2015-07-01 16:55:09 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:09 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:09 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:09 --> #### library:
+DEBUG - 2015-07-01 16:55:09 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:09 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:09 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:09 --> ####debug3:
+DEBUG - 2015-07-01 16:55:09 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:09 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:09 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:09 --> ####debug4:
+DEBUG - 2015-07-01 16:55:09 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:09 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:09 --> #### library:session
+DEBUG - 2015-07-01 16:55:09 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:09 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:09 --> ####debug3:
+DEBUG - 2015-07-01 16:55:09 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:09 --> ####debug4:
+DEBUG - 2015-07-01 16:55:09 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:09 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:09 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:09 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:09 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:09 --> File loaded: application/views/db_registration.php
+DEBUG - 2015-07-01 16:55:09 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:09 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:09 --> Total execution time: 0.0277
+DEBUG - 2015-07-01 16:55:13 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:13 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:13 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:13 --> #### library:
+DEBUG - 2015-07-01 16:55:13 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:13 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:13 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:13 --> ####debug3:
+DEBUG - 2015-07-01 16:55:13 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:13 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:13 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:13 --> ####debug4:
+DEBUG - 2015-07-01 16:55:13 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:13 --> #### library:session
+DEBUG - 2015-07-01 16:55:13 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:13 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:13 --> ####debug3:
+DEBUG - 2015-07-01 16:55:13 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:13 --> ####debug4:
+DEBUG - 2015-07-01 16:55:13 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:13 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:13 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:13 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:13 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:13 --> #### library:
+DEBUG - 2015-07-01 16:55:13 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:13 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:13 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:13 --> ####debug3:
+DEBUG - 2015-07-01 16:55:13 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:13 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:13 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:13 --> ####debug4:
+DEBUG - 2015-07-01 16:55:13 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:13 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:13 --> #### library:session
+DEBUG - 2015-07-01 16:55:13 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:13 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:13 --> ####debug3:
+DEBUG - 2015-07-01 16:55:13 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:13 --> ####debug4:
+DEBUG - 2015-07-01 16:55:13 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:13 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:13 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:13 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:14 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:14 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:14 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 16:55:14 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:14 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:14 --> Total execution time: 0.0252
+DEBUG - 2015-07-01 16:55:16 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:16 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:16 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:16 --> #### library:
+DEBUG - 2015-07-01 16:55:16 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:16 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:16 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:16 --> ####debug3:
+DEBUG - 2015-07-01 16:55:16 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:16 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:16 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:16 --> ####debug4:
+DEBUG - 2015-07-01 16:55:16 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:16 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:16 --> #### library:session
+DEBUG - 2015-07-01 16:55:16 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:16 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:16 --> ####debug3:
+DEBUG - 2015-07-01 16:55:16 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:16 --> ####debug4:
+DEBUG - 2015-07-01 16:55:16 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:16 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:16 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:16 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:16 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 16:55:16 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:16 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:16 --> Total execution time: 0.0277
+DEBUG - 2015-07-01 16:55:22 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:22 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:22 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:22 --> #### library:
+DEBUG - 2015-07-01 16:55:22 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:22 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:22 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:22 --> ####debug3:
+DEBUG - 2015-07-01 16:55:22 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:22 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:22 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:22 --> ####debug4:
+DEBUG - 2015-07-01 16:55:22 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:22 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:22 --> #### library:session
+DEBUG - 2015-07-01 16:55:22 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:22 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:22 --> ####debug3:
+DEBUG - 2015-07-01 16:55:22 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:22 --> ####debug4:
+DEBUG - 2015-07-01 16:55:22 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:22 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:22 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:22 --> Array
+(
+    [user_id] => 1
+    [username] => ryoheitakahashi
+    [category_list] => Array
+        (
+            [0] => Array
+                (
+                    [category_id] => 1
+                    [category_name] => XD
+                )
+
+            [1] => Array
+                (
+                    [category_id] => 6
+                    [category_name] => 相互送客
+                )
+
+            [2] => Array
+                (
+                    [category_id] => 8
+                    [category_name] => SMI
+                )
+
+            [3] => Array
+                (
+                    [category_id] => 9
+                    [category_name] => SUJ
+                )
+
+        )
+
+    [dblist] => Array
+        (
+            [0] => Array
+                (
+                    [db_id] => 29
+                    [category_name] => SMI
+                    [db_display_name] => TestDB(ice)
+                    [selected] => 
+                )
+
+            [1] => Array
+                (
+                    [db_id] => 30
+                    [category_name] => SMI
+                    [db_display_name] => TestDB(ice_kpi)
+                    [selected] => 
+                )
+
+            [2] => Array
+                (
+                    [db_id] => 31
+                    [category_name] => SUJ
+                    [db_display_name] => SUJ_DB2_Slave
+                    [selected] => 
+                )
+
+            [3] => Array
+                (
+                    [db_id] => 4
+                    [category_name] => XD
+                    [db_display_name] => XD_Test1
+                    [selected] => selected
+                )
+
+            [4] => Array
+                (
+                    [db_id] => 5
+                    [category_name] => XD
+                    [db_display_name] => XD_Test2
+                    [selected] => selected
+                )
+
+            [5] => Array
+                (
+                    [db_id] => 6
+                    [category_name] => XD
+                    [db_display_name] => XD_Test3
+                    [selected] => selected
+                )
+
+            [6] => Array
+                (
+                    [db_id] => 1
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_index_Slave
+                    [selected] => selected
+                )
+
+            [7] => Array
+                (
+                    [db_id] => 27
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_index_and _log
+                    [selected] => 
+                )
+
+            [8] => Array
+                (
+                    [db_id] => 18
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_log_slave
+                    [selected] => 
+                )
+
+            [9] => Array
+                (
+                    [db_id] => 7
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_user00_slave
+                    [selected] => 
+                )
+
+            [10] => Array
+                (
+                    [db_id] => 2
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_index_Slave
+                    [selected] => selected
+                )
+
+            [11] => Array
+                (
+                    [db_id] => 26
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_index_and _log
+                    [selected] => 
+                )
+
+            [12] => Array
+                (
+                    [db_id] => 19
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_log_slave
+                    [selected] => 
+                )
+
+            [13] => Array
+                (
+                    [db_id] => 15
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_user00_slave
+                    [selected] => 
+                )
+
+            [14] => Array
+                (
+                    [db_id] => 3
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_index_Slave
+                    [selected] => selected
+                )
+
+            [15] => Array
+                (
+                    [db_id] => 25
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_index_and _log
+                    [selected] => 
+                )
+
+            [16] => Array
+                (
+                    [db_id] => 20
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_log_slave
+                    [selected] => 
+                )
+
+            [17] => Array
+                (
+                    [db_id] => 16
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_user00_slave
+                    [selected] => 
+                )
+
+            [18] => Array
+                (
+                    [db_id] => 32
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_index_Slave
+                    [selected] => 
+                )
+
+            [19] => Array
+                (
+                    [db_id] => 21
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_index_and _log
+                    [selected] => 
+                )
+
+            [20] => Array
+                (
+                    [db_id] => 22
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_log_slave
+                    [selected] => 
+                )
+
+            [21] => Array
+                (
+                    [db_id] => 24
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_user00_slave
+                    [selected] => 
+                )
+
+            [22] => Array
+                (
+                    [db_id] => 23
+                    [category_name] => 相互送客
+                    [db_display_name] => 相互送客DB
+                    [selected] => 
+                )
+
+        )
+
+    [selected_dblist] => Array
+        (
+            [0] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 4
+                )
+
+            [1] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 5
+                )
+
+            [2] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 6
+                )
+
+            [3] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 1
+                )
+
+            [4] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 2
+                )
+
+            [5] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 3
+                )
+
+        )
+
+    [sql_info] => Array
+        (
+            [sql_id] => 47
+            [category_id] => 1
+            [display_name] => 戦隊戦（history)
+            [description] => 
+            [sql_text] => SELECT * FROM xd_index.team_competition_history;
+            [conditions] => 
+        )
+
+    [conditions] => Array
+        (
+        )
+
+    [action] => index.php/sql_registration/update
+)
+
+DEBUG - 2015-07-01 16:55:22 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:22 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 16:55:22 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:22 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:22 --> Total execution time: 0.0378
+DEBUG - 2015-07-01 16:55:28 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:28 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:28 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:28 --> #### library:
+DEBUG - 2015-07-01 16:55:28 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:28 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:28 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:28 --> ####debug3:
+DEBUG - 2015-07-01 16:55:28 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:28 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:28 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:28 --> ####debug4:
+DEBUG - 2015-07-01 16:55:28 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:28 --> #### library:session
+DEBUG - 2015-07-01 16:55:28 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:28 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:28 --> ####debug3:
+DEBUG - 2015-07-01 16:55:28 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:28 --> ####debug4:
+DEBUG - 2015-07-01 16:55:28 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:28 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:28 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+ERROR - 2015-07-01 16:55:28 --> Severity: Notice  --> Undefined index: condition_name /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/models/db_search/sql_registration_model.php 120
+DEBUG - 2015-07-01 16:55:28 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:28 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 16:55:28 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:28 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:28 --> #### library:
+DEBUG - 2015-07-01 16:55:28 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:28 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:28 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:28 --> ####debug3:
+DEBUG - 2015-07-01 16:55:28 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:28 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:28 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:28 --> ####debug4:
+DEBUG - 2015-07-01 16:55:28 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:28 --> #### library:session
+DEBUG - 2015-07-01 16:55:28 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:28 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:28 --> ####debug3:
+DEBUG - 2015-07-01 16:55:28 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:28 --> ####debug4:
+DEBUG - 2015-07-01 16:55:28 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:28 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:28 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:28 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:28 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 16:55:28 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:28 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:28 --> Total execution time: 0.0271
+DEBUG - 2015-07-01 16:55:32 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:32 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:32 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:32 --> #### library:
+DEBUG - 2015-07-01 16:55:32 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:32 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:32 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:32 --> ####debug3:
+DEBUG - 2015-07-01 16:55:32 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:32 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:32 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:32 --> ####debug4:
+DEBUG - 2015-07-01 16:55:32 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:32 --> #### library:session
+DEBUG - 2015-07-01 16:55:32 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:32 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:32 --> ####debug3:
+DEBUG - 2015-07-01 16:55:32 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:32 --> ####debug4:
+DEBUG - 2015-07-01 16:55:32 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:32 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:32 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:32 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:32 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 16:55:32 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:32 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:32 --> Total execution time: 0.0347
+DEBUG - 2015-07-01 16:55:34 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:34 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:34 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:34 --> #### library:
+DEBUG - 2015-07-01 16:55:34 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:34 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:34 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:34 --> ####debug3:
+DEBUG - 2015-07-01 16:55:34 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:34 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:34 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:34 --> ####debug4:
+DEBUG - 2015-07-01 16:55:34 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:34 --> #### library:session
+DEBUG - 2015-07-01 16:55:34 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:34 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:34 --> ####debug3:
+DEBUG - 2015-07-01 16:55:34 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:34 --> ####debug4:
+DEBUG - 2015-07-01 16:55:34 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:34 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:34 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> Array
+(
+    [sql_id] => 47
+    [category_id] => 1
+    [display_name] => 戦隊戦（history)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_history;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 16:55:34 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 16:55:34 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:34 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 16:55:34 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 16:55:34 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:34 --> 1
+DEBUG - 2015-07-01 16:55:34 --> Array
+(
+    [0] => sn
+    [1] => master_uid
+    [2] => round
+    [3] => opponent_uid
+    [4] => opponent_name
+    [5] => win
+    [6] => score_add
+    [7] => log_id
+    [8] => time
+)
+
+DEBUG - 2015-07-01 16:55:34 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 16:55:34 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:34 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:34 --> Total execution time: 0.0487
+DEBUG - 2015-07-01 16:55:49 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:49 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:49 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:49 --> #### library:
+DEBUG - 2015-07-01 16:55:49 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:49 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:49 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:49 --> ####debug3:
+DEBUG - 2015-07-01 16:55:49 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:49 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:49 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:49 --> ####debug4:
+DEBUG - 2015-07-01 16:55:49 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:49 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:49 --> #### library:session
+DEBUG - 2015-07-01 16:55:49 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:49 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:49 --> ####debug3:
+DEBUG - 2015-07-01 16:55:49 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:49 --> ####debug4:
+DEBUG - 2015-07-01 16:55:49 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:49 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:49 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:49 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:49 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 16:55:49 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:49 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:49 --> Total execution time: 0.0352
+DEBUG - 2015-07-01 16:55:56 --> Config Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:55:56 --> URI Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Router Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Output Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Security Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Input Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:55:56 --> Language Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:55:56 --> #### library:
+DEBUG - 2015-07-01 16:55:56 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:55:56 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:55:56 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:55:56 --> ####debug3:
+DEBUG - 2015-07-01 16:55:56 --> ####debug3.5:
+ERROR - 2015-07-01 16:55:56 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:55:56 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:55:56 --> ####debug4:
+DEBUG - 2015-07-01 16:55:56 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:55:56 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:55:56 --> #### library:session
+DEBUG - 2015-07-01 16:55:56 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:55:56 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:55:56 --> ####debug3:
+DEBUG - 2015-07-01 16:55:56 --> ####debug3.5:
+DEBUG - 2015-07-01 16:55:56 --> ####debug4:
+DEBUG - 2015-07-01 16:55:56 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:55:56 --> Session Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:55:56 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Session routines successfully run
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Model Class Initialized
+DEBUG - 2015-07-01 16:55:56 --> Array
+(
+    [user_id] => 1
+    [username] => ryoheitakahashi
+    [category_list] => Array
+        (
+            [0] => Array
+                (
+                    [category_id] => 1
+                    [category_name] => XD
+                )
+
+            [1] => Array
+                (
+                    [category_id] => 6
+                    [category_name] => 相互送客
+                )
+
+            [2] => Array
+                (
+                    [category_id] => 8
+                    [category_name] => SMI
+                )
+
+            [3] => Array
+                (
+                    [category_id] => 9
+                    [category_name] => SUJ
+                )
+
+        )
+
+    [dblist] => Array
+        (
+            [0] => Array
+                (
+                    [db_id] => 29
+                    [category_name] => SMI
+                    [db_display_name] => TestDB(ice)
+                    [selected] => 
+                )
+
+            [1] => Array
+                (
+                    [db_id] => 30
+                    [category_name] => SMI
+                    [db_display_name] => TestDB(ice_kpi)
+                    [selected] => 
+                )
+
+            [2] => Array
+                (
+                    [db_id] => 31
+                    [category_name] => SUJ
+                    [db_display_name] => SUJ_DB2_Slave
+                    [selected] => 
+                )
+
+            [3] => Array
+                (
+                    [db_id] => 4
+                    [category_name] => XD
+                    [db_display_name] => XD_Test1
+                    [selected] => selected
+                )
+
+            [4] => Array
+                (
+                    [db_id] => 5
+                    [category_name] => XD
+                    [db_display_name] => XD_Test2
+                    [selected] => selected
+                )
+
+            [5] => Array
+                (
+                    [db_id] => 6
+                    [category_name] => XD
+                    [db_display_name] => XD_Test3
+                    [selected] => selected
+                )
+
+            [6] => Array
+                (
+                    [db_id] => 1
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_index_Slave
+                    [selected] => selected
+                )
+
+            [7] => Array
+                (
+                    [db_id] => 27
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_index_and _log
+                    [selected] => 
+                )
+
+            [8] => Array
+                (
+                    [db_id] => 18
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_log_slave
+                    [selected] => 
+                )
+
+            [9] => Array
+                (
+                    [db_id] => 7
+                    [category_name] => XD
+                    [db_display_name] => w1_xd_user00_slave
+                    [selected] => 
+                )
+
+            [10] => Array
+                (
+                    [db_id] => 2
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_index_Slave
+                    [selected] => selected
+                )
+
+            [11] => Array
+                (
+                    [db_id] => 26
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_index_and _log
+                    [selected] => 
+                )
+
+            [12] => Array
+                (
+                    [db_id] => 19
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_log_slave
+                    [selected] => 
+                )
+
+            [13] => Array
+                (
+                    [db_id] => 15
+                    [category_name] => XD
+                    [db_display_name] => w2_xd_user00_slave
+                    [selected] => 
+                )
+
+            [14] => Array
+                (
+                    [db_id] => 3
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_index_Slave
+                    [selected] => selected
+                )
+
+            [15] => Array
+                (
+                    [db_id] => 25
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_index_and _log
+                    [selected] => 
+                )
+
+            [16] => Array
+                (
+                    [db_id] => 20
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_log_slave
+                    [selected] => 
+                )
+
+            [17] => Array
+                (
+                    [db_id] => 16
+                    [category_name] => XD
+                    [db_display_name] => w3_xd_user00_slave
+                    [selected] => 
+                )
+
+            [18] => Array
+                (
+                    [db_id] => 32
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_index_Slave
+                    [selected] => selected
+                )
+
+            [19] => Array
+                (
+                    [db_id] => 21
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_index_and _log
+                    [selected] => 
+                )
+
+            [20] => Array
+                (
+                    [db_id] => 22
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_log_slave
+                    [selected] => 
+                )
+
+            [21] => Array
+                (
+                    [db_id] => 24
+                    [category_name] => XD
+                    [db_display_name] => w4_xd_user00_slave
+                    [selected] => 
+                )
+
+            [22] => Array
+                (
+                    [db_id] => 23
+                    [category_name] => 相互送客
+                    [db_display_name] => 相互送客DB
+                    [selected] => 
+                )
+
+        )
+
+    [selected_dblist] => Array
+        (
+            [0] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 4
+                )
+
+            [1] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 5
+                )
+
+            [2] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 6
+                )
+
+            [3] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 1
+                )
+
+            [4] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 2
+                )
+
+            [5] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 3
+                )
+
+            [6] => Array
+                (
+                    [sql_id] => 47
+                    [db_id] => 32
+                )
+
+        )
+
+    [sql_info] => Array
+        (
+            [sql_id] => 47
+            [category_id] => 1
+            [display_name] => 戦隊戦（history)
+            [description] => 
+            [sql_text] => SELECT * FROM xd_index.team_competition_history;
+            [conditions] => 
+        )
+
+    [conditions] => Array
+        (
+        )
+
+    [action] => index.php/sql_registration/update
+)
+
+DEBUG - 2015-07-01 16:55:56 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:55:56 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 16:55:56 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:55:56 --> Final output sent to browser
+DEBUG - 2015-07-01 16:55:56 --> Total execution time: 0.0299
+DEBUG - 2015-07-01 16:56:47 --> Config Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:56:47 --> URI Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Router Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Output Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Security Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Input Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:56:47 --> Language Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:56:47 --> #### library:
+DEBUG - 2015-07-01 16:56:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:56:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:56:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:56:47 --> ####debug3:
+DEBUG - 2015-07-01 16:56:47 --> ####debug3.5:
+ERROR - 2015-07-01 16:56:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:56:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:56:47 --> ####debug4:
+DEBUG - 2015-07-01 16:56:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:56:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:56:47 --> #### library:session
+DEBUG - 2015-07-01 16:56:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:56:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:56:47 --> ####debug3:
+DEBUG - 2015-07-01 16:56:47 --> ####debug3.5:
+DEBUG - 2015-07-01 16:56:47 --> ####debug4:
+DEBUG - 2015-07-01 16:56:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:56:47 --> Session Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:56:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Session routines successfully run
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Config Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:56:47 --> URI Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Router Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 16:56:47 --> Output Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Security Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Input Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:56:47 --> Language Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:56:47 --> #### library:
+DEBUG - 2015-07-01 16:56:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:56:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:56:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:56:47 --> ####debug3:
+DEBUG - 2015-07-01 16:56:47 --> ####debug3.5:
+ERROR - 2015-07-01 16:56:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:56:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:56:47 --> ####debug4:
+DEBUG - 2015-07-01 16:56:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:56:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:56:47 --> #### library:session
+DEBUG - 2015-07-01 16:56:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:56:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:56:47 --> ####debug3:
+DEBUG - 2015-07-01 16:56:47 --> ####debug3.5:
+DEBUG - 2015-07-01 16:56:47 --> ####debug4:
+DEBUG - 2015-07-01 16:56:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:56:47 --> Session Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:56:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Session routines successfully run
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:47 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:56:47 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 16:56:47 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:56:47 --> Final output sent to browser
+DEBUG - 2015-07-01 16:56:47 --> Total execution time: 0.0232
+DEBUG - 2015-07-01 16:56:51 --> Config Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:56:51 --> URI Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Router Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Output Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Security Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Input Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:56:51 --> Language Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:56:51 --> #### library:
+DEBUG - 2015-07-01 16:56:51 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:56:51 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:56:51 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:56:51 --> ####debug3:
+DEBUG - 2015-07-01 16:56:51 --> ####debug3.5:
+ERROR - 2015-07-01 16:56:51 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:56:51 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:56:51 --> ####debug4:
+DEBUG - 2015-07-01 16:56:51 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:56:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:56:51 --> #### library:session
+DEBUG - 2015-07-01 16:56:51 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:56:51 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:56:51 --> ####debug3:
+DEBUG - 2015-07-01 16:56:51 --> ####debug3.5:
+DEBUG - 2015-07-01 16:56:51 --> ####debug4:
+DEBUG - 2015-07-01 16:56:51 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:56:51 --> Session Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:56:51 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Session routines successfully run
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> Model Class Initialized
+DEBUG - 2015-07-01 16:56:51 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:56:51 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 16:56:51 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:56:51 --> Final output sent to browser
+DEBUG - 2015-07-01 16:56:51 --> Total execution time: 0.0324
+DEBUG - 2015-07-01 16:57:04 --> Config Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:57:04 --> URI Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Router Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Output Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Security Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Input Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:57:04 --> Language Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:57:04 --> #### library:
+DEBUG - 2015-07-01 16:57:04 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:57:04 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:57:04 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:57:04 --> ####debug3:
+DEBUG - 2015-07-01 16:57:04 --> ####debug3.5:
+ERROR - 2015-07-01 16:57:04 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:57:04 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:57:04 --> ####debug4:
+DEBUG - 2015-07-01 16:57:04 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:57:04 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:57:04 --> #### library:session
+DEBUG - 2015-07-01 16:57:04 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:57:04 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:57:04 --> ####debug3:
+DEBUG - 2015-07-01 16:57:04 --> ####debug3.5:
+DEBUG - 2015-07-01 16:57:04 --> ####debug4:
+DEBUG - 2015-07-01 16:57:04 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:57:04 --> Session Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:57:04 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Session routines successfully run
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> Array
+(
+    [sql_id] => 47
+    [category_id] => 1
+    [display_name] => 戦隊戦（history)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_history
+where
+    @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 16:57:04 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 16:57:04 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:57:04 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 16:57:04 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 16:57:04 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:57:04 --> 1
+DEBUG - 2015-07-01 16:57:04 --> Array
+(
+    [0] => sn
+    [1] => master_uid
+    [2] => round
+    [3] => opponent_uid
+    [4] => opponent_name
+    [5] => win
+    [6] => score_add
+    [7] => log_id
+    [8] => time
+)
+
+DEBUG - 2015-07-01 16:57:04 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 16:57:04 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:57:04 --> Final output sent to browser
+DEBUG - 2015-07-01 16:57:04 --> Total execution time: 0.0412
+DEBUG - 2015-07-01 16:57:19 --> Config Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:57:19 --> URI Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Router Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Output Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Security Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Input Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:57:19 --> Language Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:57:19 --> #### library:
+DEBUG - 2015-07-01 16:57:19 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:57:19 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:57:19 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:57:19 --> ####debug3:
+DEBUG - 2015-07-01 16:57:19 --> ####debug3.5:
+ERROR - 2015-07-01 16:57:19 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:57:19 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:57:19 --> ####debug4:
+DEBUG - 2015-07-01 16:57:19 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:57:19 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:57:19 --> #### library:session
+DEBUG - 2015-07-01 16:57:19 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:57:19 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:57:19 --> ####debug3:
+DEBUG - 2015-07-01 16:57:19 --> ####debug3.5:
+DEBUG - 2015-07-01 16:57:19 --> ####debug4:
+DEBUG - 2015-07-01 16:57:19 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:57:19 --> Session Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:57:19 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Session garbage collection performed.
+DEBUG - 2015-07-01 16:57:19 --> Session routines successfully run
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> Array
+(
+    [sql_id] => 47
+    [category_id] => 1
+    [display_name] => 戦隊戦（history)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_history
+where
+    @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 16:57:19 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 16:57:19 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:57:19 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 16:57:19 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 16:57:19 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:57:19 --> 1
+DEBUG - 2015-07-01 16:57:19 --> Array
+(
+    [0] => sn
+    [1] => master_uid
+    [2] => round
+    [3] => opponent_uid
+    [4] => opponent_name
+    [5] => win
+    [6] => score_add
+    [7] => log_id
+    [8] => time
+)
+
+DEBUG - 2015-07-01 16:57:19 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 16:57:19 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:57:19 --> Final output sent to browser
+DEBUG - 2015-07-01 16:57:19 --> Total execution time: 0.0420
+DEBUG - 2015-07-01 16:57:42 --> Config Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:57:42 --> URI Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Router Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Output Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Security Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Input Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:57:42 --> Language Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:57:42 --> #### library:
+DEBUG - 2015-07-01 16:57:42 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:57:42 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:57:42 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:57:42 --> ####debug3:
+DEBUG - 2015-07-01 16:57:42 --> ####debug3.5:
+ERROR - 2015-07-01 16:57:42 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:57:42 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:57:42 --> ####debug4:
+DEBUG - 2015-07-01 16:57:42 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:57:42 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:57:42 --> #### library:session
+DEBUG - 2015-07-01 16:57:42 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:57:42 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:57:42 --> ####debug3:
+DEBUG - 2015-07-01 16:57:42 --> ####debug3.5:
+DEBUG - 2015-07-01 16:57:42 --> ####debug4:
+DEBUG - 2015-07-01 16:57:42 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:57:42 --> Session Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:57:42 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Session routines successfully run
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:42 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:57:42 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 16:57:42 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:57:42 --> Final output sent to browser
+DEBUG - 2015-07-01 16:57:42 --> Total execution time: 0.0332
+DEBUG - 2015-07-01 16:57:54 --> Config Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:57:54 --> URI Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Router Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Output Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Security Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Input Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:57:54 --> Language Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:57:54 --> #### library:
+DEBUG - 2015-07-01 16:57:54 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:57:54 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:57:54 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:57:54 --> ####debug3:
+DEBUG - 2015-07-01 16:57:54 --> ####debug3.5:
+ERROR - 2015-07-01 16:57:54 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:57:54 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:57:54 --> ####debug4:
+DEBUG - 2015-07-01 16:57:54 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:57:54 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:57:54 --> #### library:session
+DEBUG - 2015-07-01 16:57:54 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:57:54 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:57:54 --> ####debug3:
+DEBUG - 2015-07-01 16:57:54 --> ####debug3.5:
+DEBUG - 2015-07-01 16:57:54 --> ####debug4:
+DEBUG - 2015-07-01 16:57:54 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:57:54 --> Session Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:57:54 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Session routines successfully run
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> Model Class Initialized
+DEBUG - 2015-07-01 16:57:54 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:57:54 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 16:57:54 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:57:54 --> Final output sent to browser
+DEBUG - 2015-07-01 16:57:54 --> Total execution time: 0.0374
+DEBUG - 2015-07-01 16:58:58 --> Config Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:58:58 --> URI Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Router Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Output Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Security Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Input Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:58:58 --> Language Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:58:58 --> #### library:
+DEBUG - 2015-07-01 16:58:58 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:58:58 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:58:58 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:58:58 --> ####debug3:
+DEBUG - 2015-07-01 16:58:58 --> ####debug3.5:
+ERROR - 2015-07-01 16:58:58 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:58:58 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:58:58 --> ####debug4:
+DEBUG - 2015-07-01 16:58:58 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:58:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:58:58 --> #### library:session
+DEBUG - 2015-07-01 16:58:58 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:58:58 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:58:58 --> ####debug3:
+DEBUG - 2015-07-01 16:58:58 --> ####debug3.5:
+DEBUG - 2015-07-01 16:58:58 --> ####debug4:
+DEBUG - 2015-07-01 16:58:58 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:58:58 --> Session Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:58:58 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Session routines successfully run
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Config Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:58:58 --> URI Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Router Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 16:58:58 --> Output Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Security Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Input Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:58:58 --> Language Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:58:58 --> #### library:
+DEBUG - 2015-07-01 16:58:58 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:58:58 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:58:58 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:58:58 --> ####debug3:
+DEBUG - 2015-07-01 16:58:58 --> ####debug3.5:
+ERROR - 2015-07-01 16:58:58 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:58:58 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:58:58 --> ####debug4:
+DEBUG - 2015-07-01 16:58:58 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:58:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:58:58 --> #### library:session
+DEBUG - 2015-07-01 16:58:58 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:58:58 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:58:58 --> ####debug3:
+DEBUG - 2015-07-01 16:58:58 --> ####debug3.5:
+DEBUG - 2015-07-01 16:58:58 --> ####debug4:
+DEBUG - 2015-07-01 16:58:58 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:58:58 --> Session Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:58:58 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Session routines successfully run
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> Model Class Initialized
+DEBUG - 2015-07-01 16:58:58 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:58:58 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 16:58:58 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:58:58 --> Final output sent to browser
+DEBUG - 2015-07-01 16:58:58 --> Total execution time: 0.0298
+DEBUG - 2015-07-01 16:59:03 --> Config Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:59:03 --> URI Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Router Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Output Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Security Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Input Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:59:03 --> Language Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:59:03 --> #### library:
+DEBUG - 2015-07-01 16:59:03 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:59:03 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:59:03 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:59:03 --> ####debug3:
+DEBUG - 2015-07-01 16:59:03 --> ####debug3.5:
+ERROR - 2015-07-01 16:59:03 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:59:03 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:59:03 --> ####debug4:
+DEBUG - 2015-07-01 16:59:03 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:59:03 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:59:03 --> #### library:session
+DEBUG - 2015-07-01 16:59:03 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:59:03 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:59:03 --> ####debug3:
+DEBUG - 2015-07-01 16:59:03 --> ####debug3.5:
+DEBUG - 2015-07-01 16:59:03 --> ####debug4:
+DEBUG - 2015-07-01 16:59:03 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:59:03 --> Session Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:59:03 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Session routines successfully run
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:03 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:59:03 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 16:59:03 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:59:03 --> Final output sent to browser
+DEBUG - 2015-07-01 16:59:03 --> Total execution time: 0.0228
+DEBUG - 2015-07-01 16:59:16 --> Config Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Hooks Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 16:59:16 --> URI Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Router Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Output Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Security Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Input Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 16:59:16 --> Language Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Loader Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 16:59:16 --> #### library:
+DEBUG - 2015-07-01 16:59:16 --> Controller Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> #### library:tank_auth
+DEBUG - 2015-07-01 16:59:16 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 16:59:16 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 16:59:16 --> ####debug3:
+DEBUG - 2015-07-01 16:59:16 --> ####debug3.5:
+ERROR - 2015-07-01 16:59:16 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 16:59:16 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 16:59:16 --> ####debug4:
+DEBUG - 2015-07-01 16:59:16 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 16:59:16 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 16:59:16 --> #### library:session
+DEBUG - 2015-07-01 16:59:16 --> ####ci_load_class:session
+DEBUG - 2015-07-01 16:59:16 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 16:59:16 --> ####debug3:
+DEBUG - 2015-07-01 16:59:16 --> ####debug3.5:
+DEBUG - 2015-07-01 16:59:16 --> ####debug4:
+DEBUG - 2015-07-01 16:59:16 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 16:59:16 --> Session Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 16:59:16 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Session routines successfully run
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Model Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> Array
+(
+    [sql_id] => 48
+    [category_id] => 1
+    [display_name] => 戦隊戦(competition_list)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_list;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 16:59:16 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 16:59:16 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 16:59:16 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 16:59:16 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 16:59:16 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 16:59:16 --> 1
+DEBUG - 2015-07-01 16:59:16 --> Array
+(
+    [0] => master_uid
+    [1] => team_name
+    [2] => member_uid1
+    [3] => partner_m_1
+    [4] => partner_m_2
+    [5] => partner_uid1_1
+    [6] => partner_uid1_2
+    [7] => arrangement
+    [8] => sign_up
+    [9] => score
+    [10] => last_sign_up_time
+)
+
+DEBUG - 2015-07-01 16:59:16 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 16:59:16 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 16:59:16 --> Final output sent to browser
+DEBUG - 2015-07-01 16:59:16 --> Total execution time: 0.0306
+DEBUG - 2015-07-01 17:00:28 --> Config Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:00:28 --> URI Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Router Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Output Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Security Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Input Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:00:28 --> Language Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:00:28 --> #### library:
+DEBUG - 2015-07-01 17:00:28 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:00:28 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:00:28 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:00:28 --> ####debug3:
+DEBUG - 2015-07-01 17:00:28 --> ####debug3.5:
+ERROR - 2015-07-01 17:00:28 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:00:28 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:00:28 --> ####debug4:
+DEBUG - 2015-07-01 17:00:28 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:00:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:00:28 --> #### library:session
+DEBUG - 2015-07-01 17:00:28 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:00:28 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:00:28 --> ####debug3:
+DEBUG - 2015-07-01 17:00:28 --> ####debug3.5:
+DEBUG - 2015-07-01 17:00:28 --> ####debug4:
+DEBUG - 2015-07-01 17:00:28 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:00:28 --> Session Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:00:28 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Session routines successfully run
+DEBUG - 2015-07-01 17:00:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:00:28 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:00:28 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 17:00:28 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:00:28 --> Final output sent to browser
+DEBUG - 2015-07-01 17:00:28 --> Total execution time: 0.0362
+DEBUG - 2015-07-01 17:01:06 --> Config Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:01:06 --> URI Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Router Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 17:01:06 --> Output Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Security Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Input Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:01:06 --> Language Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:01:06 --> #### library:
+DEBUG - 2015-07-01 17:01:06 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:01:06 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:01:06 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:01:06 --> ####debug3:
+DEBUG - 2015-07-01 17:01:06 --> ####debug3.5:
+ERROR - 2015-07-01 17:01:06 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:01:06 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:01:06 --> ####debug4:
+DEBUG - 2015-07-01 17:01:06 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:01:06 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:01:06 --> #### library:session
+DEBUG - 2015-07-01 17:01:06 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:01:06 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:01:06 --> ####debug3:
+DEBUG - 2015-07-01 17:01:06 --> ####debug3.5:
+DEBUG - 2015-07-01 17:01:06 --> ####debug4:
+DEBUG - 2015-07-01 17:01:06 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:01:06 --> Session Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:01:06 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> A session cookie was not found.
+DEBUG - 2015-07-01 17:01:06 --> Session routines successfully run
+DEBUG - 2015-07-01 17:01:06 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 17:01:06 --> XSS Filtering completed
+DEBUG - 2015-07-01 17:01:06 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:06 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:01:06 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 17:01:06 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:01:06 --> Final output sent to browser
+DEBUG - 2015-07-01 17:01:06 --> Total execution time: 0.0383
+DEBUG - 2015-07-01 17:01:12 --> Config Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:01:12 --> URI Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Router Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Output Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Security Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Input Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:01:12 --> Language Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:01:12 --> #### library:
+DEBUG - 2015-07-01 17:01:12 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:01:12 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:01:12 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:01:12 --> ####debug3:
+DEBUG - 2015-07-01 17:01:12 --> ####debug3.5:
+ERROR - 2015-07-01 17:01:12 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:01:12 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:01:12 --> ####debug4:
+DEBUG - 2015-07-01 17:01:12 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:01:12 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:01:12 --> #### library:session
+DEBUG - 2015-07-01 17:01:12 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:01:12 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:01:12 --> ####debug3:
+DEBUG - 2015-07-01 17:01:12 --> ####debug3.5:
+DEBUG - 2015-07-01 17:01:12 --> ####debug4:
+DEBUG - 2015-07-01 17:01:12 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:01:12 --> Session Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:01:12 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Session routines successfully run
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:12 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:01:12 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 17:01:12 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:01:12 --> Final output sent to browser
+DEBUG - 2015-07-01 17:01:12 --> Total execution time: 0.0338
+DEBUG - 2015-07-01 17:01:20 --> Config Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:01:20 --> URI Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Router Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Output Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Security Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Input Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:01:20 --> Language Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:01:20 --> #### library:
+DEBUG - 2015-07-01 17:01:20 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:01:20 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:01:20 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:01:20 --> ####debug3:
+DEBUG - 2015-07-01 17:01:20 --> ####debug3.5:
+ERROR - 2015-07-01 17:01:20 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:01:20 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:01:20 --> ####debug4:
+DEBUG - 2015-07-01 17:01:20 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:01:20 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:01:20 --> #### library:session
+DEBUG - 2015-07-01 17:01:20 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:01:20 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:01:20 --> ####debug3:
+DEBUG - 2015-07-01 17:01:20 --> ####debug3.5:
+DEBUG - 2015-07-01 17:01:20 --> ####debug4:
+DEBUG - 2015-07-01 17:01:20 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:01:20 --> Session Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:01:20 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Session routines successfully run
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> Array
+(
+    [sql_id] => 47
+    [category_id] => 1
+    [display_name] => 戦隊戦（history)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_history
+where
+    @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 17:01:20 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 17:01:20 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:01:20 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 17:01:20 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 17:01:20 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:01:20 --> 1
+DEBUG - 2015-07-01 17:01:20 --> Array
+(
+    [0] => sn
+    [1] => master_uid
+    [2] => round
+    [3] => opponent_uid
+    [4] => opponent_name
+    [5] => win
+    [6] => score_add
+    [7] => log_id
+    [8] => time
+)
+
+DEBUG - 2015-07-01 17:01:20 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 17:01:20 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:01:20 --> Final output sent to browser
+DEBUG - 2015-07-01 17:01:20 --> Total execution time: 0.0373
+DEBUG - 2015-07-01 17:01:47 --> Config Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:01:47 --> URI Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Router Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Output Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Security Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Input Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:01:47 --> Language Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:01:47 --> #### library:
+DEBUG - 2015-07-01 17:01:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:01:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:01:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:01:47 --> ####debug3:
+DEBUG - 2015-07-01 17:01:47 --> ####debug3.5:
+ERROR - 2015-07-01 17:01:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:01:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:01:47 --> ####debug4:
+DEBUG - 2015-07-01 17:01:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:01:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:01:47 --> #### library:session
+DEBUG - 2015-07-01 17:01:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:01:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:01:47 --> ####debug3:
+DEBUG - 2015-07-01 17:01:47 --> ####debug3.5:
+DEBUG - 2015-07-01 17:01:47 --> ####debug4:
+DEBUG - 2015-07-01 17:01:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:01:47 --> Session Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:01:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Session routines successfully run
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> Array
+(
+    [sql_id] => 47
+    [category_id] => 1
+    [display_name] => 戦隊戦（history)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_history
+where
+    @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 17:01:47 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 17:01:47 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:01:47 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 17:01:47 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 17:01:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:01:47 --> 1
+DEBUG - 2015-07-01 17:01:47 --> Array
+(
+    [0] => sn
+    [1] => master_uid
+    [2] => round
+    [3] => opponent_uid
+    [4] => opponent_name
+    [5] => win
+    [6] => score_add
+    [7] => log_id
+    [8] => time
+)
+
+DEBUG - 2015-07-01 17:01:47 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 17:01:47 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:01:47 --> Final output sent to browser
+DEBUG - 2015-07-01 17:01:47 --> Total execution time: 0.0511
+DEBUG - 2015-07-01 17:01:55 --> Config Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:01:55 --> URI Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Router Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Output Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Security Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Input Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:01:55 --> Language Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:01:55 --> #### library:
+DEBUG - 2015-07-01 17:01:55 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:01:55 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:01:55 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:01:55 --> ####debug3:
+DEBUG - 2015-07-01 17:01:55 --> ####debug3.5:
+ERROR - 2015-07-01 17:01:55 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:01:55 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:01:55 --> ####debug4:
+DEBUG - 2015-07-01 17:01:55 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:01:55 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:01:55 --> #### library:session
+DEBUG - 2015-07-01 17:01:55 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:01:55 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:01:55 --> ####debug3:
+DEBUG - 2015-07-01 17:01:55 --> ####debug3.5:
+DEBUG - 2015-07-01 17:01:55 --> ####debug4:
+DEBUG - 2015-07-01 17:01:55 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:01:55 --> Session Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:01:55 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Session routines successfully run
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Model Class Initialized
+DEBUG - 2015-07-01 17:01:55 --> Array
+(
+)
+
+ERROR - 2015-07-01 17:01:55 --> Severity: Notice  --> Undefined index: category_id /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/controllers/sql_execution.php 44
+ERROR - 2015-07-01 17:01:55 --> Severity: Notice  --> Trying to get property of non-object /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/models/db_search/dba/authority_model.php 49
+DEBUG - 2015-07-01 17:01:55 --> </br>auth_level:</br>
+DEBUG - 2015-07-01 17:01:55 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:02:01 --> Config Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:02:01 --> URI Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Router Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Output Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Security Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Input Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:02:01 --> Language Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:02:01 --> #### library:
+DEBUG - 2015-07-01 17:02:01 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:02:01 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:02:01 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:02:01 --> ####debug3:
+DEBUG - 2015-07-01 17:02:01 --> ####debug3.5:
+ERROR - 2015-07-01 17:02:01 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:02:01 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:02:01 --> ####debug4:
+DEBUG - 2015-07-01 17:02:01 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:02:01 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:02:01 --> #### library:session
+DEBUG - 2015-07-01 17:02:01 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:02:01 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:02:01 --> ####debug3:
+DEBUG - 2015-07-01 17:02:01 --> ####debug3.5:
+DEBUG - 2015-07-01 17:02:01 --> ####debug4:
+DEBUG - 2015-07-01 17:02:01 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:02:01 --> Session Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:02:01 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Session routines successfully run
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:01 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:02:01 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 17:02:01 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:02:01 --> Final output sent to browser
+DEBUG - 2015-07-01 17:02:01 --> Total execution time: 0.0377
+DEBUG - 2015-07-01 17:02:10 --> Config Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:02:10 --> URI Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Router Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Output Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Security Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Input Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:02:10 --> Language Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:02:10 --> #### library:
+DEBUG - 2015-07-01 17:02:10 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:02:10 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:02:10 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:02:10 --> ####debug3:
+DEBUG - 2015-07-01 17:02:10 --> ####debug3.5:
+ERROR - 2015-07-01 17:02:10 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:02:10 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:02:10 --> ####debug4:
+DEBUG - 2015-07-01 17:02:10 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:02:10 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:02:10 --> #### library:session
+DEBUG - 2015-07-01 17:02:10 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:02:10 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:02:10 --> ####debug3:
+DEBUG - 2015-07-01 17:02:10 --> ####debug3.5:
+DEBUG - 2015-07-01 17:02:10 --> ####debug4:
+DEBUG - 2015-07-01 17:02:10 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:02:10 --> Session Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:02:10 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Session routines successfully run
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> Array
+(
+    [sql_id] => 47
+    [category_id] => 1
+    [display_name] => 戦隊戦（history)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_history
+where
+    @1
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 17:02:10 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 17:02:10 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:02:10 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 17:02:10 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 17:02:10 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:02:10 --> 1
+DEBUG - 2015-07-01 17:02:10 --> Array
+(
+    [0] => sn
+    [1] => master_uid
+    [2] => round
+    [3] => opponent_uid
+    [4] => opponent_name
+    [5] => win
+    [6] => score_add
+    [7] => log_id
+    [8] => time
+)
+
+DEBUG - 2015-07-01 17:02:10 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 17:02:10 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:02:10 --> Final output sent to browser
+DEBUG - 2015-07-01 17:02:10 --> Total execution time: 0.0399
+DEBUG - 2015-07-01 17:02:24 --> Config Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:02:24 --> URI Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Router Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Output Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Security Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Input Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:02:24 --> Language Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:02:24 --> #### library:
+DEBUG - 2015-07-01 17:02:24 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:02:24 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:02:24 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:02:24 --> ####debug3:
+DEBUG - 2015-07-01 17:02:24 --> ####debug3.5:
+ERROR - 2015-07-01 17:02:24 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:02:24 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:02:24 --> ####debug4:
+DEBUG - 2015-07-01 17:02:24 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:02:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:02:24 --> #### library:session
+DEBUG - 2015-07-01 17:02:24 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:02:24 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:02:24 --> ####debug3:
+DEBUG - 2015-07-01 17:02:24 --> ####debug3.5:
+DEBUG - 2015-07-01 17:02:24 --> ####debug4:
+DEBUG - 2015-07-01 17:02:24 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:02:24 --> Session Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:02:24 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Session routines successfully run
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Model Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> Array
+(
+    [sql_id] => 48
+    [category_id] => 1
+    [display_name] => 戦隊戦(competition_list)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_list;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 17:02:24 --> </br>auth_level:1</br>
+DEBUG - 2015-07-01 17:02:24 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:02:24 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 17:02:24 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 17:02:24 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:02:24 --> 1
+DEBUG - 2015-07-01 17:02:24 --> Array
+(
+    [0] => master_uid
+    [1] => team_name
+    [2] => member_uid1
+    [3] => partner_m_1
+    [4] => partner_m_2
+    [5] => partner_uid1_1
+    [6] => partner_uid1_2
+    [7] => arrangement
+    [8] => sign_up
+    [9] => score
+    [10] => last_sign_up_time
+)
+
+DEBUG - 2015-07-01 17:02:24 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 17:02:24 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:02:24 --> Final output sent to browser
+DEBUG - 2015-07-01 17:02:24 --> Total execution time: 0.0312
+DEBUG - 2015-07-01 17:08:11 --> Config Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:08:11 --> URI Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Router Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Output Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Security Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Input Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:08:11 --> Language Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:08:11 --> #### library:
+DEBUG - 2015-07-01 17:08:11 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:08:11 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:08:11 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:08:11 --> ####debug3:
+DEBUG - 2015-07-01 17:08:11 --> ####debug3.5:
+ERROR - 2015-07-01 17:08:11 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:08:11 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:08:11 --> ####debug4:
+DEBUG - 2015-07-01 17:08:11 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:08:11 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:08:11 --> #### library:session
+DEBUG - 2015-07-01 17:08:11 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:08:11 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:08:11 --> ####debug3:
+DEBUG - 2015-07-01 17:08:11 --> ####debug3.5:
+DEBUG - 2015-07-01 17:08:11 --> ####debug4:
+DEBUG - 2015-07-01 17:08:11 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:08:11 --> Session Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:08:11 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Session routines successfully run
+DEBUG - 2015-07-01 17:08:11 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:11 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:08:11 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 17:08:11 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:08:11 --> Final output sent to browser
+DEBUG - 2015-07-01 17:08:11 --> Total execution time: 0.0400
+DEBUG - 2015-07-01 17:08:15 --> Config Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:08:15 --> URI Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Router Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Output Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Security Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Input Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:08:15 --> Language Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:08:15 --> #### library:
+DEBUG - 2015-07-01 17:08:15 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:08:15 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:08:15 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:08:15 --> ####debug3:
+DEBUG - 2015-07-01 17:08:15 --> ####debug3.5:
+ERROR - 2015-07-01 17:08:15 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:08:15 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:08:15 --> ####debug4:
+DEBUG - 2015-07-01 17:08:15 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:08:15 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:08:15 --> #### library:session
+DEBUG - 2015-07-01 17:08:15 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:08:15 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:08:15 --> ####debug3:
+DEBUG - 2015-07-01 17:08:15 --> ####debug3.5:
+DEBUG - 2015-07-01 17:08:15 --> ####debug4:
+DEBUG - 2015-07-01 17:08:15 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:08:15 --> Session Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:08:15 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Session routines successfully run
+DEBUG - 2015-07-01 17:08:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:15 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:08:15 --> File loaded: application/views/category_list.php
+DEBUG - 2015-07-01 17:08:15 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:08:15 --> Final output sent to browser
+DEBUG - 2015-07-01 17:08:15 --> Total execution time: 0.0292
+DEBUG - 2015-07-01 17:08:16 --> Config Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:08:16 --> URI Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Router Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Output Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Security Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Input Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:08:16 --> Language Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:08:16 --> #### library:
+DEBUG - 2015-07-01 17:08:16 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:08:16 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:08:16 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:08:16 --> ####debug3:
+DEBUG - 2015-07-01 17:08:16 --> ####debug3.5:
+ERROR - 2015-07-01 17:08:16 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:08:16 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:08:16 --> ####debug4:
+DEBUG - 2015-07-01 17:08:16 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:08:16 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:08:16 --> #### library:session
+DEBUG - 2015-07-01 17:08:16 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:08:16 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:08:16 --> ####debug3:
+DEBUG - 2015-07-01 17:08:16 --> ####debug3.5:
+DEBUG - 2015-07-01 17:08:16 --> ####debug4:
+DEBUG - 2015-07-01 17:08:16 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:08:16 --> Session Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:08:16 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Session routines successfully run
+DEBUG - 2015-07-01 17:08:16 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> Model Class Initialized
+DEBUG - 2015-07-01 17:08:16 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:08:16 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 17:08:16 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:08:16 --> Final output sent to browser
+DEBUG - 2015-07-01 17:08:16 --> Total execution time: 0.0217
+DEBUG - 2015-07-01 17:14:15 --> Config Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:14:15 --> URI Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Router Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Output Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Security Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Input Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:14:15 --> Language Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:14:15 --> #### library:
+DEBUG - 2015-07-01 17:14:15 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:14:15 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:14:15 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:14:15 --> ####debug3:
+DEBUG - 2015-07-01 17:14:15 --> ####debug3.5:
+ERROR - 2015-07-01 17:14:15 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:14:15 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:14:15 --> ####debug4:
+DEBUG - 2015-07-01 17:14:15 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:14:15 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:14:15 --> #### library:session
+DEBUG - 2015-07-01 17:14:15 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:14:15 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:14:15 --> ####debug3:
+DEBUG - 2015-07-01 17:14:15 --> ####debug3.5:
+DEBUG - 2015-07-01 17:14:15 --> ####debug4:
+DEBUG - 2015-07-01 17:14:15 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:14:15 --> Session Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:14:15 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Session routines successfully run
+DEBUG - 2015-07-01 17:14:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:15 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:14:15 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 17:14:15 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:14:15 --> Final output sent to browser
+DEBUG - 2015-07-01 17:14:15 --> Total execution time: 0.0296
+DEBUG - 2015-07-01 17:14:18 --> Config Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:14:18 --> URI Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Router Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Output Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Security Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Input Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:14:18 --> Language Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:14:18 --> #### library:
+DEBUG - 2015-07-01 17:14:18 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:14:18 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:14:18 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:14:18 --> ####debug3:
+DEBUG - 2015-07-01 17:14:18 --> ####debug3.5:
+ERROR - 2015-07-01 17:14:18 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:14:18 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:14:18 --> ####debug4:
+DEBUG - 2015-07-01 17:14:18 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:14:18 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:14:18 --> #### library:session
+DEBUG - 2015-07-01 17:14:18 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:14:18 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:14:18 --> ####debug3:
+DEBUG - 2015-07-01 17:14:18 --> ####debug3.5:
+DEBUG - 2015-07-01 17:14:18 --> ####debug4:
+DEBUG - 2015-07-01 17:14:18 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:14:18 --> Session Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:14:18 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Session routines successfully run
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:18 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:14:18 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 17:14:18 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:14:18 --> Final output sent to browser
+DEBUG - 2015-07-01 17:14:18 --> Total execution time: 0.0384
+DEBUG - 2015-07-01 17:14:19 --> Config Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:14:19 --> URI Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Router Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Output Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Security Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Input Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:14:19 --> Language Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:14:19 --> #### library:
+DEBUG - 2015-07-01 17:14:19 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:14:19 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:14:19 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:14:19 --> ####debug3:
+DEBUG - 2015-07-01 17:14:19 --> ####debug3.5:
+ERROR - 2015-07-01 17:14:19 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:14:19 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:14:19 --> ####debug4:
+DEBUG - 2015-07-01 17:14:19 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:14:19 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:14:19 --> #### library:session
+DEBUG - 2015-07-01 17:14:19 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:14:19 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:14:19 --> ####debug3:
+DEBUG - 2015-07-01 17:14:19 --> ####debug3.5:
+DEBUG - 2015-07-01 17:14:19 --> ####debug4:
+DEBUG - 2015-07-01 17:14:19 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:14:19 --> Session Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:14:19 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Session routines successfully run
+DEBUG - 2015-07-01 17:14:19 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> Model Class Initialized
+DEBUG - 2015-07-01 17:14:19 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:14:19 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 17:14:19 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:14:19 --> Final output sent to browser
+DEBUG - 2015-07-01 17:14:19 --> Total execution time: 0.0304
+DEBUG - 2015-07-01 17:15:04 --> Config Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:15:04 --> URI Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Router Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Output Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Security Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Input Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:15:04 --> Language Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:15:04 --> #### library:
+DEBUG - 2015-07-01 17:15:04 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:15:04 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:15:04 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:15:04 --> ####debug3:
+DEBUG - 2015-07-01 17:15:04 --> ####debug3.5:
+ERROR - 2015-07-01 17:15:04 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:15:04 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:15:04 --> ####debug4:
+DEBUG - 2015-07-01 17:15:04 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:15:04 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:15:04 --> #### library:session
+DEBUG - 2015-07-01 17:15:04 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:15:04 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:15:04 --> ####debug3:
+DEBUG - 2015-07-01 17:15:04 --> ####debug3.5:
+DEBUG - 2015-07-01 17:15:04 --> ####debug4:
+DEBUG - 2015-07-01 17:15:04 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:15:04 --> Session Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:15:04 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Session routines successfully run
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:04 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:15:04 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 17:15:04 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:15:04 --> Final output sent to browser
+DEBUG - 2015-07-01 17:15:04 --> Total execution time: 0.0271
+DEBUG - 2015-07-01 17:15:20 --> Config Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:15:20 --> URI Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Router Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Output Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Security Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Input Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:15:20 --> Language Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:15:20 --> #### library:
+DEBUG - 2015-07-01 17:15:20 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:15:20 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:15:20 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:15:20 --> ####debug3:
+DEBUG - 2015-07-01 17:15:20 --> ####debug3.5:
+ERROR - 2015-07-01 17:15:20 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:15:20 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:15:20 --> ####debug4:
+DEBUG - 2015-07-01 17:15:20 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:15:20 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:15:20 --> #### library:session
+DEBUG - 2015-07-01 17:15:20 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:15:20 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:15:20 --> ####debug3:
+DEBUG - 2015-07-01 17:15:20 --> ####debug3.5:
+DEBUG - 2015-07-01 17:15:20 --> ####debug4:
+DEBUG - 2015-07-01 17:15:20 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:15:20 --> Session Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:15:20 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Session routines successfully run
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> Array
+(
+    [sql_id] => 48
+    [category_id] => 1
+    [display_name] => 戦隊戦(competition_list)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_list;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 17:15:20 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 17:15:20 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:15:20 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 17:15:20 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 17:15:20 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:15:20 --> 1
+DEBUG - 2015-07-01 17:15:20 --> Array
+(
+    [0] => master_uid
+    [1] => team_name
+    [2] => member_uid1
+    [3] => partner_m_1
+    [4] => partner_m_2
+    [5] => partner_uid1_1
+    [6] => partner_uid1_2
+    [7] => arrangement
+    [8] => sign_up
+    [9] => score
+    [10] => last_sign_up_time
+)
+
+DEBUG - 2015-07-01 17:15:20 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 17:15:20 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:15:20 --> Final output sent to browser
+DEBUG - 2015-07-01 17:15:20 --> Total execution time: 0.0394
+DEBUG - 2015-07-01 17:15:28 --> Config Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:15:28 --> URI Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Router Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Output Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Security Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Input Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:15:28 --> Language Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:15:28 --> #### library:
+DEBUG - 2015-07-01 17:15:28 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:15:28 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:15:28 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:15:28 --> ####debug3:
+DEBUG - 2015-07-01 17:15:28 --> ####debug3.5:
+ERROR - 2015-07-01 17:15:28 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:15:28 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:15:28 --> ####debug4:
+DEBUG - 2015-07-01 17:15:28 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:15:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:15:28 --> #### library:session
+DEBUG - 2015-07-01 17:15:28 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:15:28 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:15:28 --> ####debug3:
+DEBUG - 2015-07-01 17:15:28 --> ####debug3.5:
+DEBUG - 2015-07-01 17:15:28 --> ####debug4:
+DEBUG - 2015-07-01 17:15:28 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:15:28 --> Session Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:15:28 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Session routines successfully run
+DEBUG - 2015-07-01 17:15:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> Model Class Initialized
+DEBUG - 2015-07-01 17:15:28 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:15:28 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 17:15:28 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:15:28 --> Final output sent to browser
+DEBUG - 2015-07-01 17:15:28 --> Total execution time: 0.0293
+DEBUG - 2015-07-01 17:18:34 --> Config Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:18:34 --> URI Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Router Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Output Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Security Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Input Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:18:34 --> Language Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:18:34 --> #### library:
+DEBUG - 2015-07-01 17:18:34 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:18:34 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:18:34 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:18:34 --> ####debug3:
+DEBUG - 2015-07-01 17:18:34 --> ####debug3.5:
+ERROR - 2015-07-01 17:18:34 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:18:34 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:18:34 --> ####debug4:
+DEBUG - 2015-07-01 17:18:34 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:18:34 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:18:34 --> #### library:session
+DEBUG - 2015-07-01 17:18:34 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:18:34 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:18:34 --> ####debug3:
+DEBUG - 2015-07-01 17:18:34 --> ####debug3.5:
+DEBUG - 2015-07-01 17:18:34 --> ####debug4:
+DEBUG - 2015-07-01 17:18:34 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:18:34 --> Session Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:18:34 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Session routines successfully run
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:34 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:18:34 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 17:18:34 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:18:34 --> Final output sent to browser
+DEBUG - 2015-07-01 17:18:34 --> Total execution time: 0.0335
+DEBUG - 2015-07-01 17:18:42 --> Config Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Hooks Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 17:18:42 --> URI Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Router Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Output Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Security Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Input Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 17:18:42 --> Language Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Loader Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 17:18:42 --> #### library:
+DEBUG - 2015-07-01 17:18:42 --> Controller Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> #### library:tank_auth
+DEBUG - 2015-07-01 17:18:42 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 17:18:42 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 17:18:42 --> ####debug3:
+DEBUG - 2015-07-01 17:18:42 --> ####debug3.5:
+ERROR - 2015-07-01 17:18:42 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 17:18:42 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 17:18:42 --> ####debug4:
+DEBUG - 2015-07-01 17:18:42 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 17:18:42 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 17:18:42 --> #### library:session
+DEBUG - 2015-07-01 17:18:42 --> ####ci_load_class:session
+DEBUG - 2015-07-01 17:18:42 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 17:18:42 --> ####debug3:
+DEBUG - 2015-07-01 17:18:42 --> ####debug3.5:
+DEBUG - 2015-07-01 17:18:42 --> ####debug4:
+DEBUG - 2015-07-01 17:18:42 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 17:18:42 --> Session Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 17:18:42 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Session routines successfully run
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Model Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> Array
+(
+    [sql_id] => 48
+    [category_id] => 1
+    [display_name] => 戦隊戦(competition_list)
+    [description] => 
+    [sql_text] => SELECT * FROM xd_index.team_competition_list;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 17:18:42 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 17:18:42 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 17:18:42 --> mysql://xdadmin:xdm4m4!!!@10.128.10.101/xd_index?port=
+DEBUG - 2015-07-01 17:18:42 --> Array
+(
+    [db_id] => 4
+    [category_id] => 1
+    [display_name] => XD_Test1
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.128.10.101
+    [db_port] => 
+    [db_user] => xdadmin
+    [db_passwd] => xdm4m4!!!
+    [db_name] => xd_index
+)
+
+DEBUG - 2015-07-01 17:18:42 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 17:18:42 --> 1
+DEBUG - 2015-07-01 17:18:42 --> Array
+(
+    [0] => master_uid
+    [1] => team_name
+    [2] => member_uid1
+    [3] => partner_m_1
+    [4] => partner_m_2
+    [5] => partner_uid1_1
+    [6] => partner_uid1_2
+    [7] => arrangement
+    [8] => sign_up
+    [9] => score
+    [10] => last_sign_up_time
+)
+
+DEBUG - 2015-07-01 17:18:42 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 17:18:42 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 17:18:42 --> Final output sent to browser
+DEBUG - 2015-07-01 17:18:42 --> Total execution time: 0.0404
+DEBUG - 2015-07-01 18:12:18 --> Config Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:12:18 --> URI Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Router Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Output Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Security Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Input Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:12:18 --> Language Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:12:18 --> #### library:
+DEBUG - 2015-07-01 18:12:18 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:18 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:18 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:12:18 --> ####debug3:
+DEBUG - 2015-07-01 18:12:18 --> ####debug3.5:
+ERROR - 2015-07-01 18:12:18 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:12:18 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:12:18 --> ####debug4:
+DEBUG - 2015-07-01 18:12:18 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:12:18 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:12:18 --> #### library:session
+DEBUG - 2015-07-01 18:12:18 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:12:18 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:12:18 --> ####debug3:
+DEBUG - 2015-07-01 18:12:18 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:18 --> ####debug4:
+DEBUG - 2015-07-01 18:12:18 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:12:18 --> Session Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:12:18 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Session routines successfully run
+DEBUG - 2015-07-01 18:12:18 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:18 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:12:18 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 18:12:18 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:12:18 --> Final output sent to browser
+DEBUG - 2015-07-01 18:12:18 --> Total execution time: 0.0247
+DEBUG - 2015-07-01 18:12:20 --> Config Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:12:20 --> URI Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Router Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Output Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Security Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Input Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:12:20 --> Language Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:12:20 --> #### library:
+DEBUG - 2015-07-01 18:12:20 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:20 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:20 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:12:20 --> ####debug3:
+DEBUG - 2015-07-01 18:12:20 --> ####debug3.5:
+ERROR - 2015-07-01 18:12:20 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:12:20 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:12:20 --> ####debug4:
+DEBUG - 2015-07-01 18:12:20 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:12:20 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:12:20 --> #### library:session
+DEBUG - 2015-07-01 18:12:20 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:12:20 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:12:20 --> ####debug3:
+DEBUG - 2015-07-01 18:12:20 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:20 --> ####debug4:
+DEBUG - 2015-07-01 18:12:20 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:12:20 --> Session Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:12:20 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Session routines successfully run
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:20 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:12:20 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 18:12:20 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:12:20 --> Final output sent to browser
+DEBUG - 2015-07-01 18:12:20 --> Total execution time: 0.0364
+DEBUG - 2015-07-01 18:12:22 --> Config Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:12:22 --> URI Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Router Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Output Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Security Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Input Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:12:22 --> Language Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:12:22 --> #### library:
+DEBUG - 2015-07-01 18:12:22 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:12:22 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:22 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:22 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:12:22 --> ####debug3:
+DEBUG - 2015-07-01 18:12:22 --> ####debug3.5:
+ERROR - 2015-07-01 18:12:22 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:12:22 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:12:22 --> ####debug4:
+DEBUG - 2015-07-01 18:12:22 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:12:22 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:12:22 --> #### library:session
+DEBUG - 2015-07-01 18:12:22 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:12:23 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:12:23 --> ####debug3:
+DEBUG - 2015-07-01 18:12:23 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:23 --> ####debug4:
+DEBUG - 2015-07-01 18:12:23 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:12:23 --> Session Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:12:23 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Session routines successfully run
+DEBUG - 2015-07-01 18:12:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:23 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:12:23 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 18:12:23 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:12:23 --> Final output sent to browser
+DEBUG - 2015-07-01 18:12:23 --> Total execution time: 0.0300
+DEBUG - 2015-07-01 18:12:25 --> Config Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:12:25 --> URI Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Router Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Output Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Security Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Input Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:12:25 --> Language Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:12:25 --> #### library:
+DEBUG - 2015-07-01 18:12:25 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:25 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:25 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:12:25 --> ####debug3:
+DEBUG - 2015-07-01 18:12:25 --> ####debug3.5:
+ERROR - 2015-07-01 18:12:25 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:12:25 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:12:25 --> ####debug4:
+DEBUG - 2015-07-01 18:12:25 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:12:25 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:12:25 --> #### library:session
+DEBUG - 2015-07-01 18:12:25 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:12:25 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:12:25 --> ####debug3:
+DEBUG - 2015-07-01 18:12:25 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:25 --> ####debug4:
+DEBUG - 2015-07-01 18:12:25 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:12:25 --> Session Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:12:25 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Session routines successfully run
+DEBUG - 2015-07-01 18:12:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:25 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:12:25 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 18:12:25 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:12:25 --> Final output sent to browser
+DEBUG - 2015-07-01 18:12:25 --> Total execution time: 0.0334
+DEBUG - 2015-07-01 18:12:27 --> Config Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:12:27 --> URI Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Router Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Output Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Security Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Input Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:12:27 --> Language Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:12:27 --> #### library:
+DEBUG - 2015-07-01 18:12:27 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:27 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:27 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:12:27 --> ####debug3:
+DEBUG - 2015-07-01 18:12:27 --> ####debug3.5:
+ERROR - 2015-07-01 18:12:27 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:12:27 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:12:27 --> ####debug4:
+DEBUG - 2015-07-01 18:12:27 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:12:27 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:12:27 --> #### library:session
+DEBUG - 2015-07-01 18:12:27 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:12:27 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:12:27 --> ####debug3:
+DEBUG - 2015-07-01 18:12:27 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:27 --> ####debug4:
+DEBUG - 2015-07-01 18:12:27 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:12:27 --> Session Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:12:27 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Session routines successfully run
+DEBUG - 2015-07-01 18:12:27 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 18:12:27 --> #### library:form_validation
+DEBUG - 2015-07-01 18:12:27 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 18:12:27 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 18:12:27 --> ####debug3:
+DEBUG - 2015-07-01 18:12:27 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:27 --> ####debug4:
+DEBUG - 2015-07-01 18:12:27 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 18:12:27 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 18:12:27 --> #### library:security
+DEBUG - 2015-07-01 18:12:27 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:27 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:27 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 18:12:27 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 18:12:27 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:12:27 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2015-07-01 18:12:27 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:12:27 --> Final output sent to browser
+DEBUG - 2015-07-01 18:12:27 --> Total execution time: 0.0406
+DEBUG - 2015-07-01 18:12:28 --> Config Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:12:28 --> URI Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Router Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Output Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Security Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Input Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:12:28 --> Language Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:12:28 --> #### library:
+DEBUG - 2015-07-01 18:12:28 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:28 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:28 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:12:28 --> ####debug3:
+DEBUG - 2015-07-01 18:12:28 --> ####debug3.5:
+ERROR - 2015-07-01 18:12:28 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:12:28 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:12:28 --> ####debug4:
+DEBUG - 2015-07-01 18:12:28 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:12:28 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:12:28 --> #### library:session
+DEBUG - 2015-07-01 18:12:28 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:12:28 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:12:28 --> ####debug3:
+DEBUG - 2015-07-01 18:12:28 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:28 --> ####debug4:
+DEBUG - 2015-07-01 18:12:28 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:12:28 --> Session Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:12:28 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Session routines successfully run
+DEBUG - 2015-07-01 18:12:28 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 18:12:28 --> #### library:form_validation
+DEBUG - 2015-07-01 18:12:28 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 18:12:28 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 18:12:28 --> ####debug3:
+DEBUG - 2015-07-01 18:12:28 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:28 --> ####debug4:
+DEBUG - 2015-07-01 18:12:28 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 18:12:28 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 18:12:28 --> #### library:security
+DEBUG - 2015-07-01 18:12:28 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:28 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:28 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 18:12:28 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 18:12:28 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:12:28 --> File loaded: application/views/account_list.php
+DEBUG - 2015-07-01 18:12:28 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:12:28 --> Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [username] => ryoheitakahashi
+            [password] => $2a$08$Qzd3xcDkfTQp0TSRsK2kte3g/8wmthH300tqSnIDDT3fEX8PVHi5q
+            [email] => ryoheitakahashi@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 16:47:45
+            [created] => 2014-09-05 11:28:44
+            [modified] => 2014-09-05 11:28:44
+            [admin] => 0
+            [role] => admin
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [username] => ryoheitakahashi2
+            [password] => $2a$08$EceGCEyP6YMnOcef6umMcOZC3xGMbmfFJTabyJzEnzJaRxE2uwAx2
+            [email] => ryoheitakahashi2@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.128.10.2
+            [last_login] => 2014-09-09 18:13:33
+            [created] => 2014-09-08 10:33:47
+            [modified] => 2014-09-08 10:33:47
+            [admin] => 0
+            [role] => admin
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [username] => mirainamatame
+            [password] => $2a$08$Dk05WkggXujsnH3h8bYLJ.Jc6g/Haao.uQY8.1So7MSfAkcno1b6C
+            [email] => mirainamatame@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-07 21:54:20
+            [created] => 2015-03-02 10:55:34
+            [modified] => 2015-03-02 10:55:34
+            [admin] => 0
+            [role] => user
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [username] => yujisato
+            [password] => $2a$08$7YHylmzVNRWkGFCEGKuF9OTtKATcLWBiLV/A.KKZWJAsohAEaIYQy
+            [email] => yujisato@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 11:06:56
+            [created] => 2015-03-05 18:51:27
+            [modified] => 2015-03-05 18:51:27
+            [admin] => 0
+            [role] => user
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [username] => kanamiujiie
+            [password] => $2a$08$UVIqDvvbjRhcv96jIrIXXOw.NTqhc0xt4GA..bv20LihKfpTyq3B.
+            [email] => kanamiujiie@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 17:01:06
+            [created] => 2015-04-09 21:11:00
+            [modified] => 2015-04-09 21:11:00
+            [admin] => 0
+            [role] => user
+        )
+
+    [5] => Array
+        (
+            [id] => 9
+            [username] => harryliu
+            [password] => $2a$08$YhJQAWRKTn/HaYMCQs7bsOhqKz83/DkFTzPgTEtbIL95RetaEvDt2
+            [email] => harryliu@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-01 17:28:11
+            [created] => 2015-05-01 10:52:39
+            [modified] => 2015-05-01 10:52:39
+            [admin] => 0
+            [role] => admin
+        )
+
+    [6] => Array
+        (
+            [id] => 10
+            [username] => teruhikotanaka
+            [password] => $2a$08$4Lz4WQb/Yx5xG1vnU9A6GuFXOlEv4vLD9EBmpAs/3/wl/2fL0M8oS
+            [email] => teruhikotanaka@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 15:56:57
+            [created] => 2015-05-01 22:18:47
+            [modified] => 2015-05-01 22:18:47
+            [admin] => 0
+            [role] => user
+        )
+
+    [7] => Array
+        (
+            [id] => 11
+            [username] => yuuichirohaga
+            [password] => $2a$08$Ni4if5zHXCXhRtRZQ.u.TOXaFw626Ctys93b79QOvYJ.wL4gBDH9.
+            [email] => yuuichirohaga@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 15:11:02
+            [created] => 2015-06-02 12:57:21
+            [modified] => 2015-06-02 12:57:21
+            [admin] => 0
+            [role] => user
+        )
+
+    [8] => Array
+        (
+            [id] => 12
+            [username] => daisukeasaeda
+            [password] => $2a$08$71XoK12uzQlyFQWTUVWg0.Df3OSFGrz60hfDbSJi.xcBdWH8KXs/i
+            [email] => daisukeasaeda@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-02 14:41:08
+            [created] => 2015-06-02 12:58:27
+            [modified] => 2015-06-02 12:58:27
+            [admin] => 0
+            [role] => user
+        )
+
+)
+
+DEBUG - 2015-07-01 18:12:28 --> Final output sent to browser
+DEBUG - 2015-07-01 18:12:28 --> Total execution time: 0.0266
+DEBUG - 2015-07-01 18:12:32 --> Config Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:12:32 --> URI Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Router Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Output Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Security Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Input Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:12:32 --> Language Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:12:32 --> #### library:
+DEBUG - 2015-07-01 18:12:32 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:12:32 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:12:32 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:12:32 --> ####debug3:
+DEBUG - 2015-07-01 18:12:32 --> ####debug3.5:
+ERROR - 2015-07-01 18:12:32 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:12:32 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:12:32 --> ####debug4:
+DEBUG - 2015-07-01 18:12:32 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:12:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:12:32 --> #### library:session
+DEBUG - 2015-07-01 18:12:32 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:12:32 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:12:32 --> ####debug3:
+DEBUG - 2015-07-01 18:12:32 --> ####debug3.5:
+DEBUG - 2015-07-01 18:12:32 --> ####debug4:
+DEBUG - 2015-07-01 18:12:32 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:12:32 --> Session Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:12:32 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Session routines successfully run
+DEBUG - 2015-07-01 18:12:32 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> Model Class Initialized
+DEBUG - 2015-07-01 18:12:32 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:12:32 --> File loaded: application/views/authorization.php
+DEBUG - 2015-07-01 18:12:32 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:12:32 --> Final output sent to browser
+DEBUG - 2015-07-01 18:12:32 --> Total execution time: 0.0325
+DEBUG - 2015-07-01 18:13:07 --> Config Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:13:07 --> URI Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Router Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Output Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Security Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Input Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:13:07 --> Language Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:13:07 --> #### library:
+DEBUG - 2015-07-01 18:13:07 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:13:07 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:13:07 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:13:07 --> ####debug3:
+DEBUG - 2015-07-01 18:13:07 --> ####debug3.5:
+ERROR - 2015-07-01 18:13:07 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:13:07 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:13:07 --> ####debug4:
+DEBUG - 2015-07-01 18:13:07 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:13:07 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:13:07 --> #### library:session
+DEBUG - 2015-07-01 18:13:07 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:13:07 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:13:07 --> ####debug3:
+DEBUG - 2015-07-01 18:13:07 --> ####debug3.5:
+DEBUG - 2015-07-01 18:13:07 --> ####debug4:
+DEBUG - 2015-07-01 18:13:07 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:13:07 --> Session Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:13:07 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Session routines successfully run
+DEBUG - 2015-07-01 18:13:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:07 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:13:07 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 18:13:07 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:13:07 --> Final output sent to browser
+DEBUG - 2015-07-01 18:13:07 --> Total execution time: 0.0289
+DEBUG - 2015-07-01 18:13:23 --> Config Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:13:23 --> URI Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Router Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Output Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Security Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Input Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:13:23 --> Language Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:13:23 --> #### library:
+DEBUG - 2015-07-01 18:13:23 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:13:23 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:13:23 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:13:23 --> ####debug3:
+DEBUG - 2015-07-01 18:13:23 --> ####debug3.5:
+ERROR - 2015-07-01 18:13:23 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:13:23 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:13:23 --> ####debug4:
+DEBUG - 2015-07-01 18:13:23 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:13:23 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:13:23 --> #### library:session
+DEBUG - 2015-07-01 18:13:23 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:13:23 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:13:23 --> ####debug3:
+DEBUG - 2015-07-01 18:13:23 --> ####debug3.5:
+DEBUG - 2015-07-01 18:13:23 --> ####debug4:
+DEBUG - 2015-07-01 18:13:23 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:13:23 --> Session Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:13:23 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Session routines successfully run
+DEBUG - 2015-07-01 18:13:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:23 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:13:23 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 18:13:23 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:13:23 --> Final output sent to browser
+DEBUG - 2015-07-01 18:13:23 --> Total execution time: 0.0360
+DEBUG - 2015-07-01 18:13:24 --> Config Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:13:24 --> URI Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Router Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Output Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Security Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Input Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:13:24 --> Language Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:13:24 --> #### library:
+DEBUG - 2015-07-01 18:13:24 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:13:24 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:13:24 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:13:24 --> ####debug3:
+DEBUG - 2015-07-01 18:13:24 --> ####debug3.5:
+ERROR - 2015-07-01 18:13:24 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:13:24 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:13:24 --> ####debug4:
+DEBUG - 2015-07-01 18:13:24 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:13:24 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:13:24 --> #### library:session
+DEBUG - 2015-07-01 18:13:24 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:13:24 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:13:24 --> ####debug3:
+DEBUG - 2015-07-01 18:13:24 --> ####debug3.5:
+DEBUG - 2015-07-01 18:13:24 --> ####debug4:
+DEBUG - 2015-07-01 18:13:24 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:13:24 --> Session Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:13:24 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Session routines successfully run
+DEBUG - 2015-07-01 18:13:24 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> Model Class Initialized
+DEBUG - 2015-07-01 18:13:24 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:13:24 --> File loaded: application/views/authorization.php
+DEBUG - 2015-07-01 18:13:24 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:13:24 --> Final output sent to browser
+DEBUG - 2015-07-01 18:13:24 --> Total execution time: 0.0277
+DEBUG - 2015-07-01 18:14:33 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:33 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:33 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:33 --> #### library:
+DEBUG - 2015-07-01 18:14:33 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:33 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:33 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:33 --> ####debug3:
+DEBUG - 2015-07-01 18:14:33 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:33 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:33 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:33 --> ####debug4:
+DEBUG - 2015-07-01 18:14:33 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:33 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:33 --> #### library:session
+DEBUG - 2015-07-01 18:14:33 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:33 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:33 --> ####debug3:
+DEBUG - 2015-07-01 18:14:33 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:33 --> ####debug4:
+DEBUG - 2015-07-01 18:14:33 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:33 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:33 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:33 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:33 --> File loaded: application/views/sql_registration.php
+DEBUG - 2015-07-01 18:14:33 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:33 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:33 --> Total execution time: 0.0325
+DEBUG - 2015-07-01 18:14:38 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:38 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:38 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:38 --> #### library:
+DEBUG - 2015-07-01 18:14:38 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:38 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:38 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:38 --> ####debug3:
+DEBUG - 2015-07-01 18:14:38 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:38 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:38 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:38 --> ####debug4:
+DEBUG - 2015-07-01 18:14:38 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:38 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:38 --> #### library:session
+DEBUG - 2015-07-01 18:14:38 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:38 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:38 --> ####debug3:
+DEBUG - 2015-07-01 18:14:38 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:38 --> ####debug4:
+DEBUG - 2015-07-01 18:14:38 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:38 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:38 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:38 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:38 --> File loaded: application/views/sqllist.php
+DEBUG - 2015-07-01 18:14:38 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:38 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:38 --> Total execution time: 0.0219
+DEBUG - 2015-07-01 18:14:40 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:40 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:40 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:40 --> #### library:
+DEBUG - 2015-07-01 18:14:40 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:40 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:40 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:40 --> ####debug3:
+DEBUG - 2015-07-01 18:14:40 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:40 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:40 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:40 --> ####debug4:
+DEBUG - 2015-07-01 18:14:40 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:40 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:40 --> #### library:session
+DEBUG - 2015-07-01 18:14:40 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:40 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:40 --> ####debug3:
+DEBUG - 2015-07-01 18:14:40 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:40 --> ####debug4:
+DEBUG - 2015-07-01 18:14:40 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:40 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:40 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:40 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:40 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:40 --> File loaded: application/views/dblist.php
+DEBUG - 2015-07-01 18:14:40 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:40 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:40 --> Total execution time: 0.0288
+DEBUG - 2015-07-01 18:14:42 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:42 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:42 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:42 --> #### library:
+DEBUG - 2015-07-01 18:14:42 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:42 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:42 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:42 --> ####debug3:
+DEBUG - 2015-07-01 18:14:42 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:42 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:42 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:42 --> ####debug4:
+DEBUG - 2015-07-01 18:14:42 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:42 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:42 --> #### library:session
+DEBUG - 2015-07-01 18:14:42 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:42 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:42 --> ####debug3:
+DEBUG - 2015-07-01 18:14:42 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:42 --> ####debug4:
+DEBUG - 2015-07-01 18:14:42 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:42 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:42 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:42 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:42 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:42 --> File loaded: application/views/auth_list.php
+DEBUG - 2015-07-01 18:14:42 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:42 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:42 --> Total execution time: 0.0247
+DEBUG - 2015-07-01 18:14:43 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:43 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:43 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:43 --> #### library:
+DEBUG - 2015-07-01 18:14:43 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:43 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:43 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:43 --> ####debug3:
+DEBUG - 2015-07-01 18:14:43 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:43 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:43 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:43 --> ####debug4:
+DEBUG - 2015-07-01 18:14:43 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:43 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:43 --> #### library:session
+DEBUG - 2015-07-01 18:14:43 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:43 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:43 --> ####debug3:
+DEBUG - 2015-07-01 18:14:43 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:43 --> ####debug4:
+DEBUG - 2015-07-01 18:14:43 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:43 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:43 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 18:14:43 --> #### library:form_validation
+DEBUG - 2015-07-01 18:14:43 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 18:14:43 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 18:14:43 --> ####debug3:
+DEBUG - 2015-07-01 18:14:43 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:43 --> ####debug4:
+DEBUG - 2015-07-01 18:14:43 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 18:14:43 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 18:14:43 --> #### library:security
+DEBUG - 2015-07-01 18:14:43 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:43 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:43 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 18:14:43 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 18:14:43 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:43 --> File loaded: application/views/auth/register_form.php
+DEBUG - 2015-07-01 18:14:43 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:43 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:43 --> Total execution time: 0.0310
+DEBUG - 2015-07-01 18:14:44 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:44 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:44 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:44 --> #### library:
+DEBUG - 2015-07-01 18:14:44 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:44 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:44 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:44 --> ####debug3:
+DEBUG - 2015-07-01 18:14:44 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:44 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:44 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:44 --> ####debug4:
+DEBUG - 2015-07-01 18:14:44 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:44 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:44 --> #### library:session
+DEBUG - 2015-07-01 18:14:44 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:44 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:44 --> ####debug3:
+DEBUG - 2015-07-01 18:14:44 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:44 --> ####debug4:
+DEBUG - 2015-07-01 18:14:44 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:44 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:44 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> Helper loaded: form_helper
+DEBUG - 2015-07-01 18:14:44 --> #### library:form_validation
+DEBUG - 2015-07-01 18:14:44 --> ####ci_load_class:form_validation
+DEBUG - 2015-07-01 18:14:44 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Form_validation.php
+DEBUG - 2015-07-01 18:14:44 --> ####debug3:
+DEBUG - 2015-07-01 18:14:44 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:44 --> ####debug4:
+DEBUG - 2015-07-01 18:14:44 --> ####class_name:CI_Form_validation
+DEBUG - 2015-07-01 18:14:44 --> Form Validation Class Initialized
+DEBUG - 2015-07-01 18:14:44 --> #### library:security
+DEBUG - 2015-07-01 18:14:44 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:44 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:44 --> Tank_auth class already loaded. Second attempt ignored.
+DEBUG - 2015-07-01 18:14:44 --> Language file loaded: language/english/tank_auth_lang.php
+DEBUG - 2015-07-01 18:14:44 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:44 --> File loaded: application/views/account_list.php
+DEBUG - 2015-07-01 18:14:44 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:44 --> Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [username] => ryoheitakahashi
+            [password] => $2a$08$Qzd3xcDkfTQp0TSRsK2kte3g/8wmthH300tqSnIDDT3fEX8PVHi5q
+            [email] => ryoheitakahashi@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 16:47:45
+            [created] => 2014-09-05 11:28:44
+            [modified] => 2014-09-05 11:28:44
+            [admin] => 0
+            [role] => admin
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [username] => ryoheitakahashi2
+            [password] => $2a$08$EceGCEyP6YMnOcef6umMcOZC3xGMbmfFJTabyJzEnzJaRxE2uwAx2
+            [email] => ryoheitakahashi2@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.128.10.2
+            [last_login] => 2014-09-09 18:13:33
+            [created] => 2014-09-08 10:33:47
+            [modified] => 2014-09-08 10:33:47
+            [admin] => 0
+            [role] => admin
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [username] => mirainamatame
+            [password] => $2a$08$Dk05WkggXujsnH3h8bYLJ.Jc6g/Haao.uQY8.1So7MSfAkcno1b6C
+            [email] => mirainamatame@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-07 21:54:20
+            [created] => 2015-03-02 10:55:34
+            [modified] => 2015-03-02 10:55:34
+            [admin] => 0
+            [role] => user
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [username] => yujisato
+            [password] => $2a$08$7YHylmzVNRWkGFCEGKuF9OTtKATcLWBiLV/A.KKZWJAsohAEaIYQy
+            [email] => yujisato@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 11:06:56
+            [created] => 2015-03-05 18:51:27
+            [modified] => 2015-03-05 18:51:27
+            [admin] => 0
+            [role] => user
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [username] => kanamiujiie
+            [password] => $2a$08$UVIqDvvbjRhcv96jIrIXXOw.NTqhc0xt4GA..bv20LihKfpTyq3B.
+            [email] => kanamiujiie@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 17:01:06
+            [created] => 2015-04-09 21:11:00
+            [modified] => 2015-04-09 21:11:00
+            [admin] => 0
+            [role] => user
+        )
+
+    [5] => Array
+        (
+            [id] => 9
+            [username] => harryliu
+            [password] => $2a$08$YhJQAWRKTn/HaYMCQs7bsOhqKz83/DkFTzPgTEtbIL95RetaEvDt2
+            [email] => harryliu@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-05-01 17:28:11
+            [created] => 2015-05-01 10:52:39
+            [modified] => 2015-05-01 10:52:39
+            [admin] => 0
+            [role] => admin
+        )
+
+    [6] => Array
+        (
+            [id] => 10
+            [username] => teruhikotanaka
+            [password] => $2a$08$4Lz4WQb/Yx5xG1vnU9A6GuFXOlEv4vLD9EBmpAs/3/wl/2fL0M8oS
+            [email] => teruhikotanaka@gamania.com
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 15:56:57
+            [created] => 2015-05-01 22:18:47
+            [modified] => 2015-05-01 22:18:47
+            [admin] => 0
+            [role] => user
+        )
+
+    [7] => Array
+        (
+            [id] => 11
+            [username] => yuuichirohaga
+            [password] => $2a$08$Ni4if5zHXCXhRtRZQ.u.TOXaFw626Ctys93b79QOvYJ.wL4gBDH9.
+            [email] => yuuichirohaga@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-07-01 15:11:02
+            [created] => 2015-06-02 12:57:21
+            [modified] => 2015-06-02 12:57:21
+            [admin] => 0
+            [role] => user
+        )
+
+    [8] => Array
+        (
+            [id] => 12
+            [username] => daisukeasaeda
+            [password] => $2a$08$71XoK12uzQlyFQWTUVWg0.Df3OSFGrz60hfDbSJi.xcBdWH8KXs/i
+            [email] => daisukeasaeda@age-corp.jp
+            [activated] => 1
+            [banned] => 48
+            [ban_reason] => 
+            [new_password_key] => 
+            [new_password_requested] => 
+            [new_email] => 
+            [new_email_key] => 
+            [last_ip] => 10.110.10.251
+            [last_login] => 2015-06-02 14:41:08
+            [created] => 2015-06-02 12:58:27
+            [modified] => 2015-06-02 12:58:27
+            [admin] => 0
+            [role] => user
+        )
+
+)
+
+DEBUG - 2015-07-01 18:14:44 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:44 --> Total execution time: 0.0294
+DEBUG - 2015-07-01 18:14:46 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:46 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:46 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:46 --> #### library:
+DEBUG - 2015-07-01 18:14:46 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:46 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:46 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:46 --> ####debug3:
+DEBUG - 2015-07-01 18:14:46 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:46 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:46 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:46 --> ####debug4:
+DEBUG - 2015-07-01 18:14:46 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:46 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:46 --> #### library:session
+DEBUG - 2015-07-01 18:14:46 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:46 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:46 --> ####debug3:
+DEBUG - 2015-07-01 18:14:46 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:46 --> ####debug4:
+DEBUG - 2015-07-01 18:14:46 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:46 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:46 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Session garbage collection performed.
+DEBUG - 2015-07-01 18:14:46 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:46 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:46 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:46 --> File loaded: application/views/category_list.php
+DEBUG - 2015-07-01 18:14:46 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:46 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:46 --> Total execution time: 0.0291
+DEBUG - 2015-07-01 18:14:48 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:48 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:48 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:48 --> #### library:
+DEBUG - 2015-07-01 18:14:48 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:48 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:48 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:48 --> ####debug3:
+DEBUG - 2015-07-01 18:14:48 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:48 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:48 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:48 --> ####debug4:
+DEBUG - 2015-07-01 18:14:48 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:48 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:48 --> #### library:session
+DEBUG - 2015-07-01 18:14:48 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:48 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:48 --> ####debug3:
+DEBUG - 2015-07-01 18:14:48 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:48 --> ####debug4:
+DEBUG - 2015-07-01 18:14:48 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:48 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:48 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:48 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:48 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:48 --> File loaded: application/views/category_registration.php
+DEBUG - 2015-07-01 18:14:48 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:48 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:48 --> Total execution time: 0.0209
+DEBUG - 2015-07-01 18:14:50 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:50 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:50 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:50 --> #### library:
+DEBUG - 2015-07-01 18:14:50 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:50 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:50 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:50 --> ####debug3:
+DEBUG - 2015-07-01 18:14:50 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:50 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:50 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:50 --> ####debug4:
+DEBUG - 2015-07-01 18:14:50 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:50 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:50 --> #### library:session
+DEBUG - 2015-07-01 18:14:50 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:50 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:50 --> ####debug3:
+DEBUG - 2015-07-01 18:14:50 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:50 --> ####debug4:
+DEBUG - 2015-07-01 18:14:50 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:50 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:50 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:50 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:50 --> File loaded: application/views/category_list.php
+DEBUG - 2015-07-01 18:14:50 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:50 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:50 --> Total execution time: 0.0258
+DEBUG - 2015-07-01 18:14:51 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:51 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:51 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:51 --> #### library:
+DEBUG - 2015-07-01 18:14:51 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:51 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:51 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:51 --> ####debug3:
+DEBUG - 2015-07-01 18:14:51 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:51 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:51 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:51 --> ####debug4:
+DEBUG - 2015-07-01 18:14:51 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:51 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:51 --> #### library:session
+DEBUG - 2015-07-01 18:14:51 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:51 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:51 --> ####debug3:
+DEBUG - 2015-07-01 18:14:51 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:51 --> ####debug4:
+DEBUG - 2015-07-01 18:14:51 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:51 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:51 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:51 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:51 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:51 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 18:14:51 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:51 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:51 --> Total execution time: 0.0315
+DEBUG - 2015-07-01 18:14:56 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:56 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:56 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:56 --> #### library:
+DEBUG - 2015-07-01 18:14:56 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:56 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:56 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:56 --> ####debug3:
+DEBUG - 2015-07-01 18:14:56 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:56 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:56 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:56 --> ####debug4:
+DEBUG - 2015-07-01 18:14:56 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:56 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:56 --> #### library:session
+DEBUG - 2015-07-01 18:14:56 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:56 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:56 --> ####debug3:
+DEBUG - 2015-07-01 18:14:56 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:56 --> ####debug4:
+DEBUG - 2015-07-01 18:14:56 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:56 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:56 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:56 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:56 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 18:14:56 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:56 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:56 --> Total execution time: 0.0411
+DEBUG - 2015-07-01 18:14:58 --> Config Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:14:58 --> URI Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Router Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Output Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Security Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Input Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:14:58 --> Language Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:14:58 --> #### library:
+DEBUG - 2015-07-01 18:14:58 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:14:58 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:14:58 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:14:58 --> ####debug3:
+DEBUG - 2015-07-01 18:14:58 --> ####debug3.5:
+ERROR - 2015-07-01 18:14:58 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:14:58 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:14:58 --> ####debug4:
+DEBUG - 2015-07-01 18:14:58 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:14:58 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:14:58 --> #### library:session
+DEBUG - 2015-07-01 18:14:58 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:14:58 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:14:58 --> ####debug3:
+DEBUG - 2015-07-01 18:14:58 --> ####debug3.5:
+DEBUG - 2015-07-01 18:14:58 --> ####debug4:
+DEBUG - 2015-07-01 18:14:58 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:14:58 --> Session Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:14:58 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Session routines successfully run
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Model Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> Array
+(
+    [sql_id] => 39
+    [category_id] => 8
+    [display_name] => userテーブル参照
+    [description] => 
+    [sql_text] => select * from USER;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 18:14:58 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 18:14:58 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:14:58 --> mysql://smiadmin:smi81su!@10.129.10.101/ice?port=
+DEBUG - 2015-07-01 18:14:58 --> Array
+(
+    [db_id] => 29
+    [category_id] => 8
+    [display_name] => TestDB(ice)
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.129.10.101
+    [db_port] => 
+    [db_user] => smiadmin
+    [db_passwd] => smi81su!
+    [db_name] => ice
+)
+
+DEBUG - 2015-07-01 18:14:58 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:14:58 --> 1
+DEBUG - 2015-07-01 18:14:58 --> Array
+(
+    [0] => RID
+    [1] => USER_NAME
+    [2] => USER_ID
+    [3] => PASSWORD
+    [4] => INVITE_CODE
+    [5] => USER_STATUS
+    [6] => LAST_LOGIN
+    [7] => CREATE_DATE
+)
+
+DEBUG - 2015-07-01 18:14:58 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 18:14:58 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:14:58 --> Final output sent to browser
+DEBUG - 2015-07-01 18:14:58 --> Total execution time: 0.0319
+DEBUG - 2015-07-01 18:16:44 --> Config Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:16:44 --> URI Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Router Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Output Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Security Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Input Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:16:44 --> Language Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:16:44 --> #### library:
+DEBUG - 2015-07-01 18:16:44 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:16:44 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:16:44 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:16:44 --> ####debug3:
+DEBUG - 2015-07-01 18:16:44 --> ####debug3.5:
+ERROR - 2015-07-01 18:16:44 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:16:44 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:16:44 --> ####debug4:
+DEBUG - 2015-07-01 18:16:44 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:16:44 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:16:44 --> #### library:session
+DEBUG - 2015-07-01 18:16:44 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:16:44 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:16:44 --> ####debug3:
+DEBUG - 2015-07-01 18:16:44 --> ####debug3.5:
+DEBUG - 2015-07-01 18:16:44 --> ####debug4:
+DEBUG - 2015-07-01 18:16:44 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:16:44 --> Session Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:16:44 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Session routines successfully run
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Model Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> Array
+(
+    [sql_id] => 39
+    [category_id] => 8
+    [display_name] => userテーブル参照
+    [description] => 
+    [sql_text] => select * from USER;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 18:16:44 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 18:16:44 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:16:44 --> mysql://smiadmin:smi81su!@10.129.10.101/ice?port=
+DEBUG - 2015-07-01 18:16:44 --> Array
+(
+    [db_id] => 29
+    [category_id] => 8
+    [display_name] => TestDB(ice)
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.129.10.101
+    [db_port] => 
+    [db_user] => smiadmin
+    [db_passwd] => smi81su!
+    [db_name] => ice
+)
+
+DEBUG - 2015-07-01 18:16:44 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:16:44 --> 1
+DEBUG - 2015-07-01 18:16:44 --> Array
+(
+    [0] => RID
+    [1] => USER_NAME
+    [2] => USER_ID
+    [3] => PASSWORD
+    [4] => INVITE_CODE
+    [5] => USER_STATUS
+    [6] => LAST_LOGIN
+    [7] => CREATE_DATE
+)
+
+DEBUG - 2015-07-01 18:16:44 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 18:16:44 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:16:44 --> Final output sent to browser
+DEBUG - 2015-07-01 18:16:44 --> Total execution time: 0.0359
+DEBUG - 2015-07-01 18:17:07 --> Config Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:17:07 --> URI Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Router Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Output Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Security Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Input Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:17:07 --> Language Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:17:07 --> #### library:
+DEBUG - 2015-07-01 18:17:07 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:17:07 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:17:07 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:17:07 --> ####debug3:
+DEBUG - 2015-07-01 18:17:07 --> ####debug3.5:
+ERROR - 2015-07-01 18:17:07 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:17:07 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:17:07 --> ####debug4:
+DEBUG - 2015-07-01 18:17:07 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:17:07 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:17:07 --> #### library:session
+DEBUG - 2015-07-01 18:17:07 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:17:07 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:17:07 --> ####debug3:
+DEBUG - 2015-07-01 18:17:07 --> ####debug3.5:
+DEBUG - 2015-07-01 18:17:07 --> ####debug4:
+DEBUG - 2015-07-01 18:17:07 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:17:07 --> Session Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:17:07 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Session routines successfully run
+DEBUG - 2015-07-01 18:17:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:07 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:17:07 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 18:17:07 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:17:07 --> Final output sent to browser
+DEBUG - 2015-07-01 18:17:07 --> Total execution time: 0.0304
+DEBUG - 2015-07-01 18:17:15 --> Config Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:17:15 --> URI Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Router Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Output Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Security Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Input Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:17:15 --> Language Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:17:15 --> #### library:
+DEBUG - 2015-07-01 18:17:15 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:17:15 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:17:15 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:17:15 --> ####debug3:
+DEBUG - 2015-07-01 18:17:15 --> ####debug3.5:
+ERROR - 2015-07-01 18:17:15 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:17:15 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:17:15 --> ####debug4:
+DEBUG - 2015-07-01 18:17:15 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:17:15 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:17:15 --> #### library:session
+DEBUG - 2015-07-01 18:17:15 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:17:15 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:17:15 --> ####debug3:
+DEBUG - 2015-07-01 18:17:15 --> ####debug3.5:
+DEBUG - 2015-07-01 18:17:15 --> ####debug4:
+DEBUG - 2015-07-01 18:17:15 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:17:15 --> Session Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:17:15 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Session routines successfully run
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:15 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:17:15 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 18:17:15 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:17:15 --> Final output sent to browser
+DEBUG - 2015-07-01 18:17:15 --> Total execution time: 0.0281
+DEBUG - 2015-07-01 18:17:16 --> Config Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:17:16 --> URI Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> Router Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> Output Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> Security Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> Input Class Initialized
+DEBUG - 2015-07-01 18:17:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:17:17 --> Language Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:17:17 --> #### library:
+DEBUG - 2015-07-01 18:17:17 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:17:17 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:17:17 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:17:17 --> ####debug3:
+DEBUG - 2015-07-01 18:17:17 --> ####debug3.5:
+ERROR - 2015-07-01 18:17:17 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:17:17 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:17:17 --> ####debug4:
+DEBUG - 2015-07-01 18:17:17 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:17:17 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:17:17 --> #### library:session
+DEBUG - 2015-07-01 18:17:17 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:17:17 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:17:17 --> ####debug3:
+DEBUG - 2015-07-01 18:17:17 --> ####debug3.5:
+DEBUG - 2015-07-01 18:17:17 --> ####debug4:
+DEBUG - 2015-07-01 18:17:17 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:17:17 --> Session Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:17:17 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Session routines successfully run
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> Array
+(
+    [sql_id] => 39
+    [category_id] => 8
+    [display_name] => userテーブル参照
+    [description] => 
+    [sql_text] => select * from USER;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 18:17:17 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 18:17:17 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:17:17 --> mysql://smiadmin:smi81su!@10.129.10.101/ice?port=
+DEBUG - 2015-07-01 18:17:17 --> Array
+(
+    [db_id] => 29
+    [category_id] => 8
+    [display_name] => TestDB(ice)
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.129.10.101
+    [db_port] => 
+    [db_user] => smiadmin
+    [db_passwd] => smi81su!
+    [db_name] => ice
+)
+
+DEBUG - 2015-07-01 18:17:17 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:17 --> 1
+DEBUG - 2015-07-01 18:17:17 --> Array
+(
+    [0] => RID
+    [1] => USER_NAME
+    [2] => USER_ID
+    [3] => PASSWORD
+    [4] => INVITE_CODE
+    [5] => USER_STATUS
+    [6] => LAST_LOGIN
+    [7] => CREATE_DATE
+)
+
+DEBUG - 2015-07-01 18:17:17 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 18:17:17 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:17:17 --> Final output sent to browser
+DEBUG - 2015-07-01 18:17:17 --> Total execution time: 0.0457
+DEBUG - 2015-07-01 18:17:25 --> Config Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:17:25 --> URI Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Router Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Output Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Security Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Input Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:17:25 --> Language Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:17:25 --> #### library:
+DEBUG - 2015-07-01 18:17:25 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:17:25 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:17:25 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:17:25 --> ####debug3:
+DEBUG - 2015-07-01 18:17:25 --> ####debug3.5:
+ERROR - 2015-07-01 18:17:25 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:17:25 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:17:25 --> ####debug4:
+DEBUG - 2015-07-01 18:17:25 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:17:25 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:17:25 --> #### library:session
+DEBUG - 2015-07-01 18:17:25 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:17:25 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:17:25 --> ####debug3:
+DEBUG - 2015-07-01 18:17:25 --> ####debug3.5:
+DEBUG - 2015-07-01 18:17:25 --> ####debug4:
+DEBUG - 2015-07-01 18:17:25 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:17:25 --> Session Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:17:25 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Session routines successfully run
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:25 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:17:25 --> File loaded: application/views/sql_execution.php
+DEBUG - 2015-07-01 18:17:25 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:17:25 --> Final output sent to browser
+DEBUG - 2015-07-01 18:17:25 --> Total execution time: 0.0366
+DEBUG - 2015-07-01 18:17:36 --> Config Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:17:36 --> URI Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Router Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Output Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Security Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Input Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:17:36 --> Language Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:17:36 --> #### library:
+DEBUG - 2015-07-01 18:17:36 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:17:36 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:17:36 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:17:36 --> ####debug3:
+DEBUG - 2015-07-01 18:17:36 --> ####debug3.5:
+ERROR - 2015-07-01 18:17:36 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:17:36 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:17:36 --> ####debug4:
+DEBUG - 2015-07-01 18:17:36 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:17:36 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:17:36 --> #### library:session
+DEBUG - 2015-07-01 18:17:36 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:17:36 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:17:36 --> ####debug3:
+DEBUG - 2015-07-01 18:17:36 --> ####debug3.5:
+DEBUG - 2015-07-01 18:17:36 --> ####debug4:
+DEBUG - 2015-07-01 18:17:36 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:17:36 --> Session Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:17:36 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Session routines successfully run
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> Array
+(
+    [sql_id] => 43
+    [category_id] => 9
+    [display_name] => PUID
+    [description] => ひと月の課金ユーザー数。
+その月に同じユーザーが何度も課金しても
+1回としてカウントしてください
+    [sql_text] => select
+  platform, 
+  count(t_member_id) as PUID 
+from
+  ( 
+    select
+      t1.t_member_id, 
+      t2.platform
+    from
+      suj_db2.l_member_payments as t1
+      left join suj_db2.t_members as t2 on t1.t_member_id = t2.id
+    where
+        @1
+    group by
+      t_member_id
+  ) as t3 
+group by platform;
+    [conditions] => 
+)
+
+DEBUG - 2015-07-01 18:17:36 --> </br>auth_level:2</br>
+DEBUG - 2015-07-01 18:17:36 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:17:36 --> mysql://sujadmin:qwerasdf!!@10.134.10.18/suj_db2?port=
+DEBUG - 2015-07-01 18:17:36 --> Array
+(
+    [db_id] => 31
+    [category_id] => 9
+    [display_name] => SUJ_DB2_Slave
+    [description] => 0
+    [dbms] => mysql
+    [db_host] => 10.134.10.18
+    [db_port] => 
+    [db_user] => sujadmin
+    [db_passwd] => qwerasdf!!
+    [db_name] => suj_db2
+)
+
+DEBUG - 2015-07-01 18:17:36 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:36 --> 1
+DEBUG - 2015-07-01 18:17:36 --> Array
+(
+    [0] => platform
+    [1] => PUID
+)
+
+DEBUG - 2015-07-01 18:17:36 --> File loaded: application/views/sql_result.php
+DEBUG - 2015-07-01 18:17:36 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:17:36 --> Final output sent to browser
+DEBUG - 2015-07-01 18:17:36 --> Total execution time: 0.0466
+DEBUG - 2015-07-01 18:17:43 --> Config Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:17:43 --> URI Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Router Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Output Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Security Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Input Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:17:43 --> Language Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:17:43 --> #### library:
+DEBUG - 2015-07-01 18:17:43 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:17:43 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:17:43 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:17:43 --> ####debug3:
+DEBUG - 2015-07-01 18:17:43 --> ####debug3.5:
+ERROR - 2015-07-01 18:17:43 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:17:43 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:17:43 --> ####debug4:
+DEBUG - 2015-07-01 18:17:43 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:17:43 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:17:43 --> #### library:session
+DEBUG - 2015-07-01 18:17:43 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:17:43 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:17:43 --> ####debug3:
+DEBUG - 2015-07-01 18:17:43 --> ####debug3.5:
+DEBUG - 2015-07-01 18:17:43 --> ####debug4:
+DEBUG - 2015-07-01 18:17:43 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:17:43 --> Session Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:17:43 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Session routines successfully run
+DEBUG - 2015-07-01 18:17:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> Model Class Initialized
+DEBUG - 2015-07-01 18:17:43 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:17:43 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 18:17:43 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:17:43 --> Final output sent to browser
+DEBUG - 2015-07-01 18:17:43 --> Total execution time: 0.0204
+DEBUG - 2015-07-01 18:21:47 --> Config Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:21:47 --> URI Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Router Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 18:21:47 --> Output Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Security Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Input Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:21:47 --> Language Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:21:47 --> #### library:
+DEBUG - 2015-07-01 18:21:47 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:21:47 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:21:47 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:21:47 --> ####debug3:
+DEBUG - 2015-07-01 18:21:47 --> ####debug3.5:
+ERROR - 2015-07-01 18:21:47 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:21:47 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:21:47 --> ####debug4:
+DEBUG - 2015-07-01 18:21:47 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:21:47 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:21:47 --> #### library:session
+DEBUG - 2015-07-01 18:21:47 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:21:47 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:21:47 --> ####debug3:
+DEBUG - 2015-07-01 18:21:47 --> ####debug3.5:
+DEBUG - 2015-07-01 18:21:47 --> ####debug4:
+DEBUG - 2015-07-01 18:21:47 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:21:47 --> Session Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:21:47 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Session routines successfully run
+DEBUG - 2015-07-01 18:21:47 --> Model Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Model Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Model Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Model Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> Model Class Initialized
+DEBUG - 2015-07-01 18:21:47 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:21:47 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 18:21:47 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:21:47 --> Final output sent to browser
+DEBUG - 2015-07-01 18:21:47 --> Total execution time: 0.0434
+DEBUG - 2015-07-01 18:57:09 --> Config Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Hooks Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Utf8 Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> UTF-8 Support Enabled
+DEBUG - 2015-07-01 18:57:09 --> URI Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Router Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> No URI present. Default controller set.
+DEBUG - 2015-07-01 18:57:09 --> Output Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Security Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Input Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-07-01 18:57:09 --> Language Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Loader Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Helper loaded: url_helper
+DEBUG - 2015-07-01 18:57:09 --> #### library:
+DEBUG - 2015-07-01 18:57:09 --> Controller Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> #### library:tank_auth
+DEBUG - 2015-07-01 18:57:09 --> ####ci_load_class:tank_auth
+DEBUG - 2015-07-01 18:57:09 --> ####ci_loaded_files:application/libraries/Tank_auth.php
+DEBUG - 2015-07-01 18:57:09 --> ####debug3:
+DEBUG - 2015-07-01 18:57:09 --> ####debug3.5:
+ERROR - 2015-07-01 18:57:09 --> Severity: Warning  --> include_once(application/core/MY_Tank_auth.php): failed to open stream: No such file or directory /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+ERROR - 2015-07-01 18:57:09 --> Severity: Warning  --> include_once(): Failed opening 'application/core/MY_Tank_auth.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/application/config/config.php 390
+DEBUG - 2015-07-01 18:57:09 --> ####debug4:
+DEBUG - 2015-07-01 18:57:09 --> ####class_name:Tank_auth
+DEBUG - 2015-07-01 18:57:09 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2015-07-01 18:57:09 --> #### library:session
+DEBUG - 2015-07-01 18:57:09 --> ####ci_load_class:session
+DEBUG - 2015-07-01 18:57:09 --> ####ci_loaded_files:/var/www/html/dboperator_ver0.0.1/testProject/CodeIgniter_Bootstrap/system/libraries/Session.php
+DEBUG - 2015-07-01 18:57:09 --> ####debug3:
+DEBUG - 2015-07-01 18:57:09 --> ####debug3.5:
+DEBUG - 2015-07-01 18:57:09 --> ####debug4:
+DEBUG - 2015-07-01 18:57:09 --> ####class_name:CI_Session
+DEBUG - 2015-07-01 18:57:09 --> Session Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Helper loaded: string_helper
+DEBUG - 2015-07-01 18:57:09 --> Database Driver Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> A session cookie was not found.
+DEBUG - 2015-07-01 18:57:09 --> Session routines successfully run
+DEBUG - 2015-07-01 18:57:09 --> Model Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Model Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Helper loaded: cookie_helper
+DEBUG - 2015-07-01 18:57:09 --> XSS Filtering completed
+DEBUG - 2015-07-01 18:57:09 --> Model Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Model Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Model Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> Model Class Initialized
+DEBUG - 2015-07-01 18:57:09 --> File loaded: application/views/include/header.php
+DEBUG - 2015-07-01 18:57:09 --> File loaded: application/views/frontpage.php
+DEBUG - 2015-07-01 18:57:09 --> File loaded: application/views/include/footer.php
+DEBUG - 2015-07-01 18:57:09 --> Final output sent to browser
+DEBUG - 2015-07-01 18:57:09 --> Total execution time: 0.0343
