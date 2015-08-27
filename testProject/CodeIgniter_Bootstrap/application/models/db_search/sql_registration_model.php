@@ -198,3 +198,5 @@ class Sql_registration_model extends CI_Model{
         return $this->sql_info_model->get_sql_info_by_sql_id($_sql_id);
     }
 }
+
+

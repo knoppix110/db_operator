@@ -25,18 +25,18 @@
 ?>
 </table>
 
-<b>結果</b>
+<b>結果(<?php echo $count; ?>)</b>
 <table id="list" class="table table-bordered table-striped
 table-hover 
 table-bordered
 table-condensed">
 <?php if($result): ?>
-    <?php foreach($fields as $field): ?>
+    <?php foreach((array)$fields as $field): ?>
         <th><?php echo $field; ?></th>
     <?php endforeach; ?>
     <?php foreach($records as $record): ?>
         <tr>
-        <?php foreach($fields as $field): ?>
+        <?php foreach((array)$fields as $field): ?>
             <td><?php echo $record[$field] ?></td>
         <?php endforeach; ?>
         </tr>

@@ -131,8 +131,13 @@ class Sql_execution_model extends CI_Model{
         //print_r($_cond);
         //var_dump($result);
 
-        $this->fields=$result->list_fields();
-        return array(true,$result->result_array());
+        if($result===true){ // update/delete/insert sql
+            $ret=array(true,array("success"));
+        }else{
+            $this->fields=$result->list_fields();
+            $ret=array(true,$result->result_array());
+        }
+        return $ret;
     }
 
     public function list_fields(){

@@ -62,6 +62,9 @@ class Sql_execution extends Main_Controller
             $db_info=$this->db_info_model->get_db_info_by_db_id($this->input->post('db_id'));
             $this->data['target_db']=$db_info['display_name'];
 
+            // 結果件数を取得
+            $this->data['count']=count($ary_res[1]);
+
             // 入力した条件を表示項目に追加
             $this->data['your_inputs']=$this->sql_execution_model->get_name_value_list();
 
