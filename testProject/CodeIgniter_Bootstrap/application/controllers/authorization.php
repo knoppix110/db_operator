@@ -2,7 +2,7 @@
 
 class Authorization extends Main_Controller
 {
-    function __construct() {
+    function __construct(){
         parent::__construct();
         $this->load->model('db_search/category_registration_model');
         $this->load->model('db_search/dba/authority_model');
@@ -12,8 +12,7 @@ class Authorization extends Main_Controller
         $this->load->helper('url');
     }
 
-    function index()
-    {
+    function index(){
         if($this->tank_auth->get_role()=='admin'){
             // ユーザーリストとカテゴリリストを全部
             $this->data['categories']=$this->category_model->get_all();
@@ -36,8 +35,7 @@ class Authorization extends Main_Controller
         $this->load->view('include/footer');
     }
 
-    function auth_list()
-    {
+    function auth_list(){
         if($this->tank_auth->get_role()=='admin'){ // admin権限の場合、全リスト取得
             // ユーザーリストとカテゴリリストを全部
             $this->data['auth_list']=$this->authority_model->get_auth_info();
