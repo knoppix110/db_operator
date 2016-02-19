@@ -13,7 +13,6 @@ class Main_Controller extends MY_Controller
         // $this->output->enable_profiler(TRUE);
       
         if (!$this->tank_auth->is_logged_in()) {
-            echo current_url();
             if (!strstr(current_url(),'/auth/')){
      		redirect('/auth/login/');
             }

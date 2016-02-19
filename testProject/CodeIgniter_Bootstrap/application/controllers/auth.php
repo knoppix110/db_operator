@@ -114,13 +114,31 @@ class Auth extends Main_Controller
             $this->load->view('include/footer');
             return;
         }
-        $this->data['account_list']=$this->tank_auth->get_all_users();
+        $this->data['account_list'] = $this->tank_auth->get_all_users();
         $this->data['user_id']  = $this->tank_auth->get_user_id();
         $this->data['username'] = $this->tank_auth->get_username();
         $this->load->view('include/header',$this->data);
         $this->load->view('account_list', $this->data);
         $this->load->view('include/footer');
         log_message('debug',print_r($this->data['account_list'],true));
+    }
+
+    function modify(){
+
+        $this->users->modify_user(
+                $this->input->post('user_id'),
+                $this->input->post('user_name'),
+                $this->input->post('email'),
+                $this->input->post('role')
+        );
+        $this->output->set_content_type('application/json')
+                     ->set_output(json_encode($data));
+
+        $data[] = $this->input->post('user_id');
+        $data[] = $this->input->post('user_name');
+        $data[] = $this->input->post('email');
+        $data[] = $this->input->post('role');
+
     }
 
     function delete(){

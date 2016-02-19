@@ -211,7 +211,7 @@ class Users extends CI_Model
 	}
 
 	/**
-	 * Delete user record
+	 * Modify user record
 	 *
 	 * @param	int
 	 * @return	bool
@@ -226,6 +226,18 @@ class Users extends CI_Model
 		}
 		return FALSE;
 	}
+
+        function modify_user($user_id, $user_name, $email, $role){
+                $this->db->set('user_name', $user_name);
+                $this->db->set('email', $email);
+                $this->db->set('role', $role);
+                $this->db->where('id', $user_id);
+                $res = $this->db->update($this->table_name);
+
+                if($res) return TRUE;
+
+                return FALSE;
+        }
 
 	/**
 	 * Set new password key for user.

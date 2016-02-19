@@ -3,7 +3,18 @@
 $(function(){
     $('#submit').click(function() {
         $(this).parents('form').attr('action', $(this).data('action'));
-        $(this).parents('form').submit();
+        var target = $(this).parents('tr');
+        var id = target.find('input[name=id]').attr('value');
+        var username = target.find('input[name=username]').attr('value');
+        var email = target.find('input[name=email]').attr('value');
+        var role = target.find('input[name=role]').attr('value');
+        //$(this).parents('form').submit();
+        $.post( "<?php echo base_url('index.php').'/auth/modify'; ?>",
+          { 'id': id, 'username': username, 'email': email, 'role': role },
+          function(data){
+            alert("success!");
+          }
+        );
     });
 });
 </script>
